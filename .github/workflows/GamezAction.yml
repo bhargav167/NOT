@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         targetPlatform:
-          - StandaloneOSX # Build a macOS standalone (Intel 64-bit). 
+          - macOS # Build a macOS standalone (Intel 64-bit). 
           
     steps:
       - uses: actions/checkout@v4

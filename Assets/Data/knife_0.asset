@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149cb9805c4e54afda198e0413f1ba75, type: 3}
+  m_Name: knife_0
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: 81ee0deae96e0ab4b9d9bbc8055e259f,
+    type: 3}
+  <Name>k__BackingField: Knife
+  <Description>k__BackingField: stab
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: fe652948428064c15bc22c0061fe3c0e,
+    type: 2}
+  <NumberOfAttacks>k__BackingField: 0
+  <ComponentData>k__BackingField:
+  - rid: 4416702418694963200
+  - rid: 8093760696552521728
+  - rid: 8093760696552521729
+  - rid: 8093760708887445505
+  - rid: 8093760708887445506
+  references:
+    version: 2
+    RefIds:
+    - rid: 4416702418694963200
+      type: {class: ActionHitBoxData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        repeatData: 0
+        attackData:
+        - name: 
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 1.19
+            y: 1.22
+            width: 0.97
+            height: 0.79
+        - name: 
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 1.18
+            y: 2.12
+            width: 1.13
+            height: 0.75
+        - name: 
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0
+            y: 0
+            width: 0
+            height: 0
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 8192
+    - rid: 8093760696552521728
+      type: {class: DamageOnHitBoxActionData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageOnHitBoxActionData
+        repeatData: 0
+        attackData:
+        - name: 
+          <Amount>k__BackingField: 10
+        - name: 
+          <Amount>k__BackingField: 10
+        - name: 
+          <Amount>k__BackingField: 10
+    - rid: 8093760696552521729
+      type: {class: PoiseDamageData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: PoiseDamageData
+        repeatData: 0
+        attackData:
+        - name: 
+          <Amount>k__BackingField: 5
+        - name: 
+          <Amount>k__BackingField: 5
+        - name: 
+          <Amount>k__BackingField: 5
+    - rid: 8093760708887445505
+      type: {class: MovementData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: 
+          <Direction>k__BackingField: {x: 1, y: 1}
+          <Velocity>k__BackingField: 2
+        - name: 
+          <Direction>k__BackingField: {x: 1, y: 1}
+          <Velocity>k__BackingField: 2
+        - name: 
+          <Direction>k__BackingField: {x: 1, y: 1}
+          <Velocity>k__BackingField: 2
+    - rid: 8093760708887445506
+      type: {class: KnockBackData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        repeatData: 0
+        attackData:
+        - name: 
+          <Angle>k__BackingField: {x: 4, y: 90}
+          <Strength>k__BackingField: 9
+        - name: 
+          <Angle>k__BackingField: {x: 5, y: 25}
+          <Strength>k__BackingField: 5
+        - name: 
+          <Angle>k__BackingField: {x: 6, y: 6}
+          <Strength>k__BackingField: 5

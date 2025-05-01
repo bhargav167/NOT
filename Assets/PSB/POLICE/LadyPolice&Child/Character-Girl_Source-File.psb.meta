@@ -1,0 +1,2837 @@
+fileFormatVersion: 2
+guid: 442b76b75f84a4575899070fe6663f9d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 176abb8293e3343769d38cea0b219f80
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: BROW-LEFT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 376
+      y: 93
+      width: 89
+      height: 36
+    spriteID: a0e4f6a499b044b4c82b49289d323f54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 376, y: 93}
+    spritePosition: {x: 475, y: 770}
+  - name: BROW-RIGHT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 962
+      width: 42
+      height: 28
+    spriteID: 386e52526ebd641d2b89517734b5f789
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 962}
+    spritePosition: {x: 608, y: 774}
+  - name: EYE-LEFT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 473
+      width: 66
+      height: 62
+    spriteID: ee9fae074161545778c2bc237d34b153
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 228, y: 473}
+    spritePosition: {x: 494, y: 719}
+  - name: EYE-RIGHT
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 959
+      width: 42
+      height: 56
+    spriteID: f706e84781ad14fa59d6463f68693511
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 959}
+    spritePosition: {x: 599, y: 720}
+  - name: FACE
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 291
+      height: 287
+    spriteID: 8a8073217b80e49758df517590c0e3b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 383, y: 637}
+  - name: HAIR-TIE
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 473
+      width: 62
+      height: 73
+    spriteID: e0ed03bf9c22b4bb096b98bccd0dda57
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 473}
+    spritePosition: {x: 394, y: 664}
+  - name: TAIL(HAIR)
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 559
+      width: 101
+      height: 155
+    spriteID: cb68da7bbdc744628a6969d5d0ff44b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 559}
+    spritePosition: {x: 351, y: 551}
+  - name: UPER-ARM-L
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 827
+      width: 65
+      height: 127
+    spriteID: 6ae9d3aa7047943598b1d6b0b3cc3d7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 827}
+    spritePosition: {x: 437, y: 484}
+  - name: LOWER-ARM-L
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 361
+      width: 42
+      height: 115
+    spriteID: 5986a5b0a88c54556b8594bb95d22f07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 361}
+    spritePosition: {x: 433, y: 395}
+  - name: HAND-L
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 607
+      width: 53
+      height: 83
+    spriteID: b429eff90e26745b38874d2e4144eefc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 607}
+    spritePosition: {x: 421, y: 338}
+  - name: BODY
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 299
+      width: 146
+      height: 252
+    spriteID: 3fa909186eeb84e6785648e1873c1ed8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 299}
+    spritePosition: {x: 456, y: 432}
+  - name: PELVIS
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 4
+      width: 151
+      height: 81
+    spriteID: 4f723e4f109834039b5c3cc11f790a8d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 4}
+    spritePosition: {x: 453, y: 369}
+  - name: SHOE-L
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 893
+      width: 108
+      height: 99
+    spriteID: 61fa64238037d4a239e7984105a61ae2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 893}
+    spritePosition: {x: 451, y: 101}
+  - name: UPPER-LEG-L
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 720
+      width: 103
+      height: 165
+    spriteID: f1ec91b3d3ea84fac92dd97388662d17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 720}
+    spritePosition: {x: 448, y: 252}
+  - name: LOWER-LEG-L
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 228
+      width: 49
+      height: 125
+    spriteID: b343b9763975d478fa31ff2e378096a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 228}
+    spritePosition: {x: 462, y: 165}
+  - name: SHOE-R
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 161
+      y: 722
+      width: 108
+      height: 97
+    spriteID: dc5edac55113c44cca0b6a4feac2881c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 161, y: 722}
+    spritePosition: {x: 519, y: 105}
+  - name: UPPER-LEG-R
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 158
+      y: 299
+      width: 103
+      height: 166
+    spriteID: 5de127ce71e294146be81fc85a30e8ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 158, y: 299}
+    spritePosition: {x: 504, y: 256}
+  - name: LOWER-LEG-R
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 234
+      y: 827
+      width: 50
+      height: 124
+    spriteID: 7f3097cdfb88d480ca7984791ac9d703
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 234, y: 827}
+    spritePosition: {x: 524, y: 167}
+  - name: HAIR-BACK
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 559
+      width: 149
+      height: 153
+    spriteID: 9c5732819758746a7a6e0e5b315a3858
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 559}
+    spritePosition: {x: 432, y: 618}
+  - name: UPER-ARM-R
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 93
+      width: 65
+      height: 127
+    spriteID: 92389cefc1973406c83e883cb1ace42a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 93}
+    spritePosition: {x: 543, y: 477}
+  - name: LOWER-ARM-R
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 484
+      width: 42
+      height: 115
+    spriteID: 6db6258de5f654c43ac880e6bbbcd178
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 484}
+    spritePosition: {x: 570, y: 388}
+  - name: HAND-R
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 698
+      width: 53
+      height: 83
+    spriteID: f2ccae6623af34bf692c03e3ad23f74d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 698}
+    spritePosition: {x: 571, y: 331}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Girl_Parts
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: fc3dade527a7a4fb19d9251dae1ef153
+    layerID: 618
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HEAD-GROUP
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: baad2916f1beb4e9abc1c1d0c5cd4636
+    layerID: 617
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BROWS-GROUP
+    spriteName: 
+    isGroup: 1
+    parentIndex: 1
+    spriteID: 0c45600d8d05e4b058d4e377bf6e8f67
+    layerID: 616
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BROW-LEFT
+    spriteName: BROW-LEFT
+    isGroup: 0
+    parentIndex: 2
+    spriteID: a0e4f6a499b044b4c82b49289d323f54
+    layerID: 615
+    mosaicPosition: {x: 376, y: 93}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BROW-RIGHT
+    spriteName: BROW-RIGHT
+    isGroup: 0
+    parentIndex: 2
+    spriteID: 386e52526ebd641d2b89517734b5f789
+    layerID: 606
+    mosaicPosition: {x: 161, y: 962}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EYES-GROUP
+    spriteName: 
+    isGroup: 1
+    parentIndex: 1
+    spriteID: e82b4979b7e454d7fbd1114282dcf48b
+    layerID: 596
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: EYE-LEFT
+    spriteName: EYE-LEFT
+    isGroup: 0
+    parentIndex: 5
+    spriteID: ee9fae074161545778c2bc237d34b153
+    layerID: 595
+    mosaicPosition: {x: 228, y: 473}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: EYE-RIGHT
+    spriteName: EYE-RIGHT
+    isGroup: 0
+    parentIndex: 5
+    spriteID: f706e84781ad14fa59d6463f68693511
+    layerID: 581
+    mosaicPosition: {x: 234, y: 959}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: FACE
+    spriteName: FACE
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 8a8073217b80e49758df517590c0e3b7
+    layerID: 566
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HAIR-TIE
+    spriteName: HAIR-TIE
+    isGroup: 0
+    parentIndex: 1
+    spriteID: e0ed03bf9c22b4bb096b98bccd0dda57
+    layerID: 554
+    mosaicPosition: {x: 158, y: 473}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: TAIL(HAIR)
+    spriteName: TAIL(HAIR)
+    isGroup: 0
+    parentIndex: 1
+    spriteID: cb68da7bbdc744628a6969d5d0ff44b5
+    layerID: 545
+    mosaicPosition: {x: 161, y: 559}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ARM-GROUP-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 1721f5ee5fae9418ca62d9ca747c4ea7
+    layerID: 535
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: UPER-ARM-L
+    spriteName: UPER-ARM-L
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 6ae9d3aa7047943598b1d6b0b3cc3d7b
+    layerID: 534
+    mosaicPosition: {x: 161, y: 827}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LOWER-ARM-L
+    spriteName: LOWER-ARM-L
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 5986a5b0a88c54556b8594bb95d22f07
+    layerID: 522
+    mosaicPosition: {x: 303, y: 361}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HAND-L
+    spriteName: HAND-L
+    isGroup: 0
+    parentIndex: 11
+    spriteID: b429eff90e26745b38874d2e4144eefc
+    layerID: 513
+    mosaicPosition: {x: 303, y: 607}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: BODY
+    spriteName: BODY
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 3fa909186eeb84e6785648e1873c1ed8
+    layerID: 503
+    mosaicPosition: {x: 4, y: 299}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: PELVIS
+    spriteName: PELVIS
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 4f723e4f109834039b5c3cc11f790a8d
+    layerID: 491
+    mosaicPosition: {x: 303, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LEG-GROUP-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: b1d018ece9d904f438a41669d243e03c
+    layerID: 479
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SHOE-L
+    spriteName: SHOE-L
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 61fa64238037d4a239e7984105a61ae2
+    layerID: 478
+    mosaicPosition: {x: 4, y: 893}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: UPPER-LEG-L
+    spriteName: UPPER-LEG-L
+    isGroup: 0
+    parentIndex: 17
+    spriteID: f1ec91b3d3ea84fac92dd97388662d17
+    layerID: 466
+    mosaicPosition: {x: 4, y: 720}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LOWER-LEG-L
+    spriteName: LOWER-LEG-L
+    isGroup: 0
+    parentIndex: 17
+    spriteID: b343b9763975d478fa31ff2e378096a3
+    layerID: 454
+    mosaicPosition: {x: 303, y: 228}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LEG-GROUP-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 9229039b61e464a5584a51a987a882bb
+    layerID: 441
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SHOE-R
+    spriteName: SHOE-R
+    isGroup: 0
+    parentIndex: 21
+    spriteID: dc5edac55113c44cca0b6a4feac2881c
+    layerID: 440
+    mosaicPosition: {x: 161, y: 722}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: UPPER-LEG-R
+    spriteName: UPPER-LEG-R
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 5de127ce71e294146be81fc85a30e8ae
+    layerID: 428
+    mosaicPosition: {x: 158, y: 299}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LOWER-LEG-R
+    spriteName: LOWER-LEG-R
+    isGroup: 0
+    parentIndex: 21
+    spriteID: 7f3097cdfb88d480ca7984791ac9d703
+    layerID: 416
+    mosaicPosition: {x: 234, y: 827}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HAIR-BACK
+    spriteName: HAIR-BACK
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9c5732819758746a7a6e0e5b315a3858
+    layerID: 403
+    mosaicPosition: {x: 4, y: 559}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: ARM-GROUP-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 1112fd2c31560494abe06bdb7a340889
+    layerID: 394
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: UPER-ARM-R
+    spriteName: UPER-ARM-R
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 92389cefc1973406c83e883cb1ace42a
+    layerID: 393
+    mosaicPosition: {x: 303, y: 93}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LOWER-ARM-R
+    spriteName: LOWER-ARM-R
+    isGroup: 0
+    parentIndex: 26
+    spriteID: 6db6258de5f654c43ac880e6bbbcd178
+    layerID: 381
+    mosaicPosition: {x: 303, y: 484}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: HAND-R
+    spriteName: HAND-R
+    isGroup: 0
+    parentIndex: 26
+    spriteID: f2ccae6623af34bf692c03e3ad23f74d
+    layerID: 372
+    mosaicPosition: {x: 303, y: 698}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Girl_Source-File
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b991759a98c3a4366ad0dbe1344f306a
+    layerID: 77
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: HEAD-GROUP
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: 042422e8e4b544097befae3b2ae15d96
+    layerID: 75
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BROWS-GROUP
+    spriteName: 
+    isGroup: 1
+    parentIndex: 31
+    spriteID: 84ce74f931f9b46bc8cc0bd67b4e3333
+    layerID: 81
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BROW-LEFT
+    spriteName: 
+    isGroup: 1
+    parentIndex: 32
+    spriteID: 506111ae02fee457eae6e7dfe7575a82
+    layerID: 74
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 33
+    spriteID: ee8be97a2ccc5424a9aecf4554a272d0
+    layerID: 73
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 33
+    spriteID: d552a791d35aa4a3db332865c2e11308
+    layerID: 269
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 08ab7b354d2d040f494a3d49eeb94282
+    layerID: 268
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 35
+    spriteID: 22f4020e281f1499e9cec8c53aa5d8e0
+    layerID: 267
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 33
+    spriteID: 24783441791e7493a85cf421e2cad2cb
+    layerID: 83
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 33
+    spriteID: e9dd79cc0ac3f46a4923185fac18c621
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BROW-RIGHT
+    spriteName: 
+    isGroup: 1
+    parentIndex: 32
+    spriteID: 78e0aa8279d894e6f84dbd9d607b8453
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 788298e458eb144e786188a3d41d6cf4
+    layerID: 69
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 40
+    spriteID: 592bc229542774fc0856bf28c0003726
+    layerID: 273
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 42
+    spriteID: bb6ceeb945aab46c2bb9f330c27e16c7
+    layerID: 272
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 42
+    spriteID: 37bb1f9ab9a764ebbb5e827326a098fd
+    layerID: 271
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 96b0d09ef6ec4449580d7b9aaeed14a9
+    layerID: 84
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 40
+    spriteID: 1d4eb362f44c04fc18bcd54baa6bdca5
+    layerID: 68
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: EYES-GROUP
+    spriteName: 
+    isGroup: 1
+    parentIndex: 31
+    spriteID: c80719ee6c2aa44bb8e0d64189276954
+    layerID: 85
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: EYE-LEFT
+    spriteName: 
+    isGroup: 1
+    parentIndex: 47
+    spriteID: 7ac8dea2974b64e7e9d65060059b07b7
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: 466eabfe70ba5401b9730974dabffc58
+    layerID: 61
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 48
+    spriteID: 3f95bdf5d646f4699900fae31fb792c2
+    layerID: 261
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 50
+    spriteID: c82c75ef64f2a4ae686e349ec960c873
+    layerID: 260
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 50
+    spriteID: f6cf49eee2e0e4f4fba787b71abc4c7e
+    layerID: 259
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 48
+    spriteID: b7bcdc71e6f2a4c879d81a6967fa46e0
+    layerID: 109
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eye-Light
+    spriteName: 
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 6d0f8c0df276549868bbb11a268bf656
+    layerID: 108
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pupil
+    spriteName: 
+    isGroup: 0
+    parentIndex: 53
+    spriteID: f9c3bf4ac369f48ed9da5b060d54b35b
+    layerID: 107
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eye-Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 42aefb7f0ac3f4d45beea08840c9e39b
+    layerID: 106
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eye-White
+    spriteName: 
+    isGroup: 0
+    parentIndex: 53
+    spriteID: 1217812a134f84aaebf61d6460c8c0c1
+    layerID: 105
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 48
+    spriteID: a7cbf7ce3372147b3b94c01efa006b26
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: EYE-RIGHT
+    spriteName: 
+    isGroup: 1
+    parentIndex: 47
+    spriteID: 984d810b2644b45ccaeac94619d03177
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 59
+    spriteID: 8ef2a0b71c080451eb0a9a16bc036eae
+    layerID: 65
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 59
+    spriteID: 96c9aaf0fe19d4ec3a9690cbe42c9e19
+    layerID: 265
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: 5c0c60f92411c47fd989e9ff8d18101d
+    layerID: 264
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 61
+    spriteID: 22ad761c22e194c74bf367fe42fb5691
+    layerID: 263
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 59
+    spriteID: d2dfde6ada695478489e17ef17326e8f
+    layerID: 116
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eye-Light
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: d526436ad5e954750a30e54b5b512953
+    layerID: 115
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pupil
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 5c1f0ce77d31a4671a2fd97111fd9a27
+    layerID: 114
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eye-Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 5e8e47a1632554a3ba8ed26e108fb426
+    layerID: 113
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Eye-White
+    spriteName: 
+    isGroup: 0
+    parentIndex: 64
+    spriteID: 5ece0d9180efa46a296e54597463e4f3
+    layerID: 112
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 59
+    spriteID: ccc0e8a177acb48269a7bb56f541aedf
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: FACE
+    spriteName: 
+    isGroup: 1
+    parentIndex: 31
+    spriteID: 5dbd669d3100849faa6b727c630b8472
+    layerID: 58
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 70
+    spriteID: 891936b051ffb43c580052d0026654c5
+    layerID: 57
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 70
+    spriteID: 080c2d8c216bb424b8feb088c5e6dbda
+    layerID: 257
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 35a8fcab5fce4405ea35dca8f9cae5cd
+    layerID: 256
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 72
+    spriteID: 3f97e32caaad845389f085321c5e7e15
+    layerID: 255
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 70
+    spriteID: b2e95fdf4c1764fad819a0cda9d8f91b
+    layerID: 122
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Hair
+    spriteName: 
+    isGroup: 0
+    parentIndex: 75
+    spriteID: f6a0ba30f1f584d94b8b75ea40cb02c7
+    layerID: 119
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 75
+    spriteID: 382d09af89bc545f2bf5cbaa2e662577
+    layerID: 118
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 70
+    spriteID: 33a71bd080958493e95e5bc7c07dcf25
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: HAIR-TIE
+    spriteName: 
+    isGroup: 1
+    parentIndex: 31
+    spriteID: cd17b598abc7a4d35b0ae2ca4f838e8c
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 79
+    spriteID: e4f9a0b22fbea448c91a2ea2a468377d
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 79
+    spriteID: 649f2f60d9b5646ecb18c923d1541ff9
+    layerID: 253
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 81
+    spriteID: 7037e6d009e1544d997171fe085f47a8
+    layerID: 252
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 81
+    spriteID: 84c50b566e3be4702a1806fadfe5943c
+    layerID: 251
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 79
+    spriteID: b1562e93493894768b3220b2427a9be1
+    layerID: 124
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 79
+    spriteID: 433378ef88a36448c8dd38b2ea565075
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: TAIL(HAIR)
+    spriteName: 
+    isGroup: 1
+    parentIndex: 31
+    spriteID: f96dcd9950083458e87d2c75c326d7ff
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 86
+    spriteID: 46a1d47e40bdd43b1acc2ed14866bc12
+    layerID: 49
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 86
+    spriteID: eba4389bbf3e749fbab82076d0fb61d3
+    layerID: 249
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 5c83a4131335d4ec29d1b6a7221e3990
+    layerID: 248
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 88
+    spriteID: 8eb2fcd16449a44ffad455af124c75b5
+    layerID: 247
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color
+    spriteName: 
+    isGroup: 0
+    parentIndex: 86
+    spriteID: 0b8e55769d6d243b7b302db80895017e
+    layerID: 125
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 86
+    spriteID: 4db7e54a1e29f4f0196b9975f650492c
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ARM-GROUP-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: b2c9e7609e29e49a98ef8c453dbc031e
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: UPER-ARM-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 93
+    spriteID: 9d7299125360045649b55b0663af3dba
+    layerID: 44
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 94
+    spriteID: 5a42638ea39314266aea1cd10eb8f3db
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 94
+    spriteID: 1ec416125ec444ac7a1fc16e97067a99
+    layerID: 277
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 06f448e6301ba448491a3ed362812172
+    layerID: 276
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 96
+    spriteID: 610ed01708ba34f8db1d1c516dfc75d1
+    layerID: 275
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 94
+    spriteID: 21970a56dc08f4ac6a7ee07dba983add
+    layerID: 134
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shirt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 99
+    spriteID: d2a95a3ae8b86475c8edbd668e8e80fa
+    layerID: 133
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 99
+    spriteID: 442ff6e6884dc45f7a9d4839ca9531d7
+    layerID: 132
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 94
+    spriteID: 37d493ac8b1ad4f6f87b9bbd8b6eefac
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: LOWER-ARM-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 93
+    spriteID: 256f067253b154b07b3bde0c0be79165
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 103
+    spriteID: 68c8d4d95b887431c934ae34e27d0773
+    layerID: 39
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 103
+    spriteID: fab34315e60f94821bb8ceaab1b54acd
+    layerID: 281
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 105
+    spriteID: 06c34582f9bb94785a4828d461f97585
+    layerID: 280
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 105
+    spriteID: c62e74efec7724639ba43b8900502cf2
+    layerID: 279
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 103
+    spriteID: 7ea2edbf6671c46a180f10f13e8711e6
+    layerID: 136
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 103
+    spriteID: a0966f612e445424c96f2d2744aec32b
+    layerID: 38
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HAND-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 93
+    spriteID: 6f329e341f713439e8b094188497633e
+    layerID: 36
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 110
+    spriteID: 5f8d49a143bda4f88b3ed98bc7cfee69
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 110
+    spriteID: 9ca57bec886de4de798b3b378b794d16
+    layerID: 285
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: fad12986a3a4b478f925d19106202802
+    layerID: 284
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 112
+    spriteID: c086faa77a9f94d29b3a065a050804fc
+    layerID: 283
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 110
+    spriteID: 976e9523f7ba9433ca033a177a085dcd
+    layerID: 137
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 110
+    spriteID: 683f9fae8f3aa4d0e87861df427b2a38
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BODY
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: 803d5cb2a199941bb98c497f64470ed2
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 117
+    spriteID: d809b3d6ca15843b2a9a086f75ae3318
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 117
+    spriteID: 3309d9fb3097e475a944220c332f8d93
+    layerID: 289
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 119
+    spriteID: 66af27e5f2bbe417d96427294adb9894
+    layerID: 288
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 119
+    spriteID: 6e73249fcfcc84aa1983afbae81bcbd4
+    layerID: 287
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 117
+    spriteID: 8e4cc81a0b6ba4c7b93d2a9c27058138
+    layerID: 128
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shirt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 122
+    spriteID: 1214f883c83a3426ab689dd953f1cff5
+    layerID: 127
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 122
+    spriteID: 8d79ce16b6a7e445eb1dd462b83f02f4
+    layerID: 126
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 117
+    spriteID: a1ec23d0bc6bd478ba87ae3e14b4df09
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: PELVIS
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: 2332a682abe424e2b97426c263821f09
+    layerID: 27
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 126
+    spriteID: 0ce04581d680f4dc8acbbb24b10f9148
+    layerID: 26
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 126
+    spriteID: 0b4dcf34e93214229a32845818890a57
+    layerID: 293
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 38157e978d92a47aa98b2e932c1131ba
+    layerID: 292
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 128
+    spriteID: 32aa7611d47da490cb3836204580ac73
+    layerID: 291
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 126
+    spriteID: cafe6b641f75d44dbb7b6976fd8570e0
+    layerID: 140
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: BELT
+    spriteName: 
+    isGroup: 0
+    parentIndex: 131
+    spriteID: 361cca06ac83045e48017c08be83fde6
+    layerID: 139
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: PANTS
+    spriteName: 
+    isGroup: 0
+    parentIndex: 131
+    spriteID: 00ada43c3a5e54c30832d1ffd0a0222c
+    layerID: 138
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 126
+    spriteID: 9a684fab556d845d69f48d9b5a1a36fa
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: LEG-GROUP-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: 1f8354142a20d4ba2b98800220e9b918
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SHOE-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 135
+    spriteID: 61412c6376ca145719e93bebf4b96ae2
+    layerID: 22
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 136
+    spriteID: d9bc807a7953a43bb88d08eff5f20f99
+    layerID: 21
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 136
+    spriteID: ebc803c31f11a4564b1ede2a77dbe705
+    layerID: 297
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 138
+    spriteID: a75547ec089874c58894e23ed1360a6f
+    layerID: 296
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 138
+    spriteID: c0cb912b33fde42d49bc01d19fe2f6ac
+    layerID: 295
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 136
+    spriteID: f48dc4597523e4b5eb9870ee4944e7af
+    layerID: 153
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sub
+    spriteName: 
+    isGroup: 0
+    parentIndex: 141
+    spriteID: 08652bceaf7594a5880eec31de612e69
+    layerID: 152
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Main
+    spriteName: 
+    isGroup: 0
+    parentIndex: 141
+    spriteID: a42d01269358b480598165b660dc78f1
+    layerID: 151
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 136
+    spriteID: e773302c634ba401cbac7238445f5367
+    layerID: 20
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: UPPER-LEG-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 135
+    spriteID: 1773fb3a9a1484c1d9ffd877140c70d3
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 145
+    spriteID: a9ed1bc5906f04c4ea881a414cdbc700
+    layerID: 17
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 145
+    spriteID: e1abb4a7e4ee84b8d8677733b49b9d25
+    layerID: 301
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 147
+    spriteID: 62413183202a84ccc95710f16d1b14f3
+    layerID: 300
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 147
+    spriteID: 7973398ee26704cff8f1211de972a076
+    layerID: 299
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 145
+    spriteID: 0f3dc71fbb72645e48baff6fb0dfda25
+    layerID: 145
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pants
+    spriteName: 
+    isGroup: 0
+    parentIndex: 150
+    spriteID: 44f2c27083280427cbcf96c1789d5b24
+    layerID: 144
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 150
+    spriteID: 77f27a410e4e84ac893c1491e2cf0155
+    layerID: 143
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 145
+    spriteID: 6c1fdea5d425146a9bfd547766c0571c
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: LOWER-LEG-L
+    spriteName: 
+    isGroup: 1
+    parentIndex: 135
+    spriteID: 010223a4ab1664a468abe753a74e3de8
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 154
+    spriteID: 8420625ba9cb14c8ba80ae2301caed9e
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 154
+    spriteID: de0f824b6e99e422cbd27d632a2d6013
+    layerID: 305
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 156
+    spriteID: 0889f159971ec484882bcc55a4003818
+    layerID: 304
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 156
+    spriteID: 3caa6f0e1838447698862d083030a98b
+    layerID: 303
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 154
+    spriteID: 3ed336c545c1949d792e340325d2bae0
+    layerID: 149
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sock
+    spriteName: 
+    isGroup: 0
+    parentIndex: 159
+    spriteID: ec2764eed325d46acb49bff36af078f1
+    layerID: 148
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 159
+    spriteID: 7e4f751adb7ac421f8b1498c8160c6a0
+    layerID: 147
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 154
+    spriteID: 810c60b3000ff4726a2e841778ef0bc8
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: LEG-GROUP-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: 4fa44ef4dcbbe4e7dab7a22fd809ef54
+    layerID: 343
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: SHOE-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 163
+    spriteID: 03c7648bd88b44e0481022648a3db76c
+    layerID: 342
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 164
+    spriteID: 63a77aa1ce7114165a7ef57993692373
+    layerID: 341
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 164
+    spriteID: 1357320d9da9948b8b3b434f033f9c94
+    layerID: 340
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 166
+    spriteID: c91a701ed7f484a9d848820a1c06aee1
+    layerID: 339
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 166
+    spriteID: bddd2093af45a4027be4eaa3963502eb
+    layerID: 338
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 164
+    spriteID: 14b1449cd77484f72852aa6cb43ae2ed
+    layerID: 336
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sub
+    spriteName: 
+    isGroup: 0
+    parentIndex: 169
+    spriteID: c858802bcdbd74cb8872fc2b7bdec1f3
+    layerID: 335
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Main
+    spriteName: 
+    isGroup: 0
+    parentIndex: 169
+    spriteID: 35d2a083dff0f412288a277d34be15c7
+    layerID: 334
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 164
+    spriteID: 05158fdffbceb4ace9bbe692d1076096
+    layerID: 332
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: UPPER-LEG-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 163
+    spriteID: 8e544cde4272243c2b9f8eacaed0f28f
+    layerID: 330
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 173
+    spriteID: 965471db8db904251913d63e2a101293
+    layerID: 329
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 173
+    spriteID: 58d1f85d812cd4c40aa09e86c5956151
+    layerID: 328
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 175
+    spriteID: ebe68f72a56a94548bbd58b5d20c6159
+    layerID: 327
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 175
+    spriteID: 83bd8c14659d74e3ba97047cfb1a2c98
+    layerID: 326
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 173
+    spriteID: 055eceb708ec745338e490921cc912cc
+    layerID: 324
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Pants
+    spriteName: 
+    isGroup: 0
+    parentIndex: 178
+    spriteID: 0b55826588720415789111b83554edb6
+    layerID: 323
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 178
+    spriteID: b547c68db9f484e389478264766010ca
+    layerID: 322
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 173
+    spriteID: e2ecba4288c4242db894f5110b623dfe
+    layerID: 320
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: LOWER-LEG-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 163
+    spriteID: 1153e16f48a914f22959cabb980879c5
+    layerID: 318
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 182
+    spriteID: 99644c9d94d8444fea9a3cfa6579925d
+    layerID: 317
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 182
+    spriteID: 587b45fd6f4b84058b7253d1932dab12
+    layerID: 316
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 184
+    spriteID: 54315b70fa24d40479ddd4fa0a6c0b6f
+    layerID: 315
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 184
+    spriteID: c38574ccb31774d61803659b8d1f107d
+    layerID: 314
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 182
+    spriteID: a662cc001f7a24682baf2cc7d111f266
+    layerID: 312
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Sock
+    spriteName: 
+    isGroup: 0
+    parentIndex: 187
+    spriteID: d2572c71761be451490c351482a288c1
+    layerID: 311
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 187
+    spriteID: c8e5dd610b7be4815bcb2e73280a5842
+    layerID: 310
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 182
+    spriteID: dba660d085e0d41b3889f43223344234
+    layerID: 308
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: HAIR-BACK
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: aa3dd01a7600e4fcf91bbbf185d2f842
+    layerID: 5
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 191
+    spriteID: 6ee1b4dee69c6444897e9f31d930af3b
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 191
+    spriteID: 1fac97a6f2f1c46bca308f869044a4fa
+    layerID: 347
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 193
+    spriteID: fc7d1efb987e0417e927aa183d83cb34
+    layerID: 346
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 193
+    spriteID: e280f9f7d42984e8a939dea5040f3eb5
+    layerID: 345
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 191
+    spriteID: 6b79f002e4144404b843bd7fdb719a47
+    layerID: 142
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 191
+    spriteID: 8cd62506b91f14cf8a8d19a0e7b8f187
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: ARM-GROUP-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 30
+    spriteID: 9f1122e67f98b4b2096284387380d7ce
+    layerID: 214
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: UPER-ARM-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 198
+    spriteID: b1ec8d417da2548489421ef03e12d505
+    layerID: 213
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 199
+    spriteID: e9c2024a877754815a4c5ae95e3cb296
+    layerID: 212
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 199
+    spriteID: 576e1bea90c76425b86a7acc896984f7
+    layerID: 351
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 201
+    spriteID: 4691f319a9dac491b91a3584897566d7
+    layerID: 350
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 201
+    spriteID: d85f3c30e9933413ea1122d4f01635be
+    layerID: 349
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 1
+    parentIndex: 199
+    spriteID: 822504f827afe4d94952cf0cd8b6e84d
+    layerID: 211
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shirt
+    spriteName: 
+    isGroup: 0
+    parentIndex: 204
+    spriteID: d16e2f451608b42ef8cf16569ae2562a
+    layerID: 210
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Skin
+    spriteName: 
+    isGroup: 0
+    parentIndex: 204
+    spriteID: 9ab6c916fdc9c4e7386deb6b46bc8382
+    layerID: 209
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 199
+    spriteID: 0f1a4491f2f6c498298cc74c11b3dbfd
+    layerID: 207
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: LOWER-ARM-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 198
+    spriteID: 35816d436cf2b4c17acc4f6a43b4fe25
+    layerID: 205
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 208
+    spriteID: 60835a3dfe8fd4666b9a0c9382e3326a
+    layerID: 204
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 208
+    spriteID: 8bf56dcf2c6bd460c957c7bf8ab659e7
+    layerID: 356
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 210
+    spriteID: 20aa69aaa383d4e9d96bda5bbf2b5f3c
+    layerID: 355
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 210
+    spriteID: 8cf85cbaade424b89983a0326164b267
+    layerID: 354
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 208
+    spriteID: dacec822054984f2cb4311d987d6896a
+    layerID: 203
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 208
+    spriteID: 9af2ea23bb873429783616ba4bb4ff9e
+    layerID: 202
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: HAND-R
+    spriteName: 
+    isGroup: 1
+    parentIndex: 198
+    spriteID: 69f55f201801d4eefa45104f53850721
+    layerID: 200
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Line-Art
+    spriteName: 
+    isGroup: 0
+    parentIndex: 215
+    spriteID: d2b5d8a1d71f342188534135de2377d1
+    layerID: 199
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Highlights
+    spriteName: 
+    isGroup: 1
+    parentIndex: 215
+    spriteID: d1774687ecf7f4b1bb592ade00513d05
+    layerID: 361
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Lights
+    spriteName: 
+    isGroup: 0
+    parentIndex: 217
+    spriteID: 00d123574782f4049bdf08c62e23a2e4
+    layerID: 360
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Shadows
+    spriteName: 
+    isGroup: 0
+    parentIndex: 217
+    spriteID: 40ed220f05b964a4d8ef2e3445d7ac2d
+    layerID: 359
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Color-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 215
+    spriteID: 37b161b8f43974ec59954f8f9b4c5e58
+    layerID: 198
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: White-Fill
+    spriteName: 
+    isGroup: 0
+    parentIndex: 215
+    spriteID: 0cdf3ba9eddd241688d1b881556ff9b1
+    layerID: 197
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d5d3c9691549d4bef8ef38e5a1e0d529
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

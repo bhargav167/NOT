@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: HandGun
+    m_Hash: 921815886
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Ak_New_Gun
+      m_Hash: 432280500
+      m_Sprite: {fileID: 5581892023103408367, guid: f660dde22786f4c0babc6e32ef41ed74,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5581892023103408367, guid: f660dde22786f4c0babc6e32ef41ed74,
+        type: 3}
+    - m_Name: Ak_Old_Gun
+      m_Hash: 1073521818
+      m_Sprite: {fileID: -3590534530686647035, guid: 6a637034256b1384dbf836079d5b1714,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3590534530686647035, guid: 6a637034256b1384dbf836079d5b1714,
+        type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: PoliceHand
+    m_Hash: 965258221
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: onlyHand
+      m_Hash: 444605940
+      m_Sprite: {fileID: -5821876729001339507, guid: 467d4c4d9c4d1476099bf4aac1a25238,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5821876729001339507, guid: 467d4c4d9c4d1476099bf4aac1a25238,
+        type: 3}
+    - m_Name: WithStick
+      m_Hash: 189139013
+      m_Sprite: {fileID: 8405520411459154513, guid: 5b75b798da8bc437e8a8c119c0c30535,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8405520411459154513, guid: 5b75b798da8bc437e8a8c119c0c30535,
+        type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: Police-1
+    m_Hash: 815120717
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Hand-Gun1
+      m_Hash: 283511033
+      m_Sprite: {fileID: 8167910410010484098, guid: a3c7bc8ed0c165041add109e715955bf,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8167910410010484098, guid: a3c7bc8ed0c165041add109e715955bf,
+        type: 3}
+    - m_Name: Hand
+      m_Hash: 122744241
+      m_Sprite: {fileID: 9217605828265830176, guid: a3c7bc8ed0c165041add109e715955bf,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 9217605828265830176, guid: a3c7bc8ed0c165041add109e715955bf,
+        type: 3}
+    - m_Name: GunHand
+      m_Hash: 121238394
+      m_Sprite: {fileID: -8533949539682357559, guid: 06373ed0e95e44c9ba7952a15ba4e384,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8533949539682357559, guid: 06373ed0e95e44c9ba7952a15ba4e384,
+        type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: LadyPolice
+    m_Hash: 324525258
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: HAND-L
+      m_Hash: 608306461
+      m_Sprite: {fileID: 7741538911575804221, guid: ac50b2e9ae848452b99ecfbeb888d796,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7741538911575804221, guid: ac50b2e9ae848452b99ecfbeb888d796,
+        type: 3}
+    - m_Name: HAND-L_0
+      m_Hash: 354787097
+      m_Sprite: {fileID: -3955270799598218292, guid: a8366517e085148c1a3c90f067023f32,
+        type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3955270799598218292, guid: a8366517e085148c1a3c90f067023f32,
+        type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638617848379423560
+  m_Version: 1

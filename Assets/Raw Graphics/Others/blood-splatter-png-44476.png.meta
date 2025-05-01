@@ -1,0 +1,964 @@
+fileFormatVersion: 2
+guid: df58b362c9503457895bd72fa241ffa2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3355457093013108337
+    second: blood-splatter-png-44476_0
+  - first:
+      213: -8092407867757998524
+    second: blood-splatter-png-44476_1
+  - first:
+      213: -8107350765280627690
+    second: blood-splatter-png-44476_2
+  - first:
+      213: 6813920027845008982
+    second: blood-splatter-png-44476_3
+  - first:
+      213: 5330039569547689670
+    second: blood-splatter-png-44476_4
+  - first:
+      213: -8360396816772082926
+    second: blood-splatter-png-44476_5
+  - first:
+      213: -5870079089784468413
+    second: blood-splatter-png-44476_6
+  - first:
+      213: -7680553870759144038
+    second: blood-splatter-png-44476_7
+  - first:
+      213: 1303914914907293081
+    second: blood-splatter-png-44476_8
+  - first:
+      213: -2315961332223544948
+    second: blood-splatter-png-44476_9
+  - first:
+      213: -2176306038490029625
+    second: blood-splatter-png-44476_10
+  - first:
+      213: 2148531005659520912
+    second: blood-splatter-png-44476_11
+  - first:
+      213: 7904466908172535193
+    second: blood-splatter-png-44476_12
+  - first:
+      213: 1904357887066920394
+    second: blood-splatter-png-44476_13
+  - first:
+      213: 4326299234443411462
+    second: blood-splatter-png-44476_14
+  - first:
+      213: -99027967098307883
+    second: blood-splatter-png-44476_15
+  - first:
+      213: -229533979975706797
+    second: blood-splatter-png-44476_16
+  - first:
+      213: 2726866324165239715
+    second: blood-splatter-png-44476_17
+  - first:
+      213: -3828215821836092079
+    second: blood-splatter-png-44476_18
+  - first:
+      213: 6355677576450617706
+    second: blood-splatter-png-44476_19
+  - first:
+      213: -1953378429584717208
+    second: blood-splatter-png-44476_20
+  - first:
+      213: 2139938854372905829
+    second: blood-splatter-png-44476_21
+  - first:
+      213: 2485010329316576222
+    second: blood-splatter-png-44476_22
+  - first:
+      213: -3931239830368765148
+    second: blood-splatter-png-44476_23
+  - first:
+      213: 4640835164578301539
+    second: blood-splatter-png-44476_24
+  - first:
+      213: -8246395075316057640
+    second: blood-splatter-png-44476_25
+  - first:
+      213: -1906464969859107765
+    second: blood-splatter-png-44476_26
+  - first:
+      213: -4256966882388503745
+    second: blood-splatter-png-44476_27
+  - first:
+      213: 4056600269591640102
+    second: blood-splatter-png-44476_28
+  - first:
+      213: 4918773769008044356
+    second: blood-splatter-png-44476_29
+  - first:
+      213: 2920828415488702360
+    second: blood-splatter-png-44476_30
+  - first:
+      213: -2756882618572572807
+    second: blood-splatter-png-44476_31
+  - first:
+      213: 4327394431363123514
+    second: blood-splatter-png-44476_32
+  - first:
+      213: 5148595124504997381
+    second: blood-splatter-png-44476_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 314
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1767c18b27af09e20800000000000000
+      internalID: 3355457093013108337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 258
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e45b07bedf1bf80800000000000000
+      internalID: -8092407867757998524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 266
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614f4fdfe67ec7f80800000000000000
+      internalID: -8107350765280627690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 268
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e1f93e928ef8e50800000000000000
+      internalID: 6813920027845008982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 256
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce7aadafba18f940800000000000000
+      internalID: 5330039569547689670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 266
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2135ef2f367e9fb80800000000000000
+      internalID: -8360396816772082926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 218
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cc2f93b2a498ea0800000000000000
+      internalID: -5870079089784468413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 208
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a955627a2f0396590800000000000000
+      internalID: -7680553870759144038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9950268e4bf681210800000000000000
+      internalID: 1303914914907293081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_9
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 194
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c817647507d0cdfd0800000000000000
+      internalID: -2315961332223544948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 180
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1a34540353cc1e0800000000000000
+      internalID: -2176306038490029625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 155
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f9f35f09d11dd10800000000000000
+      internalID: 2148531005659520912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 165
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9954478f5ce42bd60800000000000000
+      internalID: 7904466908172535193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 171
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac556d79863ad6a10800000000000000
+      internalID: 1904357887066920394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 169
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6004b056b3a1a0c30800000000000000
+      internalID: 4326299234443411462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_15
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 155
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dab64ea69e20aef0800000000000000
+      internalID: -99027967098307883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_16
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 153
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3579aa3bf0880dcf0800000000000000
+      internalID: -229533979975706797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_17
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 158
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a328d96976c7d520800000000000000
+      internalID: 2726866324165239715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_18
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 148
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dfde72ef17fdac0800000000000000
+      internalID: -3828215821836092079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 144
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61314bf417e33850800000000000000
+      internalID: 6355677576450617706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_20
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a41b0faa434e4e0800000000000000
+      internalID: -1953378429584717208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_21
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 139
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56314f7dc0792bd10800000000000000
+      internalID: 2139938854372905829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_22
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 131
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb47167ab78c7220800000000000000
+      internalID: 2485010329316576222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_23
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 118
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42bb000f33e6179c0800000000000000
+      internalID: -3931239830368765148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_24
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 126
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366c4d57efe876040800000000000000
+      internalID: 4640835164578301539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_25
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 101
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9714ace5bee8d80800000000000000
+      internalID: -8246395075316057640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 104
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4472d6f530ea85e0800000000000000
+      internalID: -1906464969859107765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_27
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 107
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3391a2cc273ce4c0800000000000000
+      internalID: -4256966882388503745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 100
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62873c0d370fb4830800000000000000
+      internalID: 4056600269591640102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_29
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449db30aeaef24440800000000000000
+      internalID: 4918773769008044356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_30
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897321bf7fdd88820800000000000000
+      internalID: 2920828415488702360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_31
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 43
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97778807dd59db9d0800000000000000
+      internalID: -2756882618572572807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_32
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 46
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39076cce4efd0c30800000000000000
+      internalID: 4327394431363123514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blood-splatter-png-44476_33
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 24
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ead60ccfb737740800000000000000
+      internalID: 5148595124504997381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      blood-splatter-png-44476_0: 3355457093013108337
+      blood-splatter-png-44476_1: -8092407867757998524
+      blood-splatter-png-44476_10: -2176306038490029625
+      blood-splatter-png-44476_11: 2148531005659520912
+      blood-splatter-png-44476_12: 7904466908172535193
+      blood-splatter-png-44476_13: 1904357887066920394
+      blood-splatter-png-44476_14: 4326299234443411462
+      blood-splatter-png-44476_15: -99027967098307883
+      blood-splatter-png-44476_16: -229533979975706797
+      blood-splatter-png-44476_17: 2726866324165239715
+      blood-splatter-png-44476_18: -3828215821836092079
+      blood-splatter-png-44476_19: 6355677576450617706
+      blood-splatter-png-44476_2: -8107350765280627690
+      blood-splatter-png-44476_20: -1953378429584717208
+      blood-splatter-png-44476_21: 2139938854372905829
+      blood-splatter-png-44476_22: 2485010329316576222
+      blood-splatter-png-44476_23: -3931239830368765148
+      blood-splatter-png-44476_24: 4640835164578301539
+      blood-splatter-png-44476_25: -8246395075316057640
+      blood-splatter-png-44476_26: -1906464969859107765
+      blood-splatter-png-44476_27: -4256966882388503745
+      blood-splatter-png-44476_28: 4056600269591640102
+      blood-splatter-png-44476_29: 4918773769008044356
+      blood-splatter-png-44476_3: 6813920027845008982
+      blood-splatter-png-44476_30: 2920828415488702360
+      blood-splatter-png-44476_31: -2756882618572572807
+      blood-splatter-png-44476_32: 4327394431363123514
+      blood-splatter-png-44476_33: 5148595124504997381
+      blood-splatter-png-44476_4: 5330039569547689670
+      blood-splatter-png-44476_5: -8360396816772082926
+      blood-splatter-png-44476_6: -5870079089784468413
+      blood-splatter-png-44476_7: -7680553870759144038
+      blood-splatter-png-44476_8: 1303914914907293081
+      blood-splatter-png-44476_9: -2315961332223544948
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

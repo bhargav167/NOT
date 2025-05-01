@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MI_RAILWAY.unity
+    guid: 8108ad5e2f6da40febf16f3d02f6a7de
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 9de2e80ed1fcf4464afac3958ac5c6f1,
+      type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 14e81683fa404a243954e541e4d1423d,
+      type: 3}
+  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Police
+  - Floor
+  - Wall
+  - ParticleContainer
+  - Extracter
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Interactable
+  - Water
+  - UI
+  - floor
+  - WorldItem
+  - police
+  - Wall
+  - Grounded
+  - 
+  - Player
+  - Damagable
+  - Weapon
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Police
+    uniqueID: 1581788641
+    locked: 0
+  - name: Player
+    uniqueID: 945431089
+    locked: 0
+  - name: DarkBG
+    uniqueID: 409763621
+    locked: 0
+  - name: BarkBG1
+    uniqueID: 64856673
+    locked: 0

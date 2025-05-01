@@ -1,0 +1,6264 @@
+fileFormatVersion: 2
+guid: 63383273edeb74e7689aa2a29c2ac34c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1579261070748130479
+    second: vecteezy_blood-splatter-clipart_30762497_0
+  - first:
+      213: 7199800607957904604
+    second: vecteezy_blood-splatter-clipart_30762497_1
+  - first:
+      213: 3056709076739948450
+    second: vecteezy_blood-splatter-clipart_30762497_2
+  - first:
+      213: -8520975004863265772
+    second: vecteezy_blood-splatter-clipart_30762497_3
+  - first:
+      213: 6973267890612834815
+    second: vecteezy_blood-splatter-clipart_30762497_4
+  - first:
+      213: -8860589370449476831
+    second: vecteezy_blood-splatter-clipart_30762497_5
+  - first:
+      213: -5285784935045401659
+    second: vecteezy_blood-splatter-clipart_30762497_6
+  - first:
+      213: 7045969354549978847
+    second: vecteezy_blood-splatter-clipart_30762497_7
+  - first:
+      213: -697967625618242192
+    second: vecteezy_blood-splatter-clipart_30762497_8
+  - first:
+      213: 8791445959805078732
+    second: vecteezy_blood-splatter-clipart_30762497_9
+  - first:
+      213: -6329892320816308428
+    second: vecteezy_blood-splatter-clipart_30762497_10
+  - first:
+      213: -1104397712500405488
+    second: vecteezy_blood-splatter-clipart_30762497_11
+  - first:
+      213: -2167071302418482662
+    second: vecteezy_blood-splatter-clipart_30762497_12
+  - first:
+      213: -5709013532603720179
+    second: vecteezy_blood-splatter-clipart_30762497_13
+  - first:
+      213: 8012344598903121800
+    second: vecteezy_blood-splatter-clipart_30762497_14
+  - first:
+      213: -7232248849057795296
+    second: vecteezy_blood-splatter-clipart_30762497_15
+  - first:
+      213: -2995206085915136471
+    second: vecteezy_blood-splatter-clipart_30762497_16
+  - first:
+      213: 3262788044724552297
+    second: vecteezy_blood-splatter-clipart_30762497_17
+  - first:
+      213: -188880451173696281
+    second: vecteezy_blood-splatter-clipart_30762497_18
+  - first:
+      213: -3870473806362565710
+    second: vecteezy_blood-splatter-clipart_30762497_19
+  - first:
+      213: -1100590094868962707
+    second: vecteezy_blood-splatter-clipart_30762497_20
+  - first:
+      213: 4940116666477105123
+    second: vecteezy_blood-splatter-clipart_30762497_21
+  - first:
+      213: -4227090894276337443
+    second: vecteezy_blood-splatter-clipart_30762497_22
+  - first:
+      213: 5930901994088932168
+    second: vecteezy_blood-splatter-clipart_30762497_23
+  - first:
+      213: 5544664820023808566
+    second: vecteezy_blood-splatter-clipart_30762497_24
+  - first:
+      213: -3523713433230473719
+    second: vecteezy_blood-splatter-clipart_30762497_25
+  - first:
+      213: 2587318442530469753
+    second: vecteezy_blood-splatter-clipart_30762497_26
+  - first:
+      213: 4548593314539539159
+    second: vecteezy_blood-splatter-clipart_30762497_27
+  - first:
+      213: -1951710290535146958
+    second: vecteezy_blood-splatter-clipart_30762497_28
+  - first:
+      213: 1833489724054709808
+    second: vecteezy_blood-splatter-clipart_30762497_29
+  - first:
+      213: 1555769884511522970
+    second: vecteezy_blood-splatter-clipart_30762497_30
+  - first:
+      213: 4361215210166345492
+    second: vecteezy_blood-splatter-clipart_30762497_31
+  - first:
+      213: -5490819699503530943
+    second: vecteezy_blood-splatter-clipart_30762497_32
+  - first:
+      213: 3214915610015148677
+    second: vecteezy_blood-splatter-clipart_30762497_33
+  - first:
+      213: 2672741048239466423
+    second: vecteezy_blood-splatter-clipart_30762497_34
+  - first:
+      213: 336454326515901189
+    second: vecteezy_blood-splatter-clipart_30762497_35
+  - first:
+      213: 6133873793402267174
+    second: vecteezy_blood-splatter-clipart_30762497_36
+  - first:
+      213: -2185234602240636528
+    second: vecteezy_blood-splatter-clipart_30762497_37
+  - first:
+      213: -6418997893896766602
+    second: vecteezy_blood-splatter-clipart_30762497_38
+  - first:
+      213: -7197991569429506874
+    second: vecteezy_blood-splatter-clipart_30762497_39
+  - first:
+      213: 190942374324046376
+    second: vecteezy_blood-splatter-clipart_30762497_40
+  - first:
+      213: -1642414236745850169
+    second: vecteezy_blood-splatter-clipart_30762497_41
+  - first:
+      213: -8803120429235379475
+    second: vecteezy_blood-splatter-clipart_30762497_42
+  - first:
+      213: 8598901690926621158
+    second: vecteezy_blood-splatter-clipart_30762497_43
+  - first:
+      213: 7841578728582910165
+    second: vecteezy_blood-splatter-clipart_30762497_44
+  - first:
+      213: -4427632842950985652
+    second: vecteezy_blood-splatter-clipart_30762497_45
+  - first:
+      213: 8971111895767163878
+    second: vecteezy_blood-splatter-clipart_30762497_46
+  - first:
+      213: 5739934931939703069
+    second: vecteezy_blood-splatter-clipart_30762497_47
+  - first:
+      213: -4289690286187995822
+    second: vecteezy_blood-splatter-clipart_30762497_48
+  - first:
+      213: 7390235121632747005
+    second: vecteezy_blood-splatter-clipart_30762497_49
+  - first:
+      213: -4087922153626783810
+    second: vecteezy_blood-splatter-clipart_30762497_50
+  - first:
+      213: -2474868596423790065
+    second: vecteezy_blood-splatter-clipart_30762497_51
+  - first:
+      213: -3755480633984364293
+    second: vecteezy_blood-splatter-clipart_30762497_52
+  - first:
+      213: -8055194018970345398
+    second: vecteezy_blood-splatter-clipart_30762497_53
+  - first:
+      213: -3005357932234970532
+    second: vecteezy_blood-splatter-clipart_30762497_54
+  - first:
+      213: 6672394210588639323
+    second: vecteezy_blood-splatter-clipart_30762497_55
+  - first:
+      213: -2852385440281693039
+    second: vecteezy_blood-splatter-clipart_30762497_56
+  - first:
+      213: 406870684486885423
+    second: vecteezy_blood-splatter-clipart_30762497_57
+  - first:
+      213: 2234334684385006754
+    second: vecteezy_blood-splatter-clipart_30762497_58
+  - first:
+      213: 8406283945205281154
+    second: vecteezy_blood-splatter-clipart_30762497_59
+  - first:
+      213: 7231849750452055337
+    second: vecteezy_blood-splatter-clipart_30762497_60
+  - first:
+      213: -2397014001417618994
+    second: vecteezy_blood-splatter-clipart_30762497_61
+  - first:
+      213: 5525809703738257795
+    second: vecteezy_blood-splatter-clipart_30762497_62
+  - first:
+      213: -2296777200020926942
+    second: vecteezy_blood-splatter-clipart_30762497_63
+  - first:
+      213: -9159573220129573462
+    second: vecteezy_blood-splatter-clipart_30762497_64
+  - first:
+      213: -6682119106395047942
+    second: vecteezy_blood-splatter-clipart_30762497_65
+  - first:
+      213: -4653965922988206729
+    second: vecteezy_blood-splatter-clipart_30762497_66
+  - first:
+      213: -6974207647740395395
+    second: vecteezy_blood-splatter-clipart_30762497_67
+  - first:
+      213: -8480881037530596784
+    second: vecteezy_blood-splatter-clipart_30762497_68
+  - first:
+      213: 3496163890134208195
+    second: vecteezy_blood-splatter-clipart_30762497_69
+  - first:
+      213: 6261786811303571343
+    second: vecteezy_blood-splatter-clipart_30762497_70
+  - first:
+      213: 8393582269466152632
+    second: vecteezy_blood-splatter-clipart_30762497_71
+  - first:
+      213: -1472576996621972898
+    second: vecteezy_blood-splatter-clipart_30762497_72
+  - first:
+      213: 6021903996190065176
+    second: vecteezy_blood-splatter-clipart_30762497_73
+  - first:
+      213: -4444056085430801208
+    second: vecteezy_blood-splatter-clipart_30762497_74
+  - first:
+      213: 8722467221569636782
+    second: vecteezy_blood-splatter-clipart_30762497_75
+  - first:
+      213: -7372385703304413748
+    second: vecteezy_blood-splatter-clipart_30762497_76
+  - first:
+      213: -5169527168195770428
+    second: vecteezy_blood-splatter-clipart_30762497_77
+  - first:
+      213: -2080905171153188645
+    second: vecteezy_blood-splatter-clipart_30762497_78
+  - first:
+      213: -8139314200220712027
+    second: vecteezy_blood-splatter-clipart_30762497_79
+  - first:
+      213: 7813790342721387506
+    second: vecteezy_blood-splatter-clipart_30762497_80
+  - first:
+      213: 7884541146963277751
+    second: vecteezy_blood-splatter-clipart_30762497_81
+  - first:
+      213: -6561432158781622419
+    second: vecteezy_blood-splatter-clipart_30762497_82
+  - first:
+      213: 2186859026656002620
+    second: vecteezy_blood-splatter-clipart_30762497_83
+  - first:
+      213: -764090148954839853
+    second: vecteezy_blood-splatter-clipart_30762497_84
+  - first:
+      213: 8621138727540408938
+    second: vecteezy_blood-splatter-clipart_30762497_85
+  - first:
+      213: 3278699333987431254
+    second: vecteezy_blood-splatter-clipart_30762497_86
+  - first:
+      213: 7963823768602079069
+    second: vecteezy_blood-splatter-clipart_30762497_87
+  - first:
+      213: -170576558502558638
+    second: vecteezy_blood-splatter-clipart_30762497_88
+  - first:
+      213: -821173089226208900
+    second: vecteezy_blood-splatter-clipart_30762497_89
+  - first:
+      213: 6673314344296163041
+    second: vecteezy_blood-splatter-clipart_30762497_90
+  - first:
+      213: -8186950722270934892
+    second: vecteezy_blood-splatter-clipart_30762497_91
+  - first:
+      213: -6020730585952438734
+    second: vecteezy_blood-splatter-clipart_30762497_92
+  - first:
+      213: -8022548708767419899
+    second: vecteezy_blood-splatter-clipart_30762497_93
+  - first:
+      213: 3260944678371134163
+    second: vecteezy_blood-splatter-clipart_30762497_94
+  - first:
+      213: -8681170164410161140
+    second: vecteezy_blood-splatter-clipart_30762497_95
+  - first:
+      213: -1930054567080947191
+    second: vecteezy_blood-splatter-clipart_30762497_96
+  - first:
+      213: 5280074093231376717
+    second: vecteezy_blood-splatter-clipart_30762497_97
+  - first:
+      213: -5504057924463782143
+    second: vecteezy_blood-splatter-clipart_30762497_98
+  - first:
+      213: 8476176435797840974
+    second: vecteezy_blood-splatter-clipart_30762497_99
+  - first:
+      213: -2452619748282328292
+    second: vecteezy_blood-splatter-clipart_30762497_100
+  - first:
+      213: -6995725257159737867
+    second: vecteezy_blood-splatter-clipart_30762497_101
+  - first:
+      213: -5370382064589107067
+    second: vecteezy_blood-splatter-clipart_30762497_102
+  - first:
+      213: 959417106540652044
+    second: vecteezy_blood-splatter-clipart_30762497_103
+  - first:
+      213: 2519715508397934511
+    second: vecteezy_blood-splatter-clipart_30762497_104
+  - first:
+      213: 673009436659015328
+    second: vecteezy_blood-splatter-clipart_30762497_105
+  - first:
+      213: 7928124473831953560
+    second: vecteezy_blood-splatter-clipart_30762497_106
+  - first:
+      213: 4182540166305867986
+    second: vecteezy_blood-splatter-clipart_30762497_107
+  - first:
+      213: -1672365586772151175
+    second: vecteezy_blood-splatter-clipart_30762497_108
+  - first:
+      213: -8275813660649962544
+    second: vecteezy_blood-splatter-clipart_30762497_109
+  - first:
+      213: -3332232062669214023
+    second: vecteezy_blood-splatter-clipart_30762497_110
+  - first:
+      213: -4187069752950138119
+    second: vecteezy_blood-splatter-clipart_30762497_111
+  - first:
+      213: 9212894553084039086
+    second: vecteezy_blood-splatter-clipart_30762497_112
+  - first:
+      213: 913487012301560171
+    second: vecteezy_blood-splatter-clipart_30762497_113
+  - first:
+      213: 1716339098499050810
+    second: vecteezy_blood-splatter-clipart_30762497_114
+  - first:
+      213: 1326836245146952373
+    second: vecteezy_blood-splatter-clipart_30762497_115
+  - first:
+      213: 2526191365488578841
+    second: vecteezy_blood-splatter-clipart_30762497_116
+  - first:
+      213: 3902739514472608658
+    second: vecteezy_blood-splatter-clipart_30762497_117
+  - first:
+      213: 8843524835287907984
+    second: vecteezy_blood-splatter-clipart_30762497_118
+  - first:
+      213: -3415687267726948206
+    second: vecteezy_blood-splatter-clipart_30762497_119
+  - first:
+      213: -2249732854237172955
+    second: vecteezy_blood-splatter-clipart_30762497_120
+  - first:
+      213: -5453881768569530989
+    second: vecteezy_blood-splatter-clipart_30762497_121
+  - first:
+      213: 6063316210835536097
+    second: vecteezy_blood-splatter-clipart_30762497_122
+  - first:
+      213: -188600088918106419
+    second: vecteezy_blood-splatter-clipart_30762497_123
+  - first:
+      213: -8527087055558115726
+    second: vecteezy_blood-splatter-clipart_30762497_124
+  - first:
+      213: -8184593787757523095
+    second: vecteezy_blood-splatter-clipart_30762497_125
+  - first:
+      213: -878295637213014907
+    second: vecteezy_blood-splatter-clipart_30762497_126
+  - first:
+      213: 8327293312575993537
+    second: vecteezy_blood-splatter-clipart_30762497_127
+  - first:
+      213: 3993492631607400070
+    second: vecteezy_blood-splatter-clipart_30762497_128
+  - first:
+      213: 6168971113520870539
+    second: vecteezy_blood-splatter-clipart_30762497_129
+  - first:
+      213: -8864134998761044765
+    second: vecteezy_blood-splatter-clipart_30762497_130
+  - first:
+      213: -3504858566229926453
+    second: vecteezy_blood-splatter-clipart_30762497_131
+  - first:
+      213: 8714214745758029209
+    second: vecteezy_blood-splatter-clipart_30762497_132
+  - first:
+      213: 881609620612327167
+    second: vecteezy_blood-splatter-clipart_30762497_133
+  - first:
+      213: 1019888997539156704
+    second: vecteezy_blood-splatter-clipart_30762497_134
+  - first:
+      213: -1729270371682927370
+    second: vecteezy_blood-splatter-clipart_30762497_135
+  - first:
+      213: -3288767913047881770
+    second: vecteezy_blood-splatter-clipart_30762497_136
+  - first:
+      213: 6374887535294834396
+    second: vecteezy_blood-splatter-clipart_30762497_137
+  - first:
+      213: 8335318921208660020
+    second: vecteezy_blood-splatter-clipart_30762497_138
+  - first:
+      213: -279805429347005791
+    second: vecteezy_blood-splatter-clipart_30762497_139
+  - first:
+      213: 2314311068286436032
+    second: vecteezy_blood-splatter-clipart_30762497_140
+  - first:
+      213: -6133990562619728673
+    second: vecteezy_blood-splatter-clipart_30762497_141
+  - first:
+      213: -2281793936913113903
+    second: vecteezy_blood-splatter-clipart_30762497_142
+  - first:
+      213: 364734999092669375
+    second: vecteezy_blood-splatter-clipart_30762497_143
+  - first:
+      213: -4433350223346096403
+    second: vecteezy_blood-splatter-clipart_30762497_144
+  - first:
+      213: -3064045514606589288
+    second: vecteezy_blood-splatter-clipart_30762497_145
+  - first:
+      213: 6345312289211904906
+    second: vecteezy_blood-splatter-clipart_30762497_146
+  - first:
+      213: -2064562361464742125
+    second: vecteezy_blood-splatter-clipart_30762497_147
+  - first:
+      213: 4951804078374884727
+    second: vecteezy_blood-splatter-clipart_30762497_148
+  - first:
+      213: 874941113163388967
+    second: vecteezy_blood-splatter-clipart_30762497_149
+  - first:
+      213: 7027071404950693528
+    second: vecteezy_blood-splatter-clipart_30762497_150
+  - first:
+      213: 1089137345216056597
+    second: vecteezy_blood-splatter-clipart_30762497_151
+  - first:
+      213: 6232983498552725238
+    second: vecteezy_blood-splatter-clipart_30762497_152
+  - first:
+      213: 8746077139069479981
+    second: vecteezy_blood-splatter-clipart_30762497_153
+  - first:
+      213: -2513380831588017947
+    second: vecteezy_blood-splatter-clipart_30762497_154
+  - first:
+      213: -6093260703576488057
+    second: vecteezy_blood-splatter-clipart_30762497_155
+  - first:
+      213: 1311254695900209712
+    second: vecteezy_blood-splatter-clipart_30762497_156
+  - first:
+      213: -6532704223694776146
+    second: vecteezy_blood-splatter-clipart_30762497_157
+  - first:
+      213: -722870790382304602
+    second: vecteezy_blood-splatter-clipart_30762497_158
+  - first:
+      213: 1937546555453036679
+    second: vecteezy_blood-splatter-clipart_30762497_159
+  - first:
+      213: 5918155173673746801
+    second: vecteezy_blood-splatter-clipart_30762497_160
+  - first:
+      213: -7300413013137224309
+    second: vecteezy_blood-splatter-clipart_30762497_161
+  - first:
+      213: 3116352244998109160
+    second: vecteezy_blood-splatter-clipart_30762497_162
+  - first:
+      213: -2753656432232488651
+    second: vecteezy_blood-splatter-clipart_30762497_163
+  - first:
+      213: 1338108391474315802
+    second: vecteezy_blood-splatter-clipart_30762497_164
+  - first:
+      213: 7532208190370384665
+    second: vecteezy_blood-splatter-clipart_30762497_165
+  - first:
+      213: 1494168503665773834
+    second: vecteezy_blood-splatter-clipart_30762497_166
+  - first:
+      213: 507831310785482570
+    second: vecteezy_blood-splatter-clipart_30762497_167
+  - first:
+      213: 6537278707343845634
+    second: vecteezy_blood-splatter-clipart_30762497_168
+  - first:
+      213: -8198712547170742930
+    second: vecteezy_blood-splatter-clipart_30762497_169
+  - first:
+      213: 7881353169709000465
+    second: vecteezy_blood-splatter-clipart_30762497_170
+  - first:
+      213: -2191814935204358977
+    second: vecteezy_blood-splatter-clipart_30762497_171
+  - first:
+      213: -7967658813674329544
+    second: vecteezy_blood-splatter-clipart_30762497_172
+  - first:
+      213: -8875391088572424778
+    second: vecteezy_blood-splatter-clipart_30762497_173
+  - first:
+      213: 5767699503992691981
+    second: vecteezy_blood-splatter-clipart_30762497_174
+  - first:
+      213: -5230932896292098879
+    second: vecteezy_blood-splatter-clipart_30762497_175
+  - first:
+      213: -74070875957581136
+    second: vecteezy_blood-splatter-clipart_30762497_176
+  - first:
+      213: -5284505238375781000
+    second: vecteezy_blood-splatter-clipart_30762497_177
+  - first:
+      213: 8048518409915013891
+    second: vecteezy_blood-splatter-clipart_30762497_178
+  - first:
+      213: 2352824289404341126
+    second: vecteezy_blood-splatter-clipart_30762497_179
+  - first:
+      213: -3496655113449464711
+    second: vecteezy_blood-splatter-clipart_30762497_180
+  - first:
+      213: -5098354215229302567
+    second: vecteezy_blood-splatter-clipart_30762497_181
+  - first:
+      213: 4816648642873316828
+    second: vecteezy_blood-splatter-clipart_30762497_182
+  - first:
+      213: 557509634073375238
+    second: vecteezy_blood-splatter-clipart_30762497_183
+  - first:
+      213: 6355260583147462503
+    second: vecteezy_blood-splatter-clipart_30762497_184
+  - first:
+      213: -8771235909943752253
+    second: vecteezy_blood-splatter-clipart_30762497_185
+  - first:
+      213: -3907061892174108165
+    second: vecteezy_blood-splatter-clipart_30762497_186
+  - first:
+      213: 7250800338037743530
+    second: vecteezy_blood-splatter-clipart_30762497_187
+  - first:
+      213: -8167461265318954218
+    second: vecteezy_blood-splatter-clipart_30762497_188
+  - first:
+      213: 6112823162656619981
+    second: vecteezy_blood-splatter-clipart_30762497_189
+  - first:
+      213: -1894350739670259872
+    second: vecteezy_blood-splatter-clipart_30762497_190
+  - first:
+      213: 7848654379450041325
+    second: vecteezy_blood-splatter-clipart_30762497_191
+  - first:
+      213: -2801196221745120615
+    second: vecteezy_blood-splatter-clipart_30762497_192
+  - first:
+      213: 3564596602897902734
+    second: vecteezy_blood-splatter-clipart_30762497_193
+  - first:
+      213: -2233923476637734189
+    second: vecteezy_blood-splatter-clipart_30762497_194
+  - first:
+      213: 8476691817148550737
+    second: vecteezy_blood-splatter-clipart_30762497_195
+  - first:
+      213: 2845380758300358213
+    second: vecteezy_blood-splatter-clipart_30762497_196
+  - first:
+      213: -2337962067928770903
+    second: vecteezy_blood-splatter-clipart_30762497_197
+  - first:
+      213: -8715928937027920412
+    second: vecteezy_blood-splatter-clipart_30762497_198
+  - first:
+      213: 7796750915652717650
+    second: vecteezy_blood-splatter-clipart_30762497_199
+  - first:
+      213: 7941787450436137281
+    second: vecteezy_blood-splatter-clipart_30762497_200
+  - first:
+      213: -8036565190346947235
+    second: vecteezy_blood-splatter-clipart_30762497_201
+  - first:
+      213: -4069000099919076092
+    second: vecteezy_blood-splatter-clipart_30762497_202
+  - first:
+      213: -5364257073031039649
+    second: vecteezy_blood-splatter-clipart_30762497_203
+  - first:
+      213: -3523211960174383028
+    second: vecteezy_blood-splatter-clipart_30762497_204
+  - first:
+      213: -1241798931171795387
+    second: vecteezy_blood-splatter-clipart_30762497_205
+  - first:
+      213: -346106012248295120
+    second: vecteezy_blood-splatter-clipart_30762497_206
+  - first:
+      213: 8654121892240557430
+    second: vecteezy_blood-splatter-clipart_30762497_207
+  - first:
+      213: -1509984701614968140
+    second: vecteezy_blood-splatter-clipart_30762497_208
+  - first:
+      213: -3174488222156451316
+    second: vecteezy_blood-splatter-clipart_30762497_209
+  - first:
+      213: -2037629851435206824
+    second: vecteezy_blood-splatter-clipart_30762497_210
+  - first:
+      213: 9191400847259557584
+    second: vecteezy_blood-splatter-clipart_30762497_211
+  - first:
+      213: 7160331526350375188
+    second: vecteezy_blood-splatter-clipart_30762497_212
+  - first:
+      213: 5086830055462107842
+    second: vecteezy_blood-splatter-clipart_30762497_213
+  - first:
+      213: 8229613781423937993
+    second: vecteezy_blood-splatter-clipart_30762497_214
+  - first:
+      213: 24957999780660209
+    second: vecteezy_blood-splatter-clipart_30762497_215
+  - first:
+      213: 1585684077273993362
+    second: vecteezy_blood-splatter-clipart_30762497_216
+  - first:
+      213: -3375243980702952615
+    second: vecteezy_blood-splatter-clipart_30762497_217
+  - first:
+      213: -8894546408396418321
+    second: vecteezy_blood-splatter-clipart_30762497_218
+  - first:
+      213: 900348811787794589
+    second: vecteezy_blood-splatter-clipart_30762497_219
+  - first:
+      213: 4625831563234246155
+    second: vecteezy_blood-splatter-clipart_30762497_220
+  - first:
+      213: 6557547312566687271
+    second: vecteezy_blood-splatter-clipart_30762497_221
+  - first:
+      213: 5561260903267686566
+    second: vecteezy_blood-splatter-clipart_30762497_222
+  - first:
+      213: -1234983546264489595
+    second: vecteezy_blood-splatter-clipart_30762497_223
+  - first:
+      213: -5440236818254190295
+    second: vecteezy_blood-splatter-clipart_30762497_224
+  - first:
+      213: 1769679988919849641
+    second: vecteezy_blood-splatter-clipart_30762497_225
+  - first:
+      213: 5462642441638860361
+    second: vecteezy_blood-splatter-clipart_30762497_226
+  - first:
+      213: -1585643332388974662
+    second: vecteezy_blood-splatter-clipart_30762497_227
+  - first:
+      213: -3481652110448098049
+    second: vecteezy_blood-splatter-clipart_30762497_228
+  - first:
+      213: 1702372937001665387
+    second: vecteezy_blood-splatter-clipart_30762497_229
+  - first:
+      213: -8066607397101467450
+    second: vecteezy_blood-splatter-clipart_30762497_230
+  - first:
+      213: 5822139916036314144
+    second: vecteezy_blood-splatter-clipart_30762497_231
+  - first:
+      213: 8823533857880797687
+    second: vecteezy_blood-splatter-clipart_30762497_232
+  - first:
+      213: 7592392527257473607
+    second: vecteezy_blood-splatter-clipart_30762497_233
+  - first:
+      213: 5830210228475321684
+    second: vecteezy_blood-splatter-clipart_30762497_234
+  - first:
+      213: 2679595664067754801
+    second: vecteezy_blood-splatter-clipart_30762497_235
+  - first:
+      213: -8458149732721800301
+    second: vecteezy_blood-splatter-clipart_30762497_236
+  - first:
+      213: 6989226791632759007
+    second: vecteezy_blood-splatter-clipart_30762497_237
+  - first:
+      213: -5609129866969659530
+    second: vecteezy_blood-splatter-clipart_30762497_238
+  - first:
+      213: 5012311878915879993
+    second: vecteezy_blood-splatter-clipart_30762497_239
+  - first:
+      213: 7059018449958743516
+    second: vecteezy_blood-splatter-clipart_30762497_240
+  - first:
+      213: 4705953056818534057
+    second: vecteezy_blood-splatter-clipart_30762497_241
+  - first:
+      213: 8422949769778978467
+    second: vecteezy_blood-splatter-clipart_30762497_242
+  - first:
+      213: -8464595451409891371
+    second: vecteezy_blood-splatter-clipart_30762497_243
+  - first:
+      213: 5607410526363982119
+    second: vecteezy_blood-splatter-clipart_30762497_244
+  - first:
+      213: -530300717646910915
+    second: vecteezy_blood-splatter-clipart_30762497_245
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_0
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 2819
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac9b899399aae510800000000000000
+      internalID: 1579261070748130479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_1
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2795
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdce8fab184dae360800000000000000
+      internalID: 7199800607957904604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_2
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2776
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2affbccc5bc9b6a20800000000000000
+      internalID: 3056709076739948450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_3
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 2784
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414842f016a6fb980800000000000000
+      internalID: -8520975004863265772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_4
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 2752
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff19d97533606c060800000000000000
+      internalID: 6973267890612834815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_5
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 2760
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123c1c9b9ecd80580800000000000000
+      internalID: -8860589370449476831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_6
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 2746
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3f18b5b9e15a6b0800000000000000
+      internalID: -5285784935045401659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_7
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 2715
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd66d3cfbcf48c160800000000000000
+      internalID: 7045969354549978847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_8
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2763
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0754d4a74225056f0800000000000000
+      internalID: -697967625618242192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_9
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 2749
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc8938758d710a70800000000000000
+      internalID: 8791445959805078732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_10
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2726
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f554fa874b728a0800000000000000
+      internalID: -6329892320816308428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_11
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 2740
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bc8afb1246ca0f0800000000000000
+      internalID: -1104397712500405488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_12
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 2704
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a3760d1240de1e0800000000000000
+      internalID: -2167071302418482662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_13
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 2699
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ed143907285c0b0800000000000000
+      internalID: -5709013532603720179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_14
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 2700
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887e3a326f0913f60800000000000000
+      internalID: 8012344598903121800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_15
+      rect:
+        serializedVersion: 2
+        x: 2144
+        y: 2697
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023bea86df3e1ab90800000000000000
+      internalID: -7232248849057795296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_16
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 2709
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ea0f32fe3ee66d0800000000000000
+      internalID: -2995206085915136471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_17
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 2623
+        width: 137
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962c23f8070c74d20800000000000000
+      internalID: 3262788044724552297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_18
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 2628
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecb6cafa36f06df0800000000000000
+      internalID: -188880451173696281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_19
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 2670
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b32e4b6490594ac0800000000000000
+      internalID: -3870473806362565710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_20
+      rect:
+        serializedVersion: 2
+        x: 2050
+        y: 2696
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62a500d32be9b0f0800000000000000
+      internalID: -1100590094868962707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_21
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2669
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efca5e2fe1de8440800000000000000
+      internalID: 4940116666477105123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_22
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 2677
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0ee5d4a3b5655c0800000000000000
+      internalID: -4227090894276337443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_23
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 2675
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843a35bb0fbce4250800000000000000
+      internalID: 5930901994088932168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_24
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 2681
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632df14e64b92fc40800000000000000
+      internalID: 5544664820023808566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_25
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 2661
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906860a4d41491fc0800000000000000
+      internalID: -3523713433230473719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_26
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 2635
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97778df4a6008e320800000000000000
+      internalID: 2587318442530469753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_27
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 2645
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da88d42589df1f30800000000000000
+      internalID: 4548593314539539159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_28
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 2650
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a9d24d4d12ae4e0800000000000000
+      internalID: -1951710290535146958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_29
+      rect:
+        serializedVersion: 2
+        x: 2075
+        y: 2664
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0362c95903dd17910800000000000000
+      internalID: 1833489724054709808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_30
+      rect:
+        serializedVersion: 2
+        x: 2278
+        y: 2652
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a905f869774379510800000000000000
+      internalID: 1555769884511522970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_31
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 2067
+        width: 750
+        height: 590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fdefe7026268c30800000000000000
+      internalID: 4361215210166345492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_32
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 2643
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cff5d2390bcc3b0800000000000000
+      internalID: -5490819699503530943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_33
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 2586
+        width: 53
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58aafc5c6bcad9c20800000000000000
+      internalID: 3214915610015148677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_34
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 2629
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b72be492db771520800000000000000
+      internalID: 2672741048239466423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_35
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 2647
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503af176d635ba400800000000000000
+      internalID: 336454326515901189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_36
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 2627
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626e1d867b5ef1550800000000000000
+      internalID: 6133873793402267174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_37
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2602
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0990e8605bc7ca1e0800000000000000
+      internalID: -2185234602240636528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 2581
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b7d40cc632be6a0800000000000000
+      internalID: -6418997893896766602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_39
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 2606
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4d5efddc89b1c90800000000000000
+      internalID: -7197991569429506874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_40
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 2590
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a872ae31d56a200800000000000000
+      internalID: 190942374324046376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_41
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 2591
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c228bc14f8f439e0800000000000000
+      internalID: -1642414236745850169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_42
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 2572
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2e07c4c9805d580800000000000000
+      internalID: -8803120429235379475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_43
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2573
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1ef2a678f655770800000000000000
+      internalID: 8598901690926621158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_44
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2552
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d09173ae42e2dc60800000000000000
+      internalID: 7841578728582910165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_45
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2548
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48bd005363ed82c0800000000000000
+      internalID: -4427632842950985652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_46
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 2562
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3ab7bfcbacf7c70800000000000000
+      internalID: 8971111895767163878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_47
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 2567
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d193f1cb86858af40800000000000000
+      internalID: 5739934931939703069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_48
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 2549
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d12579965f774c0800000000000000
+      internalID: -4289690286187995822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_49
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2526
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd198f10b36f8660800000000000000
+      internalID: 7390235121632747005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_50
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 2527
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf20a3c578c447c0800000000000000
+      internalID: -4087922153626783810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_51
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2522
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02f36cbf1087add0800000000000000
+      internalID: -2474868596423790065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_52
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2525
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0d082c24ad1ebc0800000000000000
+      internalID: -3755480633984364293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_53
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 2533
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40eb6ec7b3363090800000000000000
+      internalID: -8055194018970345398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_54
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2503
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a6b3a32e2da46d0800000000000000
+      internalID: -3005357932234970532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_55
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 2501
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b504283ce2b199c50800000000000000
+      internalID: 6672394210588639323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_56
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 2513
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194738dfd8a4a68d0800000000000000
+      internalID: -2852385440281693039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_57
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2482
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f206c5a5bbe75a500800000000000000
+      internalID: 406870684486885423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_58
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2477
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a45a14be83f10f10800000000000000
+      internalID: 2234334684385006754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_59
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 2493
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281b703b5be19a470800000000000000
+      internalID: 8406283945205281154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_60
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2490
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d21b43801bc5460800000000000000
+      internalID: 7231849750452055337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_61
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 2484
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec97dd337781cbed0800000000000000
+      internalID: -2397014001417618994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_62
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 2453
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381b9b706ae9fac40800000000000000
+      internalID: 5525809703738257795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_63
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2471
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e49803e453020e0800000000000000
+      internalID: -2296777200020926942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_64
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 2439
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5feff8fa8a2e080800000000000000
+      internalID: -9159573220129573462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_65
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 2463
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7f87c73185443a0800000000000000
+      internalID: -6682119106395047942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_66
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2447
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775d38b96aac96fb0800000000000000
+      internalID: -4653965922988206729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2460
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d700f966813a63f90800000000000000
+      internalID: -6974207647740395395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_68
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2423
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a74a741abdd4a80800000000000000
+      internalID: -8480881037530596784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_69
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2443
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce4ffbd88ed48030800000000000000
+      internalID: 3496163890134208195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_70
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2439
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fa9f2bde556e650800000000000000
+      internalID: 6261786811303571343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_71
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 2433
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be0c8c5a9efb7470800000000000000
+      internalID: 8393582269466152632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_72
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 2368
+        width: 39
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a8feb060b509be0800000000000000
+      internalID: -1472576996621972898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_73
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 2434
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8120a6477c9129350800000000000000
+      internalID: 6021903996190065176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_74
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 2445
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccebf1398a8352c0800000000000000
+      internalID: -4444056085430801208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_75
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2417
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea985a279bd6c0970800000000000000
+      internalID: 8722467221569636782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_76
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 2416
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd3f5f634600b990800000000000000
+      internalID: -7372385703304413748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_77
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2425
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7c5fa0e662248b0800000000000000
+      internalID: -5169527168195770428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_78
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2431
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8042e95c32f13e0800000000000000
+      internalID: -2080905171153188645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_79
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2423
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a34d8cdbd85b0f80800000000000000
+      internalID: -8139314200220712027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_80
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 2392
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb394fdae8207c60800000000000000
+      internalID: 7813790342721387506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_81
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 2417
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b772b926648b6d60800000000000000
+      internalID: 7884541146963277751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_82
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 2396
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d673ffd273c11f4a0800000000000000
+      internalID: -6561432158781622419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_83
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 2409
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3200b1c2b8495e10800000000000000
+      internalID: 2186859026656002620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_84
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2389
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4eb2fce086565f0800000000000000
+      internalID: -764090148954839853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_85
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 2372
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62c866feff64a770800000000000000
+      internalID: 8621138727540408938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_86
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2390
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65371a74ca7408d20800000000000000
+      internalID: 3278699333987431254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_87
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2376
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fe65df58f258e60800000000000000
+      internalID: 7963823768602079069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_88
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 2398
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2544277168df1adf0800000000000000
+      internalID: -170576558502558638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_89
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 2385
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79cf851d6b9a94f0800000000000000
+      internalID: -821173089226208900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_90
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 2391
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6aa461a006c9c50800000000000000
+      internalID: 6673314344296163041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_91
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 2373
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 498c965c1bb126e80800000000000000
+      internalID: -8186950722270934892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_92
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2388
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236b9f76e61127ca0800000000000000
+      internalID: -6020730585952438734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_93
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 2378
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50236a4647e2aa090800000000000000
+      internalID: -8022548708767419899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_94
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2370
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da038268e3314d20800000000000000
+      internalID: 3260944678371134163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_95
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2342
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08ec93fab9468780800000000000000
+      internalID: -8681170164410161140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_96
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 2348
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902150cd8911735e0800000000000000
+      internalID: -1930054567080947191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_97
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 2312
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d498ccaa967964940800000000000000
+      internalID: 5280074093231376717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_98
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 2356
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107992dba78ad93b0800000000000000
+      internalID: -5504057924463782143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_99
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 2345
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4454454f8d61a570800000000000000
+      internalID: 8476176435797840974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_100
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2375
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b168e555b86fdd0800000000000000
+      internalID: -2452619748282328292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_101
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2351
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdf3cc81f03aee90800000000000000
+      internalID: -6995725257159737867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_102
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 2377
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580990c37f19875b0800000000000000
+      internalID: -5370382064589107067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_103
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2375
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06e9c276c8805d00800000000000000
+      internalID: 959417106540652044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_104
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2336
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa70a15a7e3d7f220800000000000000
+      internalID: 2519715508397934511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_105
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 209
+        width: 2353
+        height: 2155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aedb825482075900800000000000000
+      internalID: 673009436659015328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_106
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2322
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89495d5343b560e60800000000000000
+      internalID: 7928124473831953560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_107
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2342
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8e6770f1e5b0a30800000000000000
+      internalID: 4182540166305867986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_108
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2357
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974bbd10c509ac8e0800000000000000
+      internalID: -1672365586772151175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_109
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 2356
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d342a1a257662d80800000000000000
+      internalID: -8275813660649962544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_110
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2359
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be2f6b089881c1d0800000000000000
+      internalID: -3332232062669214023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_111
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 2362
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fadf956e3a84e5c0800000000000000
+      internalID: -4187069752950138119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_112
+      rect:
+        serializedVersion: 2
+        x: 2435
+        y: 2339
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf84b5b8c6cadf70800000000000000
+      internalID: 9212894553084039086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_113
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2287
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69da2b099b5dac00800000000000000
+      internalID: 913487012301560171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_114
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2289
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d66280159a1d710800000000000000
+      internalID: 1716339098499050810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_115
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2216
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2e81bf88ed96210800000000000000
+      internalID: 1326836245146952373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_116
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2212
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9111b9e99a5de0320800000000000000
+      internalID: 2526191365488578841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_117
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 2201
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293350b29e0592630800000000000000
+      internalID: 3902739514472608658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_118
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 2195
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e3ea19bf28aba70800000000000000
+      internalID: 8843524835287907984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_119
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 2186
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2988f4fe68a0990d0800000000000000
+      internalID: -3415687267726948206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_120
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2134
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52beaaf73e757c0e0800000000000000
+      internalID: -2249732854237172955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_121
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 2136
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3951f696d6bef44b0800000000000000
+      internalID: -5453881768569530989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_122
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 2157
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e838bb08f9352450800000000000000
+      internalID: 6063316210835536097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_123
+      rect:
+        serializedVersion: 2
+        x: 2857
+        y: 2142
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcedd67e735f16df0800000000000000
+      internalID: -188600088918106419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_124
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2137
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e70ac5083b9a980800000000000000
+      internalID: -8527087055558115726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_125
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 2090
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f08d9505b7a6e80800000000000000
+      internalID: -8184593787757523095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_126
+      rect:
+        serializedVersion: 2
+        x: 2864
+        y: 2114
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584942875caafc3f0800000000000000
+      internalID: -878295637213014907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_127
+      rect:
+        serializedVersion: 2
+        x: 2935
+        y: 2091
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6f39cd52d709370800000000000000
+      internalID: 8327293312575993537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_128
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 2043
+        width: 72
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6865918d36cbb6730800000000000000
+      internalID: 3993492631607400070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_129
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 2083
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84be0b0b869c9550800000000000000
+      internalID: 6168971113520870539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_130
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2054
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e48dbdce244cf480800000000000000
+      internalID: -8864134998761044765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_131
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 2062
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd51eb14bd3c5fc0800000000000000
+      internalID: -3504858566229926453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2041
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995d061342c1fe870800000000000000
+      internalID: 8714214745758029209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_133
+      rect:
+        serializedVersion: 2
+        x: 2913
+        y: 2034
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff62a2b674b1c3c00800000000000000
+      internalID: 881609620612327167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_134
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2021
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e296a0c3af572e00800000000000000
+      internalID: 1019888997539156704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_135
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2015
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc3b3f42c56008e0800000000000000
+      internalID: -1729270371682927370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_136
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 2019
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7041af103fb52d0800000000000000
+      internalID: -3288767913047881770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_137
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2019
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd660501076287850800000000000000
+      internalID: 6374887535294834396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_138
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 2014
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4300c3c75600da370800000000000000
+      internalID: 8335318921208660020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_139
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 1994
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aacb89c17eed1cf0800000000000000
+      internalID: -279805429347005791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_140
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1989
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2c7f4a7a51e1020800000000000000
+      internalID: 2314311068286436032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_141
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1973
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcd3732510bfdaa0800000000000000
+      internalID: -6133990562619728673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_142
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1971
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc57abf0807550e0800000000000000
+      internalID: -2281793936913113903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_143
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 1943
+        width: 128
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb221a9c8ccf0500800000000000000
+      internalID: 364734999092669375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_144
+      rect:
+        serializedVersion: 2
+        x: 2765
+        y: 2005
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6ae84f5739972c0800000000000000
+      internalID: -4433350223346096403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_145
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1989
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ace36a6d25a75d0800000000000000
+      internalID: -3064045514606589288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_146
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1954
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83756b78e31f0850800000000000000
+      internalID: 6345312289211904906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_147
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1905
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f904488733953e0800000000000000
+      internalID: -2064562361464742125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_148
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1963
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7759dd0d29758b440800000000000000
+      internalID: 4951804078374884727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_149
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1921
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7281d798e4a642c00800000000000000
+      internalID: 874941113163388967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_150
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1920
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8962467363c258160800000000000000
+      internalID: 7027071404950693528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_151
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1914
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d073d15a46d1f00800000000000000
+      internalID: 1089137345216056597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_152
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1917
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe4b1ad771008650800000000000000
+      internalID: 6232983498552725238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_153
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1914
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ca66cb1de406970800000000000000
+      internalID: 8746077139069479981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_154
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 1915
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e89beb337dae1dd0800000000000000
+      internalID: -2513380831588017947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_155
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 1896
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7870a7f6ca3607ba0800000000000000
+      internalID: -6093260703576488057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_156
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1889
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032e137d233823210800000000000000
+      internalID: 1311254695900209712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_157
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1896
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea89afbce1c2755a0800000000000000
+      internalID: -6532704223694776146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_158
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1867
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2c1c898d8d7f5f0800000000000000
+      internalID: -722870790382304602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_159
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1871
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7885f8d935c83ea10800000000000000
+      internalID: 1937546555453036679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_160
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1865
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171c67456c2812250800000000000000
+      internalID: 5918155173673746801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_161
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 1827
+        width: 96
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d01563b09bfaa90800000000000000
+      internalID: -7300413013137224309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_162
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 1890
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e77a1e0bd18f3b20800000000000000
+      internalID: 3116352244998109160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_163
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 1880
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531205b701c09c9d0800000000000000
+      internalID: -2753656432232488651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_164
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 1891
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12cbc01e7ae19210800000000000000
+      internalID: 1338108391474315802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_165
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1885
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b80591177c78860800000000000000
+      internalID: 7532208190370384665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_166
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 1860
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d439f665a5cb410800000000000000
+      internalID: 1494168503665773834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_167
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1860
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f8035f2ed2c0700800000000000000
+      internalID: 507831310785482570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_168
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1848
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20964fc295419ba50800000000000000
+      internalID: 6537278707343845634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_169
+      rect:
+        serializedVersion: 2
+        x: 2648
+        y: 1839
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d89528062583e80800000000000000
+      internalID: -8198712547170742930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_170
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 1831
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11767ed53f0306d60800000000000000
+      internalID: 7881353169709000465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_171
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1827
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb49fbdddeb1591e0800000000000000
+      internalID: -2191814935204358977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_172
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1827
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a6e6ff5803d6190800000000000000
+      internalID: -7967658813674329544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_173
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1810
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd19fa24d644d480800000000000000
+      internalID: -8875391088572424778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_174
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1823
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d5eaae32cfa0050800000000000000
+      internalID: 5767699503992691981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_175
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 1808
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccaa98de3ef767b0800000000000000
+      internalID: -5230932896292098879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_176
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1800
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baa8564ee8d8fef0800000000000000
+      internalID: -74070875957581136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_177
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1796
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87dabe4fb7aa9a6b0800000000000000
+      internalID: -5284505238375781000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_178
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 1790
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b1d27d9d412bf60800000000000000
+      internalID: 8048518409915013891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_179
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1769
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b4bd4b939e6a020800000000000000
+      internalID: 2352824289404341126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1768
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c9acc43b2697fc0800000000000000
+      internalID: -3496655113449464711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_181
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1774
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8542e7ad10f39b0800000000000000
+      internalID: -5098354215229302567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_182
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1762
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5d456cb6c28d240800000000000000
+      internalID: 4816648642873316828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_183
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1700
+        width: 135
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6023dc1fe0cacb700800000000000000
+      internalID: 557509634073375238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_184
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1754
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fdb8924db623850800000000000000
+      internalID: 6355260583147462503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_185
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1717
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c907a2796f464680800000000000000
+      internalID: -8771235909943752253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_186
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1757
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf92f79d8e357c9c0800000000000000
+      internalID: -3907061892174108165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_187
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1688
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf9506bd7400a460800000000000000
+      internalID: 7250800338037743530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_188
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1650
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bb6e3904957ae80800000000000000
+      internalID: -8167461265318954218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_189
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 1680
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd7de0874c15d450800000000000000
+      internalID: 6112823162656619981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_190
+      rect:
+        serializedVersion: 2
+        x: 2676
+        y: 1690
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067a4f9f90ae5b5e0800000000000000
+      internalID: -1894350739670259872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_191
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1668
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de30febf2950cec60800000000000000
+      internalID: 7848654379450041325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_192
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 1670
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a37b0b0e62029d0800000000000000
+      internalID: -2801196221745120615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_193
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 1646
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c2b4b69bdf77130800000000000000
+      internalID: 3564596602897902734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_194
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1624
+        width: 98
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da2a9f0f628ff0e0800000000000000
+      internalID: -2233923476637734189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_195
+      rect:
+        serializedVersion: 2
+        x: 2657
+        y: 1644
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e8997db4243a570800000000000000
+      internalID: 8476691817148550737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_196
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 1646
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546793569b2dc7720800000000000000
+      internalID: 2845380758300358213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_197
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 1618
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a694c2e2e3ed8fd0800000000000000
+      internalID: -2337962067928770903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_198
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1582
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed17ec8fccca0780800000000000000
+      internalID: -8715928937027920412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_199
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1596
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c8ea916af933c60800000000000000
+      internalID: 7796750915652717650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_200
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 1592
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141b6e8db95e63e60800000000000000
+      internalID: 7941787450436137281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_201
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1557
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55c917f982687090800000000000000
+      internalID: -8036565190346947235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_202
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1568
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4056b45b7f10887c0800000000000000
+      internalID: -4069000099919076092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_203
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1577
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55bb16fc945e85b0800000000000000
+      internalID: -5364257073031039649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_204
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1580
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40f56593690b1fc0800000000000000
+      internalID: -3523211960174383028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_205
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 1555
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e9b01937e34cee0800000000000000
+      internalID: -1241798931171795387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_206
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 1565
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03930556a62623bf0800000000000000
+      internalID: -346106012248295120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_207
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1535
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6750eed620e991870800000000000000
+      internalID: 8654121892240557430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_208
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1556
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b237f30ae47b0be0800000000000000
+      internalID: -1509984701614968140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_209
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1460
+        width: 94
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0214b6f7c3f1f3d0800000000000000
+      internalID: -3174488222156451316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_210
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1538
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857f8792272e8b3e0800000000000000
+      internalID: -2037629851435206824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_211
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1537
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de51295f5a6e8f70800000000000000
+      internalID: 9191400847259557584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_212
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 1526
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419052e069b9e5360800000000000000
+      internalID: 7160331526350375188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_213
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1498
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca7998fbfc089640800000000000000
+      internalID: 5086830055462107842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_214
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 1486
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9de60c126753270800000000000000
+      internalID: 8229613781423937993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_215
+      rect:
+        serializedVersion: 2
+        x: 2842
+        y: 1479
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f30b372b2ba85000800000000000000
+      internalID: 24957999780660209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_216
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1465
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290d8e7544b710610800000000000000
+      internalID: 1585684077273993362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_217
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1439
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953dceb7b79b821d0800000000000000
+      internalID: -3375243980702952615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_218
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1438
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe21e49ba29309480800000000000000
+      internalID: -8894546408396418321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_219
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1447
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d987e8c597eae7c00800000000000000
+      internalID: 900348811787794589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_220
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 1454
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0efd5d4c41423040800000000000000
+      internalID: 4625831563234246155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_221
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 1404
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726da539986110b50800000000000000
+      internalID: 6557547312566687271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_222
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1339
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8d982a3519d2d40800000000000000
+      internalID: 5561260903267686566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_223
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1347
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581f37502057cdee0800000000000000
+      internalID: -1234983546264489595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_224
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1358
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92925f9ff656084b0800000000000000
+      internalID: -5440236818254190295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_225
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 1363
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a25fa1e29a2f8810800000000000000
+      internalID: 1769679988919849641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_226
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1291
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9465bdcbb543fcb40800000000000000
+      internalID: 5462642441638860361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_227
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1302
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf0d705ac9aef9e0800000000000000
+      internalID: -1585643332388974662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_228
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1219
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff480452adfaeafc0800000000000000
+      internalID: -3481652110448098049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_229
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1164
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b630939aa2b00a710800000000000000
+      internalID: 1702372937001665387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_230
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1170
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c88a31af47ad0090800000000000000
+      internalID: -8066607397101467450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_231
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 1080
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02497f718656cc050800000000000000
+      internalID: 5822139916036314144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_232
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1135
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1fd9e6b4d737a70800000000000000
+      internalID: 8823533857880797687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_233
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1105
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742138ef6c89d5960800000000000000
+      internalID: 7592392527257473607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_234
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 925
+        width: 144
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dde12205119e050800000000000000
+      internalID: 5830210228475321684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_235
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1035
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b7f623f06df2520800000000000000
+      internalID: 2679595664067754801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_236
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 993
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b4d0c91ad9e9a80800000000000000
+      internalID: -8458149732721800301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_237
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 998
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8e9e98cb8bef060800000000000000
+      internalID: 6989226791632759007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_238
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 998
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6774d3cba1e5822b0800000000000000
+      internalID: -5609129866969659530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_239
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 975
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9347046f81f4f8540800000000000000
+      internalID: 5012311878915879993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_240
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 940
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd28b441eba6f160800000000000000
+      internalID: 7059018449958743516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_241
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 933
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a615593f57ee4140800000000000000
+      internalID: 4705953056818534057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_242
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 951
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae52ac503454e470800000000000000
+      internalID: 8422949769778978467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_243
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 939
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df7357c847b78a80800000000000000
+      internalID: -8464595451409891371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_244
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 939
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72916b51a2681dd40800000000000000
+      internalID: 5607410526363982119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vecteezy_blood-splatter-clipart_30762497_245
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 798
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a65849e4ef3a8f0800000000000000
+      internalID: -530300717646910915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vecteezy_blood-splatter-clipart_30762497_0: 1579261070748130479
+      vecteezy_blood-splatter-clipart_30762497_1: 7199800607957904604
+      vecteezy_blood-splatter-clipart_30762497_10: -6329892320816308428
+      vecteezy_blood-splatter-clipart_30762497_100: -2452619748282328292
+      vecteezy_blood-splatter-clipart_30762497_101: -6995725257159737867
+      vecteezy_blood-splatter-clipart_30762497_102: -5370382064589107067
+      vecteezy_blood-splatter-clipart_30762497_103: 959417106540652044
+      vecteezy_blood-splatter-clipart_30762497_104: 2519715508397934511
+      vecteezy_blood-splatter-clipart_30762497_105: 673009436659015328
+      vecteezy_blood-splatter-clipart_30762497_106: 7928124473831953560
+      vecteezy_blood-splatter-clipart_30762497_107: 4182540166305867986
+      vecteezy_blood-splatter-clipart_30762497_108: -1672365586772151175
+      vecteezy_blood-splatter-clipart_30762497_109: -8275813660649962544
+      vecteezy_blood-splatter-clipart_30762497_11: -1104397712500405488
+      vecteezy_blood-splatter-clipart_30762497_110: -3332232062669214023
+      vecteezy_blood-splatter-clipart_30762497_111: -4187069752950138119
+      vecteezy_blood-splatter-clipart_30762497_112: 9212894553084039086
+      vecteezy_blood-splatter-clipart_30762497_113: 913487012301560171
+      vecteezy_blood-splatter-clipart_30762497_114: 1716339098499050810
+      vecteezy_blood-splatter-clipart_30762497_115: 1326836245146952373
+      vecteezy_blood-splatter-clipart_30762497_116: 2526191365488578841
+      vecteezy_blood-splatter-clipart_30762497_117: 3902739514472608658
+      vecteezy_blood-splatter-clipart_30762497_118: 8843524835287907984
+      vecteezy_blood-splatter-clipart_30762497_119: -3415687267726948206
+      vecteezy_blood-splatter-clipart_30762497_12: -2167071302418482662
+      vecteezy_blood-splatter-clipart_30762497_120: -2249732854237172955
+      vecteezy_blood-splatter-clipart_30762497_121: -5453881768569530989
+      vecteezy_blood-splatter-clipart_30762497_122: 6063316210835536097
+      vecteezy_blood-splatter-clipart_30762497_123: -188600088918106419
+      vecteezy_blood-splatter-clipart_30762497_124: -8527087055558115726
+      vecteezy_blood-splatter-clipart_30762497_125: -8184593787757523095
+      vecteezy_blood-splatter-clipart_30762497_126: -878295637213014907
+      vecteezy_blood-splatter-clipart_30762497_127: 8327293312575993537
+      vecteezy_blood-splatter-clipart_30762497_128: 3993492631607400070
+      vecteezy_blood-splatter-clipart_30762497_129: 6168971113520870539
+      vecteezy_blood-splatter-clipart_30762497_13: -5709013532603720179
+      vecteezy_blood-splatter-clipart_30762497_130: -8864134998761044765
+      vecteezy_blood-splatter-clipart_30762497_131: -3504858566229926453
+      vecteezy_blood-splatter-clipart_30762497_132: 8714214745758029209
+      vecteezy_blood-splatter-clipart_30762497_133: 881609620612327167
+      vecteezy_blood-splatter-clipart_30762497_134: 1019888997539156704
+      vecteezy_blood-splatter-clipart_30762497_135: -1729270371682927370
+      vecteezy_blood-splatter-clipart_30762497_136: -3288767913047881770
+      vecteezy_blood-splatter-clipart_30762497_137: 6374887535294834396
+      vecteezy_blood-splatter-clipart_30762497_138: 8335318921208660020
+      vecteezy_blood-splatter-clipart_30762497_139: -279805429347005791
+      vecteezy_blood-splatter-clipart_30762497_14: 8012344598903121800
+      vecteezy_blood-splatter-clipart_30762497_140: 2314311068286436032
+      vecteezy_blood-splatter-clipart_30762497_141: -6133990562619728673
+      vecteezy_blood-splatter-clipart_30762497_142: -2281793936913113903
+      vecteezy_blood-splatter-clipart_30762497_143: 364734999092669375
+      vecteezy_blood-splatter-clipart_30762497_144: -4433350223346096403
+      vecteezy_blood-splatter-clipart_30762497_145: -3064045514606589288
+      vecteezy_blood-splatter-clipart_30762497_146: 6345312289211904906
+      vecteezy_blood-splatter-clipart_30762497_147: -2064562361464742125
+      vecteezy_blood-splatter-clipart_30762497_148: 4951804078374884727
+      vecteezy_blood-splatter-clipart_30762497_149: 874941113163388967
+      vecteezy_blood-splatter-clipart_30762497_15: -7232248849057795296
+      vecteezy_blood-splatter-clipart_30762497_150: 7027071404950693528
+      vecteezy_blood-splatter-clipart_30762497_151: 1089137345216056597
+      vecteezy_blood-splatter-clipart_30762497_152: 6232983498552725238
+      vecteezy_blood-splatter-clipart_30762497_153: 8746077139069479981
+      vecteezy_blood-splatter-clipart_30762497_154: -2513380831588017947
+      vecteezy_blood-splatter-clipart_30762497_155: -6093260703576488057
+      vecteezy_blood-splatter-clipart_30762497_156: 1311254695900209712
+      vecteezy_blood-splatter-clipart_30762497_157: -6532704223694776146
+      vecteezy_blood-splatter-clipart_30762497_158: -722870790382304602
+      vecteezy_blood-splatter-clipart_30762497_159: 1937546555453036679
+      vecteezy_blood-splatter-clipart_30762497_16: -2995206085915136471
+      vecteezy_blood-splatter-clipart_30762497_160: 5918155173673746801
+      vecteezy_blood-splatter-clipart_30762497_161: -7300413013137224309
+      vecteezy_blood-splatter-clipart_30762497_162: 3116352244998109160
+      vecteezy_blood-splatter-clipart_30762497_163: -2753656432232488651
+      vecteezy_blood-splatter-clipart_30762497_164: 1338108391474315802
+      vecteezy_blood-splatter-clipart_30762497_165: 7532208190370384665
+      vecteezy_blood-splatter-clipart_30762497_166: 1494168503665773834
+      vecteezy_blood-splatter-clipart_30762497_167: 507831310785482570
+      vecteezy_blood-splatter-clipart_30762497_168: 6537278707343845634
+      vecteezy_blood-splatter-clipart_30762497_169: -8198712547170742930
+      vecteezy_blood-splatter-clipart_30762497_17: 3262788044724552297
+      vecteezy_blood-splatter-clipart_30762497_170: 7881353169709000465
+      vecteezy_blood-splatter-clipart_30762497_171: -2191814935204358977
+      vecteezy_blood-splatter-clipart_30762497_172: -7967658813674329544
+      vecteezy_blood-splatter-clipart_30762497_173: -8875391088572424778
+      vecteezy_blood-splatter-clipart_30762497_174: 5767699503992691981
+      vecteezy_blood-splatter-clipart_30762497_175: -5230932896292098879
+      vecteezy_blood-splatter-clipart_30762497_176: -74070875957581136
+      vecteezy_blood-splatter-clipart_30762497_177: -5284505238375781000
+      vecteezy_blood-splatter-clipart_30762497_178: 8048518409915013891
+      vecteezy_blood-splatter-clipart_30762497_179: 2352824289404341126
+      vecteezy_blood-splatter-clipart_30762497_18: -188880451173696281
+      vecteezy_blood-splatter-clipart_30762497_180: -3496655113449464711
+      vecteezy_blood-splatter-clipart_30762497_181: -5098354215229302567
+      vecteezy_blood-splatter-clipart_30762497_182: 4816648642873316828
+      vecteezy_blood-splatter-clipart_30762497_183: 557509634073375238
+      vecteezy_blood-splatter-clipart_30762497_184: 6355260583147462503
+      vecteezy_blood-splatter-clipart_30762497_185: -8771235909943752253
+      vecteezy_blood-splatter-clipart_30762497_186: -3907061892174108165
+      vecteezy_blood-splatter-clipart_30762497_187: 7250800338037743530
+      vecteezy_blood-splatter-clipart_30762497_188: -8167461265318954218
+      vecteezy_blood-splatter-clipart_30762497_189: 6112823162656619981
+      vecteezy_blood-splatter-clipart_30762497_19: -3870473806362565710
+      vecteezy_blood-splatter-clipart_30762497_190: -1894350739670259872
+      vecteezy_blood-splatter-clipart_30762497_191: 7848654379450041325
+      vecteezy_blood-splatter-clipart_30762497_192: -2801196221745120615
+      vecteezy_blood-splatter-clipart_30762497_193: 3564596602897902734
+      vecteezy_blood-splatter-clipart_30762497_194: -2233923476637734189
+      vecteezy_blood-splatter-clipart_30762497_195: 8476691817148550737
+      vecteezy_blood-splatter-clipart_30762497_196: 2845380758300358213
+      vecteezy_blood-splatter-clipart_30762497_197: -2337962067928770903
+      vecteezy_blood-splatter-clipart_30762497_198: -8715928937027920412
+      vecteezy_blood-splatter-clipart_30762497_199: 7796750915652717650
+      vecteezy_blood-splatter-clipart_30762497_2: 3056709076739948450
+      vecteezy_blood-splatter-clipart_30762497_20: -1100590094868962707
+      vecteezy_blood-splatter-clipart_30762497_200: 7941787450436137281
+      vecteezy_blood-splatter-clipart_30762497_201: -8036565190346947235
+      vecteezy_blood-splatter-clipart_30762497_202: -4069000099919076092
+      vecteezy_blood-splatter-clipart_30762497_203: -5364257073031039649
+      vecteezy_blood-splatter-clipart_30762497_204: -3523211960174383028
+      vecteezy_blood-splatter-clipart_30762497_205: -1241798931171795387
+      vecteezy_blood-splatter-clipart_30762497_206: -346106012248295120
+      vecteezy_blood-splatter-clipart_30762497_207: 8654121892240557430
+      vecteezy_blood-splatter-clipart_30762497_208: -1509984701614968140
+      vecteezy_blood-splatter-clipart_30762497_209: -3174488222156451316
+      vecteezy_blood-splatter-clipart_30762497_21: 4940116666477105123
+      vecteezy_blood-splatter-clipart_30762497_210: -2037629851435206824
+      vecteezy_blood-splatter-clipart_30762497_211: 9191400847259557584
+      vecteezy_blood-splatter-clipart_30762497_212: 7160331526350375188
+      vecteezy_blood-splatter-clipart_30762497_213: 5086830055462107842
+      vecteezy_blood-splatter-clipart_30762497_214: 8229613781423937993
+      vecteezy_blood-splatter-clipart_30762497_215: 24957999780660209
+      vecteezy_blood-splatter-clipart_30762497_216: 1585684077273993362
+      vecteezy_blood-splatter-clipart_30762497_217: -3375243980702952615
+      vecteezy_blood-splatter-clipart_30762497_218: -8894546408396418321
+      vecteezy_blood-splatter-clipart_30762497_219: 900348811787794589
+      vecteezy_blood-splatter-clipart_30762497_22: -4227090894276337443
+      vecteezy_blood-splatter-clipart_30762497_220: 4625831563234246155
+      vecteezy_blood-splatter-clipart_30762497_221: 6557547312566687271
+      vecteezy_blood-splatter-clipart_30762497_222: 5561260903267686566
+      vecteezy_blood-splatter-clipart_30762497_223: -1234983546264489595
+      vecteezy_blood-splatter-clipart_30762497_224: -5440236818254190295
+      vecteezy_blood-splatter-clipart_30762497_225: 1769679988919849641
+      vecteezy_blood-splatter-clipart_30762497_226: 5462642441638860361
+      vecteezy_blood-splatter-clipart_30762497_227: -1585643332388974662
+      vecteezy_blood-splatter-clipart_30762497_228: -3481652110448098049
+      vecteezy_blood-splatter-clipart_30762497_229: 1702372937001665387
+      vecteezy_blood-splatter-clipart_30762497_23: 5930901994088932168
+      vecteezy_blood-splatter-clipart_30762497_230: -8066607397101467450
+      vecteezy_blood-splatter-clipart_30762497_231: 5822139916036314144
+      vecteezy_blood-splatter-clipart_30762497_232: 8823533857880797687
+      vecteezy_blood-splatter-clipart_30762497_233: 7592392527257473607
+      vecteezy_blood-splatter-clipart_30762497_234: 5830210228475321684
+      vecteezy_blood-splatter-clipart_30762497_235: 2679595664067754801
+      vecteezy_blood-splatter-clipart_30762497_236: -8458149732721800301
+      vecteezy_blood-splatter-clipart_30762497_237: 6989226791632759007
+      vecteezy_blood-splatter-clipart_30762497_238: -5609129866969659530
+      vecteezy_blood-splatter-clipart_30762497_239: 5012311878915879993
+      vecteezy_blood-splatter-clipart_30762497_24: 5544664820023808566
+      vecteezy_blood-splatter-clipart_30762497_240: 7059018449958743516
+      vecteezy_blood-splatter-clipart_30762497_241: 4705953056818534057
+      vecteezy_blood-splatter-clipart_30762497_242: 8422949769778978467
+      vecteezy_blood-splatter-clipart_30762497_243: -8464595451409891371
+      vecteezy_blood-splatter-clipart_30762497_244: 5607410526363982119
+      vecteezy_blood-splatter-clipart_30762497_245: -530300717646910915
+      vecteezy_blood-splatter-clipart_30762497_25: -3523713433230473719
+      vecteezy_blood-splatter-clipart_30762497_26: 2587318442530469753
+      vecteezy_blood-splatter-clipart_30762497_27: 4548593314539539159
+      vecteezy_blood-splatter-clipart_30762497_28: -1951710290535146958
+      vecteezy_blood-splatter-clipart_30762497_29: 1833489724054709808
+      vecteezy_blood-splatter-clipart_30762497_3: -8520975004863265772
+      vecteezy_blood-splatter-clipart_30762497_30: 1555769884511522970
+      vecteezy_blood-splatter-clipart_30762497_31: 4361215210166345492
+      vecteezy_blood-splatter-clipart_30762497_32: -5490819699503530943
+      vecteezy_blood-splatter-clipart_30762497_33: 3214915610015148677
+      vecteezy_blood-splatter-clipart_30762497_34: 2672741048239466423
+      vecteezy_blood-splatter-clipart_30762497_35: 336454326515901189
+      vecteezy_blood-splatter-clipart_30762497_36: 6133873793402267174
+      vecteezy_blood-splatter-clipart_30762497_37: -2185234602240636528
+      vecteezy_blood-splatter-clipart_30762497_38: -6418997893896766602
+      vecteezy_blood-splatter-clipart_30762497_39: -7197991569429506874
+      vecteezy_blood-splatter-clipart_30762497_4: 6973267890612834815
+      vecteezy_blood-splatter-clipart_30762497_40: 190942374324046376
+      vecteezy_blood-splatter-clipart_30762497_41: -1642414236745850169
+      vecteezy_blood-splatter-clipart_30762497_42: -8803120429235379475
+      vecteezy_blood-splatter-clipart_30762497_43: 8598901690926621158
+      vecteezy_blood-splatter-clipart_30762497_44: 7841578728582910165
+      vecteezy_blood-splatter-clipart_30762497_45: -4427632842950985652
+      vecteezy_blood-splatter-clipart_30762497_46: 8971111895767163878
+      vecteezy_blood-splatter-clipart_30762497_47: 5739934931939703069
+      vecteezy_blood-splatter-clipart_30762497_48: -4289690286187995822
+      vecteezy_blood-splatter-clipart_30762497_49: 7390235121632747005
+      vecteezy_blood-splatter-clipart_30762497_5: -8860589370449476831
+      vecteezy_blood-splatter-clipart_30762497_50: -4087922153626783810
+      vecteezy_blood-splatter-clipart_30762497_51: -2474868596423790065
+      vecteezy_blood-splatter-clipart_30762497_52: -3755480633984364293
+      vecteezy_blood-splatter-clipart_30762497_53: -8055194018970345398
+      vecteezy_blood-splatter-clipart_30762497_54: -3005357932234970532
+      vecteezy_blood-splatter-clipart_30762497_55: 6672394210588639323
+      vecteezy_blood-splatter-clipart_30762497_56: -2852385440281693039
+      vecteezy_blood-splatter-clipart_30762497_57: 406870684486885423
+      vecteezy_blood-splatter-clipart_30762497_58: 2234334684385006754
+      vecteezy_blood-splatter-clipart_30762497_59: 8406283945205281154
+      vecteezy_blood-splatter-clipart_30762497_6: -5285784935045401659
+      vecteezy_blood-splatter-clipart_30762497_60: 7231849750452055337
+      vecteezy_blood-splatter-clipart_30762497_61: -2397014001417618994
+      vecteezy_blood-splatter-clipart_30762497_62: 5525809703738257795
+      vecteezy_blood-splatter-clipart_30762497_63: -2296777200020926942
+      vecteezy_blood-splatter-clipart_30762497_64: -9159573220129573462
+      vecteezy_blood-splatter-clipart_30762497_65: -6682119106395047942
+      vecteezy_blood-splatter-clipart_30762497_66: -4653965922988206729
+      vecteezy_blood-splatter-clipart_30762497_67: -6974207647740395395
+      vecteezy_blood-splatter-clipart_30762497_68: -8480881037530596784
+      vecteezy_blood-splatter-clipart_30762497_69: 3496163890134208195
+      vecteezy_blood-splatter-clipart_30762497_7: 7045969354549978847
+      vecteezy_blood-splatter-clipart_30762497_70: 6261786811303571343
+      vecteezy_blood-splatter-clipart_30762497_71: 8393582269466152632
+      vecteezy_blood-splatter-clipart_30762497_72: -1472576996621972898
+      vecteezy_blood-splatter-clipart_30762497_73: 6021903996190065176
+      vecteezy_blood-splatter-clipart_30762497_74: -4444056085430801208
+      vecteezy_blood-splatter-clipart_30762497_75: 8722467221569636782
+      vecteezy_blood-splatter-clipart_30762497_76: -7372385703304413748
+      vecteezy_blood-splatter-clipart_30762497_77: -5169527168195770428
+      vecteezy_blood-splatter-clipart_30762497_78: -2080905171153188645
+      vecteezy_blood-splatter-clipart_30762497_79: -8139314200220712027
+      vecteezy_blood-splatter-clipart_30762497_8: -697967625618242192
+      vecteezy_blood-splatter-clipart_30762497_80: 7813790342721387506
+      vecteezy_blood-splatter-clipart_30762497_81: 7884541146963277751
+      vecteezy_blood-splatter-clipart_30762497_82: -6561432158781622419
+      vecteezy_blood-splatter-clipart_30762497_83: 2186859026656002620
+      vecteezy_blood-splatter-clipart_30762497_84: -764090148954839853
+      vecteezy_blood-splatter-clipart_30762497_85: 8621138727540408938
+      vecteezy_blood-splatter-clipart_30762497_86: 3278699333987431254
+      vecteezy_blood-splatter-clipart_30762497_87: 7963823768602079069
+      vecteezy_blood-splatter-clipart_30762497_88: -170576558502558638
+      vecteezy_blood-splatter-clipart_30762497_89: -821173089226208900
+      vecteezy_blood-splatter-clipart_30762497_9: 8791445959805078732
+      vecteezy_blood-splatter-clipart_30762497_90: 6673314344296163041
+      vecteezy_blood-splatter-clipart_30762497_91: -8186950722270934892
+      vecteezy_blood-splatter-clipart_30762497_92: -6020730585952438734
+      vecteezy_blood-splatter-clipart_30762497_93: -8022548708767419899
+      vecteezy_blood-splatter-clipart_30762497_94: 3260944678371134163
+      vecteezy_blood-splatter-clipart_30762497_95: -8681170164410161140
+      vecteezy_blood-splatter-clipart_30762497_96: -1930054567080947191
+      vecteezy_blood-splatter-clipart_30762497_97: 5280074093231376717
+      vecteezy_blood-splatter-clipart_30762497_98: -5504057924463782143
+      vecteezy_blood-splatter-clipart_30762497_99: 8476176435797840974
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149cb9805c4e54afda198e0413f1ba75, type: 3}
+  m_Name: Ak_Gun_1
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: fc27e9369537d7446947420d1bf4889c,
+    type: 3}
+  <Name>k__BackingField: AK_Gun
+  <Description>k__BackingField: tergrtg
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 22155b0e197c145c58718fcc4b0a8918,
+    type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 6001491949254868993
+  - rid: 8093760310337601536
+  - rid: 8093760310664757249
+  - rid: 8093760310664757250
+  references:
+    version: 2
+    RefIds:
+    - rid: 6001491949254868993
+      type: {class: InputHoldData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: InputHoldData
+    - rid: 8093760310337601536
+      type: {class: ProjectileSpawnerData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: 
+          <SpawnInfos>k__BackingField:
+          - <SpawnerName>k__BackingField: BulletFire
+            <Direction>k__BackingField: {x: -0.028627101, y: -0.014923587, z: 0.13588688,
+              w: -0.99019825}
+            <ProjectilePrefab>k__BackingField: {fileID: 9101266492236017911, guid: 1df4550ca64604143b38d70b3d3be6f5,
+              type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 5
+            <KnockBackData>k__BackingField:
+              Strength: 7
+              Angle: {x: 1, y: 5}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 4
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: 21300000, guid: 78ab22c42ce54404bbf54ac0d84ec073,
+                type: 3}
+          - <SpawnerName>k__BackingField: BulletExtracter
+            <Direction>k__BackingField: {x: -0.0000000038097046, y: -0.99619466, z: -0.08715588,
+              w: 0.00000004354505}
+            <ProjectilePrefab>k__BackingField: {fileID: 9086824391991934754, guid: 8d5d57e20fc244cffa968ba7fafd7564,
+              type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 0
+            <KnockBackData>k__BackingField:
+              Strength: 0
+              Angle: {x: 0, y: 0}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 0
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: 21300000, guid: 78ab22c42ce54404bbf54ac0d84ec073,
+                type: 3}
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 0
+    - rid: 8093760310664757249
+      type: {class: DrawToProjectileData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DrawToProjectileData
+    - rid: 8093760310664757250
+      type: {class: DrawData, ns: Tero.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DrawData
+        repeatData: 0
+        attackData:
+        - name: 
+          <DrawCurve>k__BackingField:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 1
+              inSlope: 0.0030670166
+              outSlope: 0.0030670166
+              tangentMode: 34
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0.33333334
+            - serializedVersion: 3
+              time: 1
+              value: 1.003067
+              inSlope: -0.023334652
+              outSlope: -0.023334652
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0.47500002
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 0
+          <DrawTime>k__BackingField: 0.2666667

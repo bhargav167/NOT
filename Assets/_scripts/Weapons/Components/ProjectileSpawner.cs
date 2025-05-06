@@ -35,9 +35,12 @@ namespace Tero.Weapons.Components
                 {
                     if (projectileSpawnInfo.SpawnerName == ObjectName.BulletFire.ToString() && player.InputHandeler.IsreadyToFire){
                         // Spawn projectile based on the current strategy 
-                        ParticleSystem particleSystem = GameObject.Instantiate(weapon.shootEffect, weapon.shootPoint.transform.position, Quaternion.Euler(weapon.shootPoint.transform.rotation.x, weapon.shootPoint.transform.rotation.y, weapon.shootPoint.transform.rotation.z-0.4f)) as ParticleSystem;
-                        // particleSystem.startRotation = projectileSpawnInfo.Direction.y;
+                        ParticleSystem particleSystem = GameObject.Instantiate(weapon.shootEffect, weapon.shootPoint.transform.position, 
+                        Quaternion.Euler(weapon.shootPoint.transform.rotation.x,
+                         weapon.shootPoint.transform.rotation.y, 
+                         0)) as ParticleSystem;
                         particleSystem.Play();
+
                         projectileSpawnerStrategy.ExecuteSpawnStrategy(projectileSpawnInfo, weapon.shootPoint.position, projectileSpawnInfo.Direction,
                                      -CoreMovement.FacingDirection, objectPools, OnSpawnProjectile);
                     } 

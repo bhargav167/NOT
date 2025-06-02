@@ -24,8 +24,9 @@ public class E1_IdleState : IdleState {
     }
     public override void LogicUpdate () {
         base.LogicUpdate ();
-        if (isPlayerInMinArgoFrontRange) {
-            stateMachine.ChangeState (enemy.playerDetectedState);
+        if (isPlayerInMinArgoFrontRange)
+        {
+            stateMachine.ChangeState(enemy.playerDetectedState);
         }
         if (isPlayerInMinArgoBackRange)
         {

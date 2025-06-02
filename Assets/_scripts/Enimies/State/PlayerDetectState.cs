@@ -16,20 +16,15 @@ public class PlayerDetectState : States {
     protected bool performLongRangAction;
     protected bool performCloseRangeAction;
     protected bool isDetectedLedger;
-    
+    protected bool ishiding;
+    private RaycastHit2D closestHit = new RaycastHit2D();
     public PlayerDetectState (Entity entity, FinateStateMachine stateMachine, string animBoolName, D_PlayerDetctData stateData) : base (entity, stateMachine, animBoolName) {
         this.stateData = stateData;
     }
 
-    public override void DoCheck () {
-        base.DoCheck ();
-         if(CollisionSences){
-            isDetectedLedger = CollisionSences.LedgeVertical;
-        }
-        isPlayerMinAgroFrontRange = entity.CheckPlayerInFrontMinAgroRange();
-        isPlayerMinAgroBackRange = entity.CheckPlayerInBackMinAgroRange();
-        isPlayerMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
-        performCloseRangeAction = entity.CheckPlayerInCloseRangeAction();
+    public override void DoCheck()
+    {
+        base.DoCheck(); 
     }
 
     public override void Enter () {

@@ -32,7 +32,7 @@ namespace Tero.CoreSystem
         private void CheckKnockBack()
         {
             if ((isKnockBackActive)
-                && ((movement.CurrectVelocity.y <= 0.01f && collisionSenses.Grounded)
+                && ((movement.CurrectVelocity.y <= 0.01f)
                     && Time.time >= knockBackStartTime + maxKnockBackTime)
                )
             {

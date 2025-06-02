@@ -324,7 +324,7 @@ AnimatorStateMachine:
     m_Position: {x: 400, y: 260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7475675557059698139}
-    m_Position: {x: 400, y: 330, z: 0}
+    m_Position: {x: 400, y: 320, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3581594506107686867}
     m_Position: {x: 70, y: 190, z: 0}
@@ -333,7 +333,7 @@ AnimatorStateMachine:
     m_Position: {x: -140, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4803903288120898619}
-    m_Position: {x: 400, y: 390, z: 0}
+    m_Position: {x: 400, y: 380, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions:
@@ -351,7 +351,7 @@ AnimatorStateMachine:
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 90, y: 60, z: 0}
   m_EntryPosition: {x: 90, y: 120, z: 0}
-  m_ExitPosition: {x: 780, y: 140, z: 0}
+  m_ExitPosition: {x: 800, y: 140, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -2583123290811525229}
 --- !u!1102 &-2583123290811525229
@@ -391,9 +391,6 @@ AnimatorTransition:
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: lookingforplayer
-    m_EventTreshold: 0
-  - m_ConditionMode: 2
-    m_ConditionEvent: knockByGrenade
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 547114603920241902}

@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+using Tero.CoreSystem;
 using UnityEngine;
 
 namespace Tero

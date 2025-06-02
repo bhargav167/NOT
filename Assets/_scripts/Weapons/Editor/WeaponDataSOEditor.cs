@@ -10,7 +10,7 @@ using UnityEngine;
 namespace Tero.Weapons
 {
     [CustomEditor(typeof(WeaponDataSO))]
-    public class WeaponDataSOEditor : Editor
+    public class WeaponDataSOEditor : UnityEditor.Editor
     {
         private static List<Type> dataCompTypes = new List<Type>();
 

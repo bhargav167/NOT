@@ -14,7 +14,11 @@ public class ChargeState : States {
     protected bool isDetectedWall;
     protected bool isChargeTimeOver;
     protected bool performCloseRangeAction;
-    public ChargeState (Entity entity, FinateStateMachine stateMachine, string animBoolName, D_ChargeState stateData) : base (entity, stateMachine, animBoolName) {
+    protected bool ishiding;
+    protected RaycastHit2D closestHit;
+    
+    public ChargeState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_ChargeState stateData) : base(entity, stateMachine, animBoolName)
+    {
         this.stateData = stateData;
     }
 
@@ -23,7 +27,9 @@ public class ChargeState : States {
         isPlayerMinAgroFrontRange = entity.CheckPlayerInFrontMinAgroRange();
         isPlayerMinAgroBackRange = entity.CheckPlayerInBackMinAgroRange();
         performCloseRangeAction =entity.CheckPlayerInCloseRangeAction();
-        if (CollisionSences){
+        closestHit = entity.GetClosestHitFromPlayerCheck();
+        if (CollisionSences)
+        {
             isDetectedWall = CollisionSences.Wall;
             isDetectedLedge = CollisionSences.LedgeVertical;
         }
@@ -41,13 +47,28 @@ public class ChargeState : States {
 
     public override void LogicUpdate () {
         base.LogicUpdate ();
-        Movement.SetVelocityX (stateData.chargeSpeed * Movement.FacingDirection); 
-        if(Time.time>=startTime+stateData.chargeTime){
-            isChargeTimeOver=true;
+        if (!ishiding)
+        {
+            Movement.SetVelocityX(stateData.chargeSpeed * Movement.FacingDirection);
+            if (Time.time >= startTime + stateData.chargeTime)
+            {
+                isChargeTimeOver = true;
+            }
+        }
+        else
+        {
+            Movement.SetVelocityX(0f);
         }
     }
 
-    public override void PhysicsUpdate () {
-        base.PhysicsUpdate ();
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+        
+        if (closestHit.collider != null)
+        {
+            Debug.Log("Closest Hit charge: " + closestHit.collider.gameObject.name);
+            ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
+        }
     }
 }

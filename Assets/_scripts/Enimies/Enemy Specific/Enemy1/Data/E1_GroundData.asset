@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b728ed2f158734d59beeeb18f44b1a7c, type: 3}
   m_Name: E1_GroundData
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 0

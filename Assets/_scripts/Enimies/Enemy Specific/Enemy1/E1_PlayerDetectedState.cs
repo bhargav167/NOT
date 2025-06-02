@@ -9,18 +9,16 @@ public class E1_PlayerDetectedState : PlayerDetectState
     private Movement movement;
     protected KnockBackReceiver Combat { get => combat ?? core.getCoreComponents(ref combat); }
     private KnockBackReceiver combat;
-    public float fireRate = 2.5f;
-    private float nextFire = 0.4f;
     public E1_PlayerDetectedState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_PlayerDetctData stateData,Enemy1 enemy) : base(entity, stateMachine, animBoolName, stateData)
     {
         this.enemy=enemy;
     }
-
-    public override void Enter(){
-        base.Enter(); 
+    public override void Enter()
+    {
+        base.Enter();
     } 
     public override void Exist(){
-        base.Exist(); 
+        base.Exist();
     } 
     public override void LogicUpdate(){
         base.LogicUpdate();
@@ -28,19 +26,19 @@ public class E1_PlayerDetectedState : PlayerDetectState
         {
             stateMachine.ChangeState(enemy.knockState);
         }
-        if (performCloseRangeAction){ 
+        if (ishiding){
+            stateMachine.ChangeState(enemy.hideState);
+        }
+        if (performCloseRangeAction)
+        {
             stateMachine.ChangeState(enemy.meleeAttactState);
         }
-        if(performLongRangAction){ 
+        if(performLongRangAction){
             stateMachine.ChangeState(enemy.chargeState);
         }
-        if (isPlayerMinAgroFrontRange && !isDetectedLedger)
-        { 
-            if (Time.time>nextFire)
-            {
-                nextFire = Time.time + fireRate;
-                stateMachine.ChangeState(enemy.jumpState);
-            }
+        if (isPlayerMinAgroFrontRange && performLongRangAction)
+        {
+            stateMachine.ChangeState(enemy.chargeState);
         }
     }
     public override void PhysicsUpdate()

@@ -35,7 +35,8 @@ namespace Tero.CoreSystem
         }
         public float GroundCheckRadius { get => groundCheckRadius; set => groundCheckRadius = value; }
         public float WallCheckDistance { get => wallCheckDistance; set => wallCheckDistance = value; }
-        public LayerMask WhatIsGround { get => whatIsGround; set => whatIsGround = value; }
+        public float hideDistance { get => wallCheckDistance; set => wallCheckDistance = value; } 
+        public LayerMask WhatIsGround { get => whatIsGround; set => whatIsGround = value; } 
 
         [SerializeField] private Transform groundCheck;
         [SerializeField] private Transform wallCheck;
@@ -45,6 +46,7 @@ namespace Tero.CoreSystem
         [SerializeField] private float groundCheckRadius;
         [SerializeField] private float wallCheckDistance;
         [SerializeField] private LayerMask whatIsGround;
+
         #endregion
 
         #region Check Function
@@ -74,5 +76,7 @@ namespace Tero.CoreSystem
         }
 
         #endregion
+        
+            
     }
 }

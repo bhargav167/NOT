@@ -29,10 +29,10 @@ public class PlayerGroundedState : PlayerState {
     public override void DoCheck () {
         base.DoCheck ();
         if (CollisionSences){
-            isGrounded = CollisionSences.Grounded;
-            isTouchingWall = CollisionSences.Wall;
-            isTouchingLedge = CollisionSences.LedgeHorizontal;
-            isTouchingCelling = CollisionSences.Ceiling;
+            // isGrounded = CollisionSences.Grounded;
+            // isTouchingWall = CollisionSences.Wall;
+            // isTouchingLedge = CollisionSences.LedgeHorizontal;
+            // isTouchingCelling = CollisionSences.Ceiling;
         }
     }
     public override void Enter () {
@@ -68,10 +68,7 @@ public class PlayerGroundedState : PlayerState {
         {
          stateMachine.ChangeState(Player.JumpState);
         }
-        else if (!isGrounded)
-        {
-            stateMachine.ChangeState(Player.InAirState);
-        }
+         
         else if (isTouchingWall && GrabInput)
         {
             stateMachine.ChangeState(Player.WallGrabState);

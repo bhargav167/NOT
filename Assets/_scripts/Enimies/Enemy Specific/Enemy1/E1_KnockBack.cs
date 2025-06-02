@@ -13,8 +13,9 @@ public class E1_KnockBack :KnockBack
     public override void DoCheck () {
         base.DoCheck ();
     }
-    public override void Enter () {
-        base.Enter ();
+    public override void Enter()
+    {
+        base.Enter();
     }
     public override void Exist () {
        
@@ -22,7 +23,14 @@ public class E1_KnockBack :KnockBack
     }
     public override void LogicUpdate () {
         base.LogicUpdate ();
-       stateMachine.ChangeState(_enemy.lookingForPlayerState);
+        if (isPlayerIsInMinAgroFrontRange || isPlayerIsInMinAgroBackRange || isPlayerIsInMaxAgroBackRange)
+            {
+                stateMachine.ChangeState(_enemy.meleeAttactState);
+            }
+            else
+            {
+                stateMachine.ChangeState(_enemy.lookingForPlayerState);
+            }
     }
 
     public override void PhysicsUpdate () {

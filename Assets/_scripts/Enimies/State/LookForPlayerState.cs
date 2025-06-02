@@ -27,7 +27,6 @@ public class LookForPlayerState : States {
         isAllTurnTimeDone = false;
         lastTurnTime = startTime;
         amountOfTurnDone = 0;
-
         Movement.SetVelocityX (0f);
     }
 

@@ -35,7 +35,7 @@ namespace Tero.ProjectileSystem.Components
             rb.MoveRotation(rb.rotation * 8);
         }
         private void SetVelocity() {
-            rb.velocity = Speed * transform.right;
+            rb.linearVelocity = Speed * transform.right;
         } 
 
         protected override void FixedUpdate()

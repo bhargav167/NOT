@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ApplyContinuously>k__BackingField: 1
   <IsbulletExtracter>k__BackingField: 0
-  <Speed>k__BackingField: 4
+  <Speed>k__BackingField: 120
   <ExtracterKnockback>k__BackingField: 0
 --- !u!114 &7802107376349184820
 MonoBehaviour:
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   impactParticles:
-  - {fileID: 5257588761217804533, guid: 3ca6139eb9a824735a277bd3cb331877, type: 3}
+  - {fileID: 5266825299475992987, guid: 0169fc36ec1e94ef4aa774570190b199, type: 3}
   - {fileID: 1079754962052162137, guid: 5740b165637a540d280838b951f3f293, type: 3}
   splatPrefab: {fileID: 193024203922773558, guid: 2f75a4e1535124e909d216f339c0de50,
     type: 3}

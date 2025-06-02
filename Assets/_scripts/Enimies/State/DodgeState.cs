@@ -23,7 +23,7 @@ public class DodgeState : States
         performCloseRangeAction=entity.CheckPlayerInCloseRangeAction();
         isPlayerInMaxAgroRange=entity.CheckPlayerInMaxAgroRange();
         if(CollisionSences){
-            isGrounded=CollisionSences.Wall;
+           // isGrounded=CollisionSences.Wall;
         }
     }
 

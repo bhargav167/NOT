@@ -102,7 +102,7 @@ namespace Tero.ProjectileSystem.Components
         { 
                 isStuck = true;
                 sr.sortingLayerName = InactiveSortingLayerName;
-                rb.velocity = Vector2.zero;
+                rb.linearVelocity = Vector2.zero;
                 rb.bodyType = RigidbodyType2D.Static;
                 setStuck?.Invoke();
             

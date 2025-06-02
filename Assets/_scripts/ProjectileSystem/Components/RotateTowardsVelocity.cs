@@ -11,7 +11,7 @@ namespace Tero.ProjectileSystem.Components
         {
             base.FixedUpdate();
 
-            var velocity = rb.velocity;
+            var velocity = rb.linearVelocity;
 
             if (velocity.Equals(Vector3.zero))
                 return;

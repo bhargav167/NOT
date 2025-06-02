@@ -24,26 +24,20 @@ public class E1_ChargeState : ChargeState {
         {
             stateMachine.ChangeState(enemy.knockState);
         }
+        if (ishiding){
+            stateMachine.ChangeState(enemy.hideState);
+        }
         if (HeadCombat.isKnockBackActive)
         {
             stateMachine.ChangeState(enemy.headknockState);
         }
         if (performCloseRangeAction) {
             stateMachine.ChangeState(enemy.meleeAttactState);
-            }
-       else if (!isDetectedLedge || isDetectedWall) {
-            stateMachine.ChangeState (enemy.lookingForPlayerState);
-        } else if (isChargeTimeOver) {
-           
-            if (isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange) {
-                stateMachine.ChangeState (enemy.playerDetectedState);
-            }else{
-                stateMachine.ChangeState(enemy.lookingForPlayerState);
-            }
-        }
+        } 
     }
 
-    public override void PhysicsUpdate () {
-        base.PhysicsUpdate ();
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
     }
 }

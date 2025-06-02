@@ -42,7 +42,6 @@ public class AttactState : States {
     }
     public virtual void FinishGranadeKnockback()
     {
-        Debug.Log(10);
     }
     public virtual void FinishAttact () {
         isAnimationFinished=true;

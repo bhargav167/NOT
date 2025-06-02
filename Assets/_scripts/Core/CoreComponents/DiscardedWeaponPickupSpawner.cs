@@ -29,7 +29,7 @@ namespace Tero.CoreSystem
                 spawnDirection.y
             );
 
-            weaponPickup.Rigidbody2D.velocity = adjustedSpawnDirection.normalized * spawnVelocity;
+            weaponPickup.Rigidbody2D.linearVelocity = adjustedSpawnDirection.normalized * spawnVelocity;
         }
 
         protected override void Awake()

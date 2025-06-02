@@ -28,7 +28,7 @@ public class PlayerAbitityState : PlayerState {
     public override void LogicUpdate () {
         base.LogicUpdate ();
         if (isAbilityDone) {
-            if (isGrounded && Player.CurrectVelocity.y < 0.01f) { 
+            if (Player.CurrectVelocity.y < 0.01f) { 
                 stateMachine.ChangeState (Player.IdleState);
             }else {
                 stateMachine.ChangeState (Player.InAirState);

@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags:
   - Bullet
   - Police
@@ -21,7 +21,7 @@ TagManager:
   - WorldItem
   - police
   - Wall
-  - Grounded
+  - HideObject
   - 
   - Player
   - Damagable
@@ -59,3 +59,5 @@ TagManager:
   - name: BarkBG1
     uniqueID: 64856673
     locked: 0
+  m_RenderingLayers:
+  - Default

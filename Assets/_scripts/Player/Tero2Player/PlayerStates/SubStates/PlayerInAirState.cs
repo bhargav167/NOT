@@ -26,10 +26,10 @@ public class PlayerInAirState : PlayerState {
     public override void DoCheck () {
         base.DoCheck ();
         if (CollisionSences){
-            isGrounded = CollisionSences.Grounded;
-            isTouchingWall = CollisionSences.Wall;
-            isTouchingWallBack = CollisionSences.WallBack;
-            isTouchinLedge = CollisionSences.LedgeHorizontal;
+            // isGrounded = CollisionSences.Grounded;
+            // isTouchingWall = CollisionSences.Wall;
+            // isTouchingWallBack = CollisionSences.WallBack;
+            // isTouchinLedge = CollisionSences.LedgeHorizontal;
             oldIsTouchingWall = isTouchingWall;
             oldIsTouchingWallBack = isTouchingWallBack;
         }
@@ -72,7 +72,7 @@ public class PlayerInAirState : PlayerState {
         }
         else if(jumpInput && (isTouchingWall || isTouchingWallBack || wallJumpCoyoteTime)){
             StopWallJumpCyoteTime();
-            isTouchingWall=CollisionSences.Wall;
+           // isTouchingWall=CollisionSences.Wall;
             Player.WallJumpState.DetermineWallJumpDirection(isTouchingWall);
             stateMachine.ChangeState(Player.WallJumpState);
         }

@@ -13,6 +13,7 @@ public class Enemy1 : Entity {
     public E1_LegKnockBack legknockState { get; private set; }
     public E1_GranadeKnockBack granadeknockState { get; private set; }
     public E1_StunState stunState { get; private set; }
+    public E1_HideState hideState { get; private set; }
     public E1_DeadState deadState { get; private set; }
     public E1_HeadShotState headshotState { get; private set; }
 
@@ -50,6 +51,7 @@ public class Enemy1 : Entity {
         legknockState = new E1_LegKnockBack(this, stateMachine, "LegsShot", null, this);
         granadeknockState = new E1_GranadeKnockBack(this, stateMachine, "knockByGrenade", null, this);
         stunState = new E1_StunState(this, stateMachine, "stun", stunStateData, this);
+        hideState = new E1_HideState(this, stateMachine, "hide", playerDetectStateData, this);
         deadState = new E1_DeadState(this, stateMachine, "dead", null, this);
         headshotState = new E1_HeadShotState(this, stateMachine, "HeadShot", null, this);
     }

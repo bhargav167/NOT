@@ -7,6 +7,8 @@ namespace Tero.CoreSystem
         [SerializeField] private GameObject[] deathParticle;
         private ParticleManager ParticleManager => particleManager ? particleManager : core.getCoreComponents(ref particleManager);
         private ParticleManager particleManager;
+        protected Movement Movement {get=>movement ?? core.getCoreComponents(ref movement);}
+        private Movement movement;
 
         private Stats Stats => stats ? stats : core.getCoreComponents(ref stats);
         private Stats stats;

@@ -23,7 +23,7 @@ namespace Tero.CoreSystem
         public override void LogicUpdate()
         {
             base.LogicUpdate();
-            CurrectVelocity = RB.velocity;
+            CurrectVelocity = RB.linearVelocity;
         }
         #region SetFunction 
         public void SetVelocityZero()
@@ -34,7 +34,10 @@ namespace Tero.CoreSystem
         public void SetVelocity(float velocity, Vector2 angle, int direction)
         {
             angle.Normalize();
-            workSpace.Set(angle.x * velocity * direction, angle.y * velocity);
+            // Set knockback Y angle to some value
+            // workSpace.Set(angle.x * velocity * direction, angle.y * velocity);
+            // Set knockback Y angle to ZERO
+            workSpace.Set(angle.x * velocity * direction, 0f);
             SetFinalVelocity();
         }
 
@@ -68,7 +71,7 @@ namespace Tero.CoreSystem
         private void SetFinalVelocity()
         {
             if (CanSetVelocity){
-                RB.velocity = workSpace;
+                RB.linearVelocity = workSpace;
                 CurrectVelocity = workSpace;
             }
         }

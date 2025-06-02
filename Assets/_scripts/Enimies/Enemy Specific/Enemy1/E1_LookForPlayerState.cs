@@ -1,5 +1,6 @@
+using System.Diagnostics;
 using Tero.CoreSystem;
-
+using UnityEngine;
 public class E1_LookForPlayerState : LookForPlayerState
 {
     private Enemy1 enemy;
@@ -22,7 +23,7 @@ public class E1_LookForPlayerState : LookForPlayerState
     public override void Enter()
     {
         base.Enter();
-    } 
+    }
     public override void Exist()
     {
         base.Exist();
@@ -30,17 +31,15 @@ public class E1_LookForPlayerState : LookForPlayerState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (Combat.isKnockBackActive)
-        {
-            stateMachine.ChangeState(enemy.knockState);
-        }
+        
         if (HeadCombat.isKnockBackActive)
         {
             stateMachine.ChangeState(enemy.headknockState);
         }
-        if (isPlayerMinAgroFrontRange){
+       if(isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange){
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
+         
         if (Death.IsDead)
         {
             stateMachine.ChangeState(enemy.deadState);
@@ -48,7 +47,6 @@ public class E1_LookForPlayerState : LookForPlayerState
         else if(isAllTurnTimeDone){
             stateMachine.ChangeState(enemy.moveState);
         }
-
     }
 
     public override void PhysicsUpdate()

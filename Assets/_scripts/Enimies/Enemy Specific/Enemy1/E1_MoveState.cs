@@ -23,7 +23,8 @@ public class E1_MoveState : MoveState
     {
         this.enemy=enemy;
     }
-    public override void Enter(){
+    public override void Enter()
+    {
         base.Enter();
     } 
 
@@ -35,7 +36,11 @@ public class E1_MoveState : MoveState
     public override void LogicUpdate()
     { 
         base.LogicUpdate();
-        if (isPlayerMinAgroFrontRange){
+        if (ishiding){
+            stateMachine.ChangeState(enemy.hideState);
+        }
+        if (isPlayerMinAgroFrontRange)
+        {
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
         if (isPlayerMinAgroBackRange){
@@ -65,7 +70,7 @@ public class E1_MoveState : MoveState
         {
             stateMachine.ChangeState(enemy.headshotState);
         }
-        else if (isDetectedWall || !isDetectedLedger)
+        else if (isDetectedWall || isDetectedLedger)
         {
             enemy.idleState.SetFlipAfterIdle(true);
             stateMachine.ChangeState(enemy.idleState);

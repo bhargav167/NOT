@@ -47,7 +47,7 @@ namespace Tero.ProjectileSystem.Components
         {
             base.FixedUpdate();
             // Used to compensate for projectile velocity to help stop clipping
-            checkDistance = rb.velocity.magnitude * Time.deltaTime;
+            checkDistance = rb.linearVelocity.magnitude * Time.deltaTime;
             
             CheckHitBox();
         }

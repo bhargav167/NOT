@@ -15,7 +15,7 @@ public class MoveState : States
     private KnockBackReceiver combat;
     protected D_MoveState stateData;
     protected bool isDetectedWall;
-    protected bool isDetectedHideObjectFront;
+    protected bool isDetectedHideObjectFront; 
     protected bool isDetectedHideObjectBack;
     protected bool isDetectedLedger;
     protected bool isPlayerMaxAgroRange;
@@ -32,7 +32,8 @@ public class MoveState : States
     public override void DoCheck()
     {
         base.DoCheck();
-        if (CollisionSences){
+        if (CollisionSences)
+        {
             isDetectedLedger = CollisionSences.LedgeVertical;
             isDetectedWall = CollisionSences.Wall;
         }
@@ -40,7 +41,7 @@ public class MoveState : States
         isPlayerMinAgroBackRange = entity.CheckPlayerInBackMinAgroRange();
         isPlayerMinAgroUpRange = entity.CheckPlayerInUpMinAgroRange();
         isPlayerMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
-        closestHit = entity.GetClosestHitFromPlayerCheck();
+        closestHit = entity.GetClosestHitFromPlayerCheck(); 
     }
 
     public override void Enter()
@@ -55,11 +56,10 @@ public class MoveState : States
     }
     public override void LogicUpdate()
     {
-        base.LogicUpdate();
-        Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection); 
+        base.LogicUpdate(); 
+        Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection);
         if (closestHit.collider != null && isPlayerMinAgroFrontRange)
         {
-            Debug.Log("Closest Hit Move: " + closestHit.collider.gameObject.name);
             ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
         }
     }

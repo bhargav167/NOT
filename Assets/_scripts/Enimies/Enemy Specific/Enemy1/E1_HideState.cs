@@ -15,8 +15,7 @@ public class E1_HideState : HideState
     }
     public override void Enter()
     {
-        base.Enter();
-        Debug.Log("Enemy is hiding");
+        base.Enter();  
     } 
     public override void Exist(){
         base.Exist();

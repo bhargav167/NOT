@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Tero.CoreSystem;
+using Tero;
 public class ChargeState : States {
      protected Movement Movement {get=>movement ?? core.getCoreComponents(ref movement);} 
     protected CollisionSences CollisionSences {get=>collisionSences ?? core.getCoreComponents(ref collisionSences);} 
@@ -9,7 +10,7 @@ public class ChargeState : States {
     private CollisionSences collisionSences;
     protected D_ChargeState stateData;
     protected bool isPlayerMinAgroFrontRange;
-    protected bool isPlayerMinAgroBackRange;
+    protected bool isPlayerMinAgroBackRange; 
     protected bool isDetectedLedge;
     protected bool isDetectedWall;
     protected bool isChargeTimeOver;
@@ -35,10 +36,11 @@ public class ChargeState : States {
         }
     }
 
-    public override void Enter () {
-        base.Enter ();
-        isChargeTimeOver=false;
-        Movement.SetVelocityX (stateData.chargeSpeed * Movement.FacingDirection); 
+    public override void Enter()
+    {
+        base.Enter();
+        isChargeTimeOver = false;
+        Movement.SetVelocityX(stateData.chargeSpeed * Movement.FacingDirection);
     }
 
     public override void Exist () {
@@ -57,17 +59,15 @@ public class ChargeState : States {
         }
         else
         {
-            Movement.SetVelocityX(0f);
+            Movement.SetVelocityX(0f); 
         }
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        
-        if (closestHit.collider != null)
+         if (closestHit.collider != null && isPlayerMinAgroFrontRange)
         {
-            Debug.Log("Closest Hit charge: " + closestHit.collider.gameObject.name);
             ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
         }
     }

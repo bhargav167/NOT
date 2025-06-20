@@ -15,6 +15,7 @@ public class PlayerDetectState : States {
     protected bool isPlayerMaxAgroRange;
     protected bool performLongRangAction;
     protected bool performCloseRangeAction;
+    protected bool isPlayerMinAgroUpRange;
     protected bool isDetectedLedger;
     protected bool ishiding;
     private RaycastHit2D closestHit = new RaycastHit2D();
@@ -25,13 +26,19 @@ public class PlayerDetectState : States {
     public override void DoCheck()
     {
         base.DoCheck(); 
+        isPlayerMinAgroFrontRange = entity.CheckPlayerInFrontMinAgroRange();
+        isPlayerMinAgroBackRange = entity.CheckPlayerInBackMinAgroRange();
+        isPlayerMinAgroUpRange = entity.CheckPlayerInUpMinAgroRange();
+        isPlayerMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
+        closestHit = entity.GetClosestHitFromPlayerCheck();
     }
 
-    public override void Enter () {
-        base.Enter ();
-       
-        performLongRangAction =false; 
-         Movement.SetVelocityX (0f);
+    public override void Enter()
+    {
+        base.Enter();
+        performLongRangAction = false;
+        Movement.SetVelocityX(0f); 
+            entity.originalPosition = entity.policeTransform.transform.position;
     }
     public override void Exist () {
         base.Exist ();
@@ -44,7 +51,12 @@ public class PlayerDetectState : States {
         }
     }
 
-    public override void PhysicsUpdate () {
-        base.PhysicsUpdate ();
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
+        if (closestHit.collider != null)
+        {
+            ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
+        }
     }
 }

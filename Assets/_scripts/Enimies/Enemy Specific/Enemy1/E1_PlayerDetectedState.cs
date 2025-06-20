@@ -33,10 +33,7 @@ public class E1_PlayerDetectedState : PlayerDetectState
         {
             stateMachine.ChangeState(enemy.meleeAttactState);
         }
-        if(performLongRangAction){
-            stateMachine.ChangeState(enemy.chargeState);
-        }
-        if (isPlayerMinAgroFrontRange && performLongRangAction)
+        if (isPlayerMinAgroFrontRange)
         {
             stateMachine.ChangeState(enemy.chargeState);
         }

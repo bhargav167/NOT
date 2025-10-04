@@ -10,7 +10,8 @@ public class Entity : MonoBehaviour
     public FinateStateMachine stateMachine { get; set; }
     public Core Core { get; private set; }
     public D_Entity entityData;
-    public Animator anim { get; private set; }
+    public D_HideStateData hideStateData;
+    public Animator anim { get; set; }
     public AnimationToStateMachine atsm { get; private set; }
     [SerializeField]
     private Transform wallCheck;
@@ -21,29 +22,25 @@ public class Entity : MonoBehaviour
     [SerializeField]
     private Transform GroundCheck;
     [Header("Settings")]
-    [SerializeField] private float hideDistanceFront = 1f;
-    [SerializeField] private float hideDistanceBack = 1f;
-    [SerializeField] public float hideSpeed = 5f;
-    [SerializeField] private float hideOffset = 0.3f;
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private LayerMask hideObjectLayer;
-
     [Header("References")]
     [SerializeField] public Transform policeTransform;
+    public Player _player;
     public Vector2 originalPosition;
     RaycastHit2D closestHit = new RaycastHit2D();
     public HideStatus currentHideStatus = HideStatus.NotHiding;
     public HideStatus CurrentHideStatus => currentHideStatus;
     public HittingDirection currentHittingDirection = HittingDirection.Front;
     public HittingDirection CurrentHittingDirection => currentHittingDirection;
-
-    public bool flippedToHide = false;
+    private bool _IsActivatedtoHide = false;
     public virtual void Awake()
     {
         anim = GetComponent<Animator>();
         stateMachine = new FinateStateMachine();
         atsm = GetComponent<AnimationToStateMachine>();
         Core = GetComponentInChildren<Core>();
+        _player = FindAnyObjectByType<Player>();
     }
     public virtual void Update()
     {
@@ -54,6 +51,15 @@ public class Entity : MonoBehaviour
     public virtual void FixedUpdate()
     {
         stateMachine.currentState.PhysicsUpdate();
+        if (Core.getCoreComponents<KnockBackReceiver>().isKnockBackActive)
+        {
+            _IsActivatedtoHide = true;
+        }
+        // Debug.Log(_player.GetComponentInChildren<Core>().GetComponentInChildren<Stats>().Health.CurrentValue);
+        // Debug.Log(_player.playerCurrentState);
+        //Debug.Log(Core.getCoreComponents<KnockBackReceiver>().isKnockBackActive);
+        //Debug.Log(Core.getCoreComponents<Stats>().Health.CurrentValue);
+
     }
     public virtual void OnDrawGizmos()
     {
@@ -66,9 +72,9 @@ public class Entity : MonoBehaviour
             Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.minAgroDistance), 0.2f);
             Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.maxAgroDistance), 0.2f);
             Gizmos.color = Color.blue;
-            Gizmos.DrawLine(transform.position, transform.position + Vector3.right * Movement.FacingDirection * hideDistanceFront);
+            Gizmos.DrawLine(transform.position, transform.position + Vector3.right * Movement.FacingDirection * hideStateData.hideDistanceFront);
             Gizmos.color = Color.darkBlue;
-            Gizmos.DrawLine(transform.position, transform.position + Vector3.left * Movement.FacingDirection * hideDistanceBack);
+            Gizmos.DrawLine(transform.position, transform.position + Vector3.left * Movement.FacingDirection * hideStateData.hideDistanceBack);
 
         }
     }
@@ -96,50 +102,55 @@ public class Entity : MonoBehaviour
     {
         return Physics2D.Raycast(playerCheck.position, Vector2.right * Movement.FacingDirection, entityData.closeRangeActionDistance, entityData.whatIsPlayer);
     }
-    public RaycastHit2D GetClosestHitFromPlayerCheck()
+    protected internal RaycastHit2D GetClosestHitFromPlayerCheck()
     {
-        RaycastHit2D hitFront = Physics2D.Raycast(
-            playerCheck.position,
-            Vector2.right * Movement.FacingDirection,
-            hideDistanceFront,
-            hideObjectLayer
-        );
-        RaycastHit2D hitBack = Physics2D.Raycast(
-            playerCheck.position,
-            Vector2.left * Movement.FacingDirection,
-            hideDistanceBack,
-            hideObjectLayer
-        );
+        if (_IsActivatedtoHide)
+        {
+            RaycastHit2D hitFront = Physics2D.Raycast(
+               playerCheck.position,
+               Vector2.right * Movement.FacingDirection,
+               hideStateData.hideDistanceFront,
+               hideObjectLayer
+           );
+            RaycastHit2D hitBack = Physics2D.Raycast(
+                playerCheck.position,
+                Vector2.left * Movement.FacingDirection,
+                hideStateData.hideDistanceBack,
+                hideObjectLayer
+            );
 
-        if (hitFront)
-        {
-            currentHittingDirection = HittingDirection.Front;
-            return closestHit = hitFront;
-        }
-        if (hitBack)
-        {
-            currentHittingDirection = HittingDirection.Back;
-            return closestHit = hitBack;
-        }
-        if (hitFront && hitBack)
-        {
-            if (Vector2.Distance(playerCheck.position, hitFront.point) < Vector2.Distance(playerCheck.position, hitBack.point))
+            if (hitFront)
             {
+                currentHittingDirection = HittingDirection.Front;
                 return closestHit = hitFront;
             }
-            else
+            if (hitBack)
             {
+                currentHittingDirection = HittingDirection.Back;
                 return closestHit = hitBack;
             }
+            if (hitFront && hitBack)
+            {
+                if (Vector2.Distance(playerCheck.position, hitFront.point) < Vector2.Distance(playerCheck.position, hitBack.point))
+                {
+                    return closestHit = hitFront;
+                }
+                else
+                {
+                    return closestHit = hitBack;
+                }
+            }
+            if (hitFront.collider == null && hitBack.collider == null)
+            {
+                closestHit = new RaycastHit2D();
+                _IsActivatedtoHide = false;
+                return closestHit;
+            }
         }
-        if (hitFront.collider == null && hitBack.collider == null)
-        {
-            closestHit = new RaycastHit2D();
-            return closestHit;
-        }
+
         return closestHit;
     }
-    public void MoveToHidePosition()
+    protected internal void MoveToHidePosition()
     {
         if (currentHideStatus != HideStatus.Hiding && currentHideStatus != HideStatus.Returning)
         {
@@ -151,7 +162,7 @@ public class Entity : MonoBehaviour
                     policeTransform.transform.position = Vector2.MoveTowards(
                       policeTransform.transform.position,
                       hideObject.GetComponent<PolicHidePosition>().corner1.transform.position,
-                      hideSpeed * Time.deltaTime
+                      hideStateData.hideSpeed * Time.deltaTime
                  );
                 }
                 if (movement.FacingDirection == 1)
@@ -159,29 +170,46 @@ public class Entity : MonoBehaviour
                     policeTransform.transform.position = Vector2.MoveTowards(
                         policeTransform.transform.position,
                         hideObject.GetComponent<PolicHidePosition>().corner2.transform.position,
-                        hideSpeed * Time.deltaTime
+                        hideStateData.hideSpeed * Time.deltaTime
                    );
                 }
             }
             if (Vector2.Distance(policeTransform.transform.position, hideObject.GetComponent<PolicHidePosition>().corner2.transform.position) <= 0.2f || Vector2.Distance(policeTransform.transform.position, hideObject.GetComponent<PolicHidePosition>().corner1.transform.position) <= 0.2f)
             {
                 currentHideStatus = HideStatus.Hiding;
-                flippedToHide = false;
+                hideStateData.flippedToHide = false;
             }
         }
-
     }
-    public void ReturnToOriginalPosition()
+    protected internal void ReturnToOriginalPosition()
     {
-        currentHideStatus = HideStatus.Returning;
-        policeTransform.transform.position = Vector2.MoveTowards(
-            policeTransform.transform.position,
-            originalPosition,
-            hideSpeed * Time.deltaTime
-        ); 
-        if (Vector2.Distance(policeTransform.transform.position, originalPosition) < 0.1f)
+        if (currentHideStatus == HideStatus.Returning)
         {
-           currentHideStatus = HideStatus.NotHiding;
+            Flip();
+            policeTransform.transform.position = Vector2.MoveTowards(
+                policeTransform.transform.position,
+                originalPosition,
+                hideStateData.hideSpeed * Time.deltaTime
+            );
+            if (Vector2.Distance(policeTransform.transform.position, originalPosition) < 0.1f)
+            {
+                hideStateData.flippedToHide = false;
+                currentHideStatus = HideStatus.NotHiding;
+                Flip();
+            }
+        }
+    }
+    protected internal void Flip()
+    {
+        if (policeTransform.localScale.x == 0.5f && !hideStateData.flippedToHide)
+        {
+            hideStateData.flippedToHide = true;
+            policeTransform.localScale = new Vector3(-policeTransform.localScale.x, policeTransform.localScale.y, policeTransform.localScale.z);
+        }
+        if (policeTransform.localScale.x == -0.5f && !hideStateData.flippedToHide)
+        {
+            hideStateData.flippedToHide = true;
+            policeTransform.localScale = new Vector3(MathF.Abs(policeTransform.localScale.x), policeTransform.localScale.y, policeTransform.localScale.z);
         }
     }
 }

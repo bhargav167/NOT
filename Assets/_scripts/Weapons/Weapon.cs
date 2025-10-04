@@ -58,10 +58,7 @@ namespace Tero.Weapons
                 }
             }
         }
-
-
         public float AttackStartTime { get; private set; }
-
         public Animator anim { get; private set; }
         public GameObject BaseGameObject { get; private set; }
 

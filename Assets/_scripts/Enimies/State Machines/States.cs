@@ -4,14 +4,14 @@ public class States {
     protected FinateStateMachine stateMachine;
     protected Entity entity;
     protected Core core;
-    public float startTime {get;protected set;}
-    protected string animBoolName;
-    public States (Entity entity, FinateStateMachine stateMachine, string animBoolName){
+    public float startTime { get; protected set; }
+    protected string animBoolName; 
+    public States(Entity entity, FinateStateMachine stateMachine, string animBoolName)
+    {
         this.entity = entity;
         this.stateMachine = stateMachine;
         this.animBoolName = animBoolName;
-        core=entity.Core;
-        
+        core = entity.Core;
     }
     public virtual void Enter () {
         startTime = Time.time;

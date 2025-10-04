@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Tero.CoreSystem;
 using static Tero.PolicHidePosition;
 using System;
-using Unity.Mathematics;
+using Tero;
 
 public class HideState : States
 {
@@ -14,14 +12,14 @@ public class HideState : States
     private CollisionSences collisionSences;
     protected Stats Stats { get => stats ?? core.getCoreComponents(ref stats); }
     private Stats stats;
-    public HideState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_PlayerDetctData stateData) : base(entity, stateMachine, animBoolName)
+    public bool isHidden = false;
+    public HideState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_HideStateData stateData) : base(entity, stateMachine, animBoolName)
     {
     }
     public override void DoCheck()
     {
         base.DoCheck();
-    }
-
+    } 
     public override void Enter()
     {
         base.Enter();
@@ -31,7 +29,7 @@ public class HideState : States
         }
         if (entity.currentHittingDirection == HittingDirection.Back)
         {
-            Flip();
+            entity.Flip();
         }
     }
     public override void Exist()
@@ -41,28 +39,19 @@ public class HideState : States
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+        entity.MoveToHidePosition();
+        if (entity.currentHideStatus == HideStatus.Returning)
+        {
+            entity.ReturnToOriginalPosition();
+        }
+        if (entity.currentHideStatus == HideStatus.Hiding)
+        {
+            isHidden = true;
+        }
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        entity.MoveToHidePosition();
-        if (entity.currentHideStatus == HideStatus.Returning)
-        { 
-            entity.ReturnToOriginalPosition();
-        }
-    }
-    private void Flip()
-    {
-        if (entity.policeTransform.localScale.x == 0.5f && !entity.flippedToHide)
-        {
-            entity.flippedToHide = true;
-            entity.policeTransform.localScale = new Vector3(-entity.policeTransform.localScale.x, entity.policeTransform.localScale.y, entity.policeTransform.localScale.z);
-        }
-        if (entity.policeTransform.localScale.x == -0.5f && !entity.flippedToHide)
-        {
-            entity.flippedToHide = true;
-            entity.policeTransform.localScale = new Vector3(MathF.Abs(entity.policeTransform.localScale.x), entity.policeTransform.localScale.y, entity.policeTransform.localScale.z);
-        }
     }
 } 

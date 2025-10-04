@@ -31,7 +31,7 @@ public class StunState : States
         base.Enter();
          isStunTimeOver = false;
         isMovementStopped = false;
-       
+        Debug.Log("stunt");
        // core.Movement.SetVelocity(stateData.stunKnockbackSpeed, stateData.stunKnockbackAngle, entity.lastDamageDirection);
     } 
     public override void Exist()

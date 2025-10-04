@@ -14,7 +14,6 @@ namespace Tero.CoreSystem
         private float knockBackStartTime;
         private float _stuntTime = 3.5f;
         private Movement movement;
-        private CollisionSences collisionSenses;
         public override void LogicUpdate()
         {
             CheckKnockBack();
@@ -70,7 +69,6 @@ namespace Tero.CoreSystem
         {
             base.Awake();
             movement = core.getCoreComponents<Movement>();
-            collisionSenses = core.getCoreComponents<CollisionSences>();
         }
     }
 }

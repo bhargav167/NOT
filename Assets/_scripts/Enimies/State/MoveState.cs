@@ -6,8 +6,8 @@ using System.Runtime.Serialization.Formatters;
 public class MoveState : States
 {
     private Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
-    private CollisionSences CollisionSences { get => collisionSences ?? core.getCoreComponents(ref collisionSences); }
     private Movement movement;
+    private CollisionSences CollisionSences { get => collisionSences ?? core.getCoreComponents(ref collisionSences); }
     private CollisionSences collisionSences;
     private Stats Stats { get => stats ?? core.getCoreComponents(ref stats); }
     private Stats stats;
@@ -58,7 +58,7 @@ public class MoveState : States
     {
         base.LogicUpdate(); 
         Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection);
-        if (closestHit.collider != null && isPlayerMinAgroFrontRange)
+        if (closestHit.collider != null)
         {
             ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
         }
@@ -66,6 +66,5 @@ public class MoveState : States
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        
     }
 }

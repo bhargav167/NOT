@@ -8,13 +8,14 @@ public class PlayerState : MonoBehaviour {
     protected bool isAnimationFinished;
     protected bool IsExistingState;
     protected float startTime;
-    private string animBoolName; 
-    public PlayerState (Player player, PlayerStateMachine stateMachine, PlayerData playerData,string animBoolName) {
+    private string animBoolName;
+    public PlayerState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName)
+    {
         this.Player = player;
         this.stateMachine = stateMachine;
         this.playerData = playerData;
-        this.animBoolName = animBoolName; 
-        core=Player.Core;
+        this.animBoolName = animBoolName;
+        core = Player.Core;
     }
     public virtual void Enter () {
         DoCheck();
@@ -33,7 +34,32 @@ public class PlayerState : MonoBehaviour {
     public virtual void PhysicsUpdate () {
         DoCheck();
     }
-    public virtual void DoCheck () {}
+    public virtual void DoCheck()
+    {
+        switch (animBoolName)
+        {
+            case "idle": 
+            Player.playerCurrentState = "Idle";
+                break;
+            case "move":
+               Player.playerCurrentState = "Move";
+                break;
+            case "fire":
+               Player.playerCurrentState = "Fire";
+                break;
+            case "primaryattack":
+               Player.playerCurrentState = "PrimaryAttack";
+                break;
+            case "knockback":
+               Player.playerCurrentState = "KnockBack";
+                break;
+            case "IsDead":
+               Player.playerCurrentState = "IsDead";
+                break;
+            default:
+                break;
+        }
+    }
     public virtual void AnimationTrigger(){}
 
     public virtual void AnimationFinishTrigger() =>isAnimationFinished=true;

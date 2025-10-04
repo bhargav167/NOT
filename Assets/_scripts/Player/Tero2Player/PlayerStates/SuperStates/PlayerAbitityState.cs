@@ -6,7 +6,7 @@ using Tero.Weapons;
 
 public class PlayerAbitityState : PlayerState {
     protected bool isAbilityDone;
-    protected Movement Movement {get=>movement ?? core.getCoreComponents(ref movement);} 
+    protected Movement Movement { get => movement ?? core.getCoreComponents(ref movement); } 
     protected CollisionSences CollisionSences {get=>collisionSences ?? core.getCoreComponents(ref collisionSences);}
     private Movement movement;
     private CollisionSences collisionSences;

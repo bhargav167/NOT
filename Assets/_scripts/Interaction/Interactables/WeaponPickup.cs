@@ -7,7 +7,6 @@ namespace Tero.Interaction.Interactables
     public class WeaponPickup : MonoBehaviour, IInteractable<WeaponDataSO>
     {
         [field: SerializeField] public Rigidbody2D Rigidbody2D { get; private set; }
-
         [SerializeField] private SpriteRenderer weaponIcon;
         [SerializeField] private Bobber bobber;
 

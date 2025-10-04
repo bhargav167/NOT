@@ -42,8 +42,9 @@ public class Player : MonoBehaviour
     #endregion
 
     #region Other Variable
+    protected internal string playerCurrentState;
     [SerializeField]
-    private PlayerData playerData;
+    protected internal PlayerData playerData;
     private Vector2 workSpace;
     private Weapon Primaryweapon;
     private Weapon Secondtyweapon;

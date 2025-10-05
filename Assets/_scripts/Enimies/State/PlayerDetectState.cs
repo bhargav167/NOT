@@ -38,7 +38,6 @@ public class PlayerDetectState : States {
         base.Enter();
         performLongRangAction = false;
         Movement.SetVelocityX(0f); 
-            entity.originalPosition = entity.policeTransform.transform.position;
     }
     public override void Exist () {
         base.Exist ();

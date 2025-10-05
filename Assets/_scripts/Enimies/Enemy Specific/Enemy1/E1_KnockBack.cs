@@ -16,21 +16,25 @@ public class E1_KnockBack :KnockBack
     public override void Enter()
     {
         base.Enter();
+        entity.originalPosition = entity.policeTransform.transform.position;
     }
-    public override void Exist () {
-       
+    public override void Exist (){
         base.Exist ();
     }
     public override void LogicUpdate () {
         base.LogicUpdate ();
-        if (isPlayerIsInMinAgroFrontRange || isPlayerIsInMinAgroBackRange || isPlayerIsInMaxAgroBackRange)
-            {
-                stateMachine.ChangeState(_enemy.meleeAttactState);
-            }
-            else
-            {
-                stateMachine.ChangeState(_enemy.lookingForPlayerState);
-            }
+        if (isPlayerIsInCloseRangeAction)
+        {
+            stateMachine.ChangeState(_enemy.meleeAttactState);
+        }
+        if (ishiding)
+        {
+            stateMachine.ChangeState(_enemy.hideState);
+        }
+        else
+        {
+            stateMachine.ChangeState(_enemy.stunState);
+        }
     }
 
     public override void PhysicsUpdate () {

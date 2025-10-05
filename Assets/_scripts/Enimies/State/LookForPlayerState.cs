@@ -1,8 +1,8 @@
 using UnityEngine;
 using Tero.CoreSystem;
 public class LookForPlayerState : States {
-     protected Movement Movement {get=>movement ?? core.getCoreComponents(ref movement);} 
-     private Movement movement;
+    protected Movement Movement {get=>movement ?? core.getCoreComponents(ref movement);} 
+    private Movement movement;
     protected D_LookForPlayer stateData;
     protected bool turnImmediatly;
     protected bool isPlayerMinAgroFrontRange;

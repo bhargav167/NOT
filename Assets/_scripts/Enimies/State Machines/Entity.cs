@@ -34,6 +34,7 @@ public class Entity : MonoBehaviour
     public HittingDirection currentHittingDirection = HittingDirection.Front;
     public HittingDirection CurrentHittingDirection => currentHittingDirection;
     private bool _IsActivatedtoHide = false;
+    public bool _IsMovedtoOrignalPos = false;
     public virtual void Awake()
     {
         anim = GetComponent<Animator>();
@@ -196,6 +197,7 @@ public class Entity : MonoBehaviour
                 hideStateData.flippedToHide = false;
                 currentHideStatus = HideStatus.NotHiding;
                 Flip();
+                _IsMovedtoOrignalPos = true;
             }
         }
     }

@@ -9,33 +9,29 @@ public class E1_ChargeState : ChargeState {
     public E1_ChargeState (Entity entity, FinateStateMachine stateMachine, string animBoolName, D_ChargeState stateData, Enemy1 enemy) : base (entity, stateMachine, animBoolName, stateData) {
         this.enemy = enemy;
     }
-    public override void DoCheck () {
+    public override void DoCheck (){
         base.DoCheck ();
     }
-    public override void Enter () {
+    public override void Enter (){
         base.Enter ();
     }
-    public override void Exist () {
+    public override void Exist (){
         base.Exist ();
     }
-    public override void LogicUpdate () {
+    public override void LogicUpdate (){
         base.LogicUpdate ();
         if (Combat.isKnockBackActive)
         {
             stateMachine.ChangeState(enemy.knockState);
         }
-        if (ishiding){
-            stateMachine.ChangeState(enemy.hideState);
-        }
         if (HeadCombat.isKnockBackActive)
         {
             stateMachine.ChangeState(enemy.headknockState);
         }
-        if (performCloseRangeAction) {
+        if (performCloseRangeAction){
             stateMachine.ChangeState(enemy.meleeAttactState);
-        } 
+        }
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();

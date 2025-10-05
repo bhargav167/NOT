@@ -29,7 +29,7 @@ public class HideState : States
         }
         if (entity.currentHittingDirection == HittingDirection.Back)
         {
-            entity.Flip();
+           entity.Flip();
         }
     }
     public override void Exist()

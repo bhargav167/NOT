@@ -29,10 +29,9 @@ public class StunState : States
     public override void Enter()
     {
         base.Enter();
-         isStunTimeOver = false;
+        isStunTimeOver = false;
         isMovementStopped = false;
-        Debug.Log("stunt");
-       // core.Movement.SetVelocity(stateData.stunKnockbackSpeed, stateData.stunKnockbackAngle, entity.lastDamageDirection);
+       //core.Movement.SetVelocity(stateData. , stateData.stunKnockbackAngle, entity.lastDamageDirection);
     } 
     public override void Exist()
     {

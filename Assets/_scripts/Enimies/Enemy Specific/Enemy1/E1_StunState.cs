@@ -32,7 +32,7 @@ public class E1_StunState : StunState
         base.LogicUpdate();
         //if (Combat.isKnockBackActive == false)
         // {
-        //  stateMachine.ChangeState(enemy.meleeAttactState);
+          stateMachine.ChangeState(enemy.moveState);
         // }
     }
     public override void PhysicsUpdate()

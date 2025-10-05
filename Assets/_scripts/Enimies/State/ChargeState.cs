@@ -29,8 +29,7 @@ public class ChargeState : States {
         isPlayerMinAgroBackRange = entity.CheckPlayerInBackMinAgroRange();
         performCloseRangeAction =entity.CheckPlayerInCloseRangeAction();
         closestHit = entity.GetClosestHitFromPlayerCheck();
-        if (CollisionSences)
-        {
+        if (CollisionSences) {
             isDetectedWall = CollisionSences.Wall;
             isDetectedLedge = CollisionSences.LedgeVertical;
         }
@@ -52,23 +51,14 @@ public class ChargeState : States {
         if (!ishiding)
         {
             Movement.SetVelocityX(stateData.chargeSpeed * Movement.FacingDirection);
-            if (Time.time >= startTime + stateData.chargeTime)
-            {
-                isChargeTimeOver = true;
-            }
+            if (Time.time >= startTime + stateData.chargeTime) isChargeTimeOver = true;
         }
-        else
-        {
-            Movement.SetVelocityX(0f); 
-        }
-    }
+    } 
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
         if (closestHit.collider != null)
-        {
             ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
-        }
     }
 }

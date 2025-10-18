@@ -1,8 +1,9 @@
-using UnityEngine;
-using Tero.CoreSystem;
-using static Tero.PolicHidePosition;
 using System;
 using Tero;
+using Tero.CoreSystem;
+using UnityEditor.Overlays;
+using UnityEngine;
+using static Tero.PolicHidePosition;
 
 public class HideState : States
 {
@@ -13,12 +14,16 @@ public class HideState : States
     protected Stats Stats { get => stats ?? core.getCoreComponents(ref stats); }
     private Stats stats;
     public bool isHidden = false;
+
+    protected bool isPlayerRight;
     public HideState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_HideStateData stateData) : base(entity, stateMachine, animBoolName)
     {
     }
     public override void DoCheck()
     {
         base.DoCheck();
+        isPlayerRight = entity.StaticCastRayForPlayerRight();
+
     } 
     public override void Enter()
     {
@@ -29,7 +34,7 @@ public class HideState : States
         }
         if (entity.currentHittingDirection == HittingDirection.Back)
         {
-           entity.Flip();
+            Movement.Flip();
         }
     }
     public override void Exist()
@@ -39,7 +44,7 @@ public class HideState : States
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        entity.MoveToHidePosition();
+        entity.MoveToHidePosition(isPlayerRight);
         if (entity.currentHideStatus == HideStatus.Returning)
         {
             entity.ReturnToOriginalPosition();

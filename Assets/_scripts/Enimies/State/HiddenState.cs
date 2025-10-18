@@ -13,6 +13,7 @@ public class HiddenState : States
     protected Stats Stats { get => stats ?? core.getCoreComponents(ref stats); }
     private Stats stats;
     private float hideTimeout = 4f;
+    protected bool isPlayerMaxRayHitting;
     public HiddenState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_HideStateData stateData, Enemy1 enemy) : base(entity, stateMachine, animBoolName)
     {
         this._enemy = enemy;

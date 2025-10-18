@@ -57,7 +57,7 @@ namespace Tero.CoreSystem
             workSpace.Set(CurrectVelocity.x, velocity);
             SetFinalVelocity();
         }
-
+        
         //AI JUMP
         public void SetjumpVelocityY(float velocity, float jumpInx, float jumpInY)
         {

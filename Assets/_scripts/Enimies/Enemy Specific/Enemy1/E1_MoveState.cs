@@ -36,7 +36,7 @@ public class E1_MoveState : MoveState
     public override void LogicUpdate()
     { 
         base.LogicUpdate();
-        if (ishiding){
+        if (ishiding && isPlayerMaxAgroRange){
             stateMachine.ChangeState(enemy.hideState);
         }
         if (isPlayerMinAgroFrontRange)

@@ -22,6 +22,7 @@ public class MoveState : States
     protected bool isPlayerMinAgroFrontRange;
     protected bool isPlayerMinAgroBackRange;
     protected bool isPlayerMinAgroUpRange;
+    protected bool isPlayerMaxRayHitting;
     protected bool ishiding; 
     protected RaycastHit2D closestHit;
     public MoveState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_MoveState stateData) : base(entity, stateMachine, animBoolName)
@@ -41,6 +42,7 @@ public class MoveState : States
         isPlayerMinAgroBackRange = entity.CheckPlayerInBackMinAgroRange();
         isPlayerMinAgroUpRange = entity.CheckPlayerInUpMinAgroRange();
         isPlayerMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
+        isPlayerMaxRayHitting = entity.CastRayForPlayerCheck();
         closestHit = entity.GetClosestHitFromPlayerCheck(); 
     }
 

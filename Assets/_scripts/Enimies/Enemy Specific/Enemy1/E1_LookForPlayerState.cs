@@ -4,6 +4,8 @@ using UnityEngine;
 public class E1_LookForPlayerState : LookForPlayerState
 {
     private Enemy1 enemy;
+    protected Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
+    private Movement movement;
     protected KnockBackReceiver Combat { get => combat ?? core.getCoreComponents(ref combat); }
     private KnockBackReceiver combat;
     protected HeadKnockbackReciver HeadCombat { get => headcombat ?? core.getCoreComponents(ref headcombat); }
@@ -23,6 +25,7 @@ public class E1_LookForPlayerState : LookForPlayerState
     public override void Enter()
     {
         base.Enter();
+        Movement.SetVelocityX(0f);
     }
     public override void Exist()
     {
@@ -31,19 +34,15 @@ public class E1_LookForPlayerState : LookForPlayerState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        
         if (HeadCombat.isKnockBackActive)
-        {
             stateMachine.ChangeState(enemy.headknockState);
-        }
-       if(isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange){
+
+       if(isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange)
             stateMachine.ChangeState(enemy.playerDetectedState);
-        }
          
         if (Death.IsDead)
-        {
             stateMachine.ChangeState(enemy.deadState);
-        }
+
         else if(isAllTurnTimeDone){
             stateMachine.ChangeState(enemy.moveState);
         }

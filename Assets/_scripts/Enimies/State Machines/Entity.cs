@@ -19,8 +19,6 @@ public class Entity : MonoBehaviour
     private Transform leadgerCheck;
     [SerializeField]
     private Transform playerCheck;
-    [SerializeField]
-    private Transform GroundCheck;
     [Header("Settings")]
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private LayerMask hideObjectLayer;
@@ -35,6 +33,7 @@ public class Entity : MonoBehaviour
     public HittingDirection CurrentHittingDirection => currentHittingDirection;
     private bool _IsActivatedtoHide = false;
     public bool _IsMovedtoOrignalPos = false;
+    public bool isfacingPlayer = false;
     public virtual void Awake()
     {
         anim = GetComponent<Animator>();
@@ -67,7 +66,7 @@ public class Entity : MonoBehaviour
         if (Core != null)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawLine(GroundCheck.position, GroundCheck.position + (Vector3)(Vector2.down * entityData.minAgroDistance));
+           // Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.down * entityData.minAgroDistance));
             Gizmos.DrawLine(leadgerCheck.position, leadgerCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));
             Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.closeRangeActionDistance), 0.2f);
             Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.minAgroDistance), 0.2f);
@@ -76,12 +75,20 @@ public class Entity : MonoBehaviour
             Gizmos.DrawLine(transform.position, transform.position + Vector3.right * Movement.FacingDirection * hideStateData.hideDistanceFront);
             Gizmos.color = Color.darkBlue;
             Gizmos.DrawLine(transform.position, transform.position + Vector3.left * Movement.FacingDirection * hideStateData.hideDistanceBack);
-
+            Gizmos.color = Color.indianRed;
+            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * entityData.playercheckRayDistance));
+            Gizmos.color = Color.greenYellow;
+            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * Movement.FacingDirection * entityData.playercheckRayDistance));
         }
     }
-    public virtual bool CheckIsGrounded()
+    #region castingRays
+    public virtual bool CastRayForPlayerCheck()
     {
-        return Physics2D.Raycast(GroundCheck.position, Vector2.down, entityData.minAgroDistance, entityData.whatIsGround);
+        return Physics2D.Raycast(playerCheck.position, Vector2.right * Movement.FacingDirection, entityData.minAgroDistance, entityData.whatIsPlayer);
+    }
+    public virtual bool StaticCastRayForPlayerRight()
+    {
+        return Physics2D.Raycast(playerCheck.position, Vector2.right, entityData.minAgroDistance, entityData.whatIsPlayer);
     }
     public virtual bool CheckPlayerInFrontMinAgroRange()
     {
@@ -103,6 +110,7 @@ public class Entity : MonoBehaviour
     {
         return Physics2D.Raycast(playerCheck.position, Vector2.right * Movement.FacingDirection, entityData.closeRangeActionDistance, entityData.whatIsPlayer);
     }
+    #endregion
     protected internal RaycastHit2D GetClosestHitFromPlayerCheck()
     {
         if (_IsActivatedtoHide)
@@ -151,32 +159,21 @@ public class Entity : MonoBehaviour
 
         return closestHit;
     }
-    protected internal void MoveToHidePosition()
+    protected internal void MoveToHidePosition(bool isPlayerRight)
     {
         if (currentHideStatus != HideStatus.Hiding && currentHideStatus != HideStatus.Returning)
         {
             var hideObject = closestHit.collider.gameObject;
             if (hideObject != null)
             {
-                if (movement.FacingDirection == -1)
-                {
                     policeTransform.transform.position = Vector2.MoveTowards(
                       policeTransform.transform.position,
-                      hideObject.GetComponent<PolicHidePosition>().corner1.transform.position,
-                      hideStateData.hideSpeed * Time.deltaTime
-                 );
-                }
-                if (movement.FacingDirection == 1)
-                {
-                    policeTransform.transform.position = Vector2.MoveTowards(
-                        policeTransform.transform.position,
-                        hideObject.GetComponent<PolicHidePosition>().corner2.transform.position,
-                        hideStateData.hideSpeed * Time.deltaTime
-                   );
-                }
+                     !isPlayerRight? hideObject.GetComponent<PolicHidePosition>().corner1.transform.position : hideObject.GetComponent<PolicHidePosition>().corner2.transform.position,
+                      hideStateData.hideSpeed * Time.deltaTime  
+                    );
             }
-            if (Vector2.Distance(policeTransform.transform.position, hideObject.GetComponent<PolicHidePosition>().corner2.transform.position) <= 0.2f || Vector2.Distance(policeTransform.transform.position, hideObject.GetComponent<PolicHidePosition>().corner1.transform.position) <= 0.2f)
-            {
+            if (Vector2.Distance(policeTransform.transform.position, hideObject.GetComponent<PolicHidePosition>().corner2.transform.position) <= 0.2f 
+              || Vector2.Distance(policeTransform.transform.position, hideObject.GetComponent<PolicHidePosition>().corner1.transform.position) <= 0.2f){
                 currentHideStatus = HideStatus.Hiding;
                 hideStateData.flippedToHide = false;
             }
@@ -196,22 +193,17 @@ public class Entity : MonoBehaviour
             {
                 hideStateData.flippedToHide = false;
                 currentHideStatus = HideStatus.NotHiding;
-                Flip();
+                isfacingPlayer = CastRayForPlayerCheck();
                 _IsMovedtoOrignalPos = true;
+                Flip();
             }
         }
     }
     protected internal void Flip()
     {
-        if (policeTransform.localScale.x == 0.5f && !hideStateData.flippedToHide)
-        {
-            hideStateData.flippedToHide = true;
-            policeTransform.localScale = new Vector3(-policeTransform.localScale.x, policeTransform.localScale.y, policeTransform.localScale.z);
-        }
-        if (policeTransform.localScale.x == -0.5f && !hideStateData.flippedToHide)
-        {
-            hideStateData.flippedToHide = true;
-            policeTransform.localScale = new Vector3(MathF.Abs(policeTransform.localScale.x), policeTransform.localScale.y, policeTransform.localScale.z);
-        }
+        if (hideStateData.flippedToHide || isfacingPlayer) return;
+
+        hideStateData.flippedToHide = true;
+        Movement.Flip();
     }
 }

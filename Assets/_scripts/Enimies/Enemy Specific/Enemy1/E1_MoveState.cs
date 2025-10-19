@@ -36,48 +36,39 @@ public class E1_MoveState : MoveState
     public override void LogicUpdate()
     { 
         base.LogicUpdate();
-        if (ishiding && isPlayerMaxAgroRange){
+        if (ishiding && isPlayerMaxAgroRange)
             stateMachine.ChangeState(enemy.hideState);
-        }
+
         if (isPlayerMinAgroFrontRange)
-        {
             stateMachine.ChangeState(enemy.playerDetectedState);
-        }
-        if (isPlayerMinAgroBackRange){
+
+        if (isPlayerMinAgroBackRange)
             stateMachine.ChangeState(enemy.meleeAttactState);
-        }
+
         if (HeadCombat.isKnockBackActive)
-        {
             stateMachine.ChangeState(enemy.headknockState);
-        }
+
         if (LegCombat.isKnockBackActive)
-        {
             stateMachine.ChangeState(enemy.legknockState);
-        }
+
         if (Combat.isKnockBackActive)
-        {
             stateMachine.ChangeState(enemy.knockState);
-        }
+
         if (Combat.isKnockBackByGranadeActive)
-        {
             stateMachine.ChangeState(enemy.granadeknockState);
-        }
+
         if (Death.IsDead && !Death.IsHeadShot)
-        {
             stateMachine.ChangeState(enemy.deadState);
-        }
+
         if (Death.IsHeadShot)
-        {
             stateMachine.ChangeState(enemy.headshotState);
-        }
-        else if (isDetectedWall || isDetectedLedger)
-        {
+
+        else if (isDetectedWall || isDetectedLedger){
             enemy.idleState.SetFlipAfterIdle(true);
             stateMachine.ChangeState(enemy.idleState);
         }
     }
-    public override void PhysicsUpdate()
-    {
+    public override void PhysicsUpdate(){
         base.PhysicsUpdate();
     } 
 }

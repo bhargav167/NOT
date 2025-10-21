@@ -69,7 +69,7 @@ namespace Tero.Weapons.Components
                         weapon.shoulderJoint.localScale = new Vector3(-_armStartingSize.x, -_armStartingSize.y, _armStartingSize.z);
                     }
                 }
-            //Handle player head lookAt based on mouse position.
+
             // Get the gun's normalized angle (-180 to 180)
             float gunAngle = NormalizeAngle(weapon.shoulderJoint.eulerAngles.z);
             // Calculate tilt based on gun direction
@@ -86,14 +86,14 @@ namespace Tero.Weapons.Components
             // Pointing upwards (0° to 180° normalized to 0°-90° after clamping)
             if (gunAngle > 0)
             {
-                float angleClamped = Mathf.Clamp(gunAngle, 0, 190);
-                tilt = Mathf.Lerp(0, maxTiltAngle, angleClamped / 90);
+                float angleClamped = Mathf.Clamp(gunAngle * coreMovement.FacingDirection, 0, 190);
+                tilt = Mathf.Lerp(0, maxTiltAngle, angleClamped * coreMovement.FacingDirection / 90);
             }
             // Pointing downwards (-180° to 0° normalized to -90°-0° after clamping)
             else
             {
                 float angleClamped = Mathf.Clamp(-gunAngle, 0, 190);
-                tilt = Mathf.Lerp(0, -maxTiltAngle, angleClamped / 90);
+                tilt = Mathf.Lerp(0, -maxTiltAngle, angleClamped * coreMovement.FacingDirection / 90);
             }
 
            

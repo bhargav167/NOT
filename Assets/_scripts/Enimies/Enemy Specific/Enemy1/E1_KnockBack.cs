@@ -24,17 +24,13 @@ public class E1_KnockBack :KnockBack
     public override void LogicUpdate () {
         base.LogicUpdate ();
         if (isPlayerIsInCloseRangeAction)
-        {
             stateMachine.ChangeState(_enemy.meleeAttactState);
-        }
+
         if (ishiding)
-        {
             stateMachine.ChangeState(_enemy.hideState);
-        }
-        else
-        {
-            stateMachine.ChangeState(_enemy.stunState);
-        }
+
+        else stateMachine.ChangeState(_enemy.stunState);
+
     }
 
     public override void PhysicsUpdate () {

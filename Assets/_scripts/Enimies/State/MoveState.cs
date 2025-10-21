@@ -61,9 +61,9 @@ public class MoveState : States
         base.LogicUpdate(); 
         Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection);
         if (closestHit.collider != null)
-        {
             ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
-        }
+        else
+            ishiding = false;
     }
     public override void PhysicsUpdate()
     {

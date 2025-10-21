@@ -17,7 +17,7 @@ public class LookForPlayerState : States {
 
     public override void DoCheck () {
         base.DoCheck ();
-        isPlayerMinAgroFrontRange = entity.CheckPlayerInFrontMinAgroRange ();
+        isPlayerMinAgroFrontRange = entity.CheckPlayerInFrontMinAgroRange();
         isPlayerMinAgroBackRange = entity.CheckPlayerInBackMinAgroRange();
     }
 

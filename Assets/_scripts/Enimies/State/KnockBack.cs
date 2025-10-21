@@ -33,12 +33,13 @@ public class KnockBack : States
         base.LogicUpdate ();
     }
 
-    public override void PhysicsUpdate () {
-        base.PhysicsUpdate ();
+    public override void PhysicsUpdate()
+    {
+        base.PhysicsUpdate();
         if (closestHit.collider != null)
-        {
             ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
-        }
+        else
+            ishiding = false;
     }
     public virtual void TriggerAttact () {
     }

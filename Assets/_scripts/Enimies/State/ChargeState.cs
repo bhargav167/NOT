@@ -15,7 +15,7 @@ public class ChargeState : States {
     protected bool isDetectedWall;
     protected bool isChargeTimeOver;
     protected bool performCloseRangeAction;
-    protected bool ishiding;
+    protected bool ishiding=false;
     protected RaycastHit2D closestHit;
     
     public ChargeState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_ChargeState stateData) : base(entity, stateMachine, animBoolName)
@@ -38,6 +38,7 @@ public class ChargeState : States {
     public override void Enter()
     {
         base.Enter();
+        ishiding = false;
         isChargeTimeOver = false;
         Movement.SetVelocityX(stateData.chargeSpeed * Movement.FacingDirection);
     }

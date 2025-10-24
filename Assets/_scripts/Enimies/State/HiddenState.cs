@@ -35,6 +35,7 @@ public class HiddenState : States
     public override void Exist()
     {
         base.Exist();
+        ResetHideTimeout();
     }
     public override void LogicUpdate()
     {
@@ -61,6 +62,7 @@ public class HiddenState : States
     public void ResetHideTimeout()
     {
         startTime = Time.time;
-        entity.currentHideStatus = HideStatus.Hiding;
+        entity.currentHideStatus = HideStatus.NotHiding;
+        entity._IsMovedtoOrignalPos=false;
     }
 } 

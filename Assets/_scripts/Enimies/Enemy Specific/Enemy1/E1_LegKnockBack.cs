@@ -33,7 +33,13 @@ namespace Tero
         public override void LogicUpdate()
         {
             base.LogicUpdate();
-            stateMachine.ChangeState(enemy.lookingForPlayerState);
+            if (isPlayerIsInCloseRangeAction)
+                stateMachine.ChangeState(enemy.meleeAttactState);
+
+            if (ishiding)
+                stateMachine.ChangeState(enemy.hideState);
+
+            else stateMachine.ChangeState(enemy.stunState);
         }
 
         public override void PhysicsUpdate()

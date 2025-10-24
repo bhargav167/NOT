@@ -161,7 +161,7 @@ public class Entity : MonoBehaviour
     }
     protected internal void MoveToHidePosition(bool isPlayerRight)
     {
-        if (currentHideStatus != HideStatus.Hiding && currentHideStatus != HideStatus.Returning)
+        if (closestHit && currentHideStatus != HideStatus.Hiding && currentHideStatus != HideStatus.Returning)
         {
             var hideObject = closestHit.collider.gameObject;
             if (hideObject != null)

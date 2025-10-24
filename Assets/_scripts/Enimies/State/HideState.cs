@@ -29,13 +29,10 @@ public class HideState : States
     {
         base.Enter();
         entity.currentHideStatus = HideStatus.MovingToHide;
-        if (entity.currentHittingDirection == HittingDirection.Front)
-        {
-        }
+        if (entity.currentHittingDirection == HittingDirection.Front) { }
+
         if (entity.currentHittingDirection == HittingDirection.Back)
-        {
             Movement.Flip();
-        }
     }
     public override void Exist()
     {
@@ -46,13 +43,10 @@ public class HideState : States
         base.LogicUpdate();
         entity.MoveToHidePosition(isPlayerRight);
         if (entity.currentHideStatus == HideStatus.Returning)
-        {
             entity.ReturnToOriginalPosition();
-        }
+
         if (entity.currentHideStatus == HideStatus.Hiding)
-        {
             isHidden = true;
-        }
     }
 
     public override void PhysicsUpdate()

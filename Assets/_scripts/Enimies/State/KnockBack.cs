@@ -8,7 +8,7 @@ public class KnockBack : States
     protected bool isPlayerIsInMinAgroBackRange;
     protected bool isPlayerIsInMaxAgroBackRange;
     protected bool isPlayerIsInCloseRangeAction;
-    protected bool ishiding;
+    protected bool ishiding=false;
 
     protected RaycastHit2D closestHit;
     public KnockBack(Entity entity, FinateStateMachine stateMachine, string animBoolName, Transform attactPosition) : base(entity, stateMachine, animBoolName)
@@ -25,11 +25,12 @@ public class KnockBack : States
 
     public override void Enter () {
         base.Enter ();
+        ishiding = false;
     }
     public override void Exist () {
         base.Exist ();
     }
-    public override void LogicUpdate () {
+    public override void LogicUpdate (){
         base.LogicUpdate ();
     }
 

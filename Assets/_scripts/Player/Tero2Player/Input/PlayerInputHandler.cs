@@ -20,7 +20,7 @@ public class PlayerInputHandler : MonoBehaviour {
     public bool IsreadyToThrow = false;
     [SerializeField]
     private float inputHoldTime = 0.2f;
-    private float jumpInputStartTime;
+   // private float jumpInputStartTime;
 
     private void Start(){
         playerInput = GetComponent<PlayerInput>();
@@ -29,7 +29,7 @@ public class PlayerInputHandler : MonoBehaviour {
        
     }
     private void Update () {
-        CheckJumpInputHoldTime ();
+        //CheckJumpInputHoldTime ();
     }
     public void OnInteractInput(InputAction.CallbackContext context)
     {
@@ -91,10 +91,9 @@ public class PlayerInputHandler : MonoBehaviour {
     }
 
     public void OnMoveInput (InputAction.CallbackContext context){
-         
-        RawMovementInput = context.ReadValue<Vector2> ();
-        NormInputx=Mathf.RoundToInt(RawMovementInput.x);
-        NormInputy=Mathf.RoundToInt(RawMovementInput.y);
+            RawMovementInput = context.ReadValue<Vector2>();
+            NormInputx = Mathf.RoundToInt(RawMovementInput.x);
+            NormInputy = Mathf.RoundToInt(RawMovementInput.y);
     }
     //Attack Movement
     
@@ -102,7 +101,7 @@ public class PlayerInputHandler : MonoBehaviour {
         if (context.started) { 
             JumpInput = true;
             JumpInputStop = false;
-            jumpInputStartTime = Time.time;
+           // jumpInputStartTime = Time.time;
         }
         if (context.canceled) {
             JumpInputStop = true;
@@ -119,11 +118,11 @@ public class PlayerInputHandler : MonoBehaviour {
     public void UseJumpInput () => JumpInput = false;
     public void UseAttackInput(int i) => AttackInput[i] = false;
     public void UseAttackFire() => IsreadyToFire = false;
-    private void CheckJumpInputHoldTime () {
-        if (Time.time >= jumpInputStartTime + inputHoldTime) {
-            JumpInput = false;
-        }
-    }
+    //private void CheckJumpInputHoldTime () {
+    //    if (Time.time >= jumpInputStartTime + inputHoldTime) {
+    //        JumpInput = false;
+    //    }
+    //}
 }
 
 public enum CombatInputs {

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 2272841647799060914}
   - component: {fileID: 2272841647799060925}
   - component: {fileID: 2272841647799060924}
-  - component: {fileID: 2272841647799060923}
   - component: {fileID: 2272841647799060922}
   - component: {fileID: 2272841647799060921}
   - component: {fileID: 2272841647799060920}
@@ -21,6 +20,7 @@ GameObject:
   - component: {fileID: -420794002349400348}
   - component: {fileID: 103745241111351081}
   - component: {fileID: 3611388351342178721}
+  - component: {fileID: -8266873663311284424}
   m_Layer: 14
   m_Name: Grenade
   m_TagString: Untagged
@@ -45,7 +45,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &2272841647799060925
 Rigidbody2D:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -56,8 +56,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 5
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -83,22 +83,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsBulletGrounded: 0
---- !u!114 &2272841647799060923
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2272841647799060912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b535246cbcb4ee5b216453f6bf8cf5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  <ApplyContinuously>k__BackingField: 0
-  <IsbulletExtracter>k__BackingField: 0
-  <Speed>k__BackingField: 12
-  <ExtracterKnockback>k__BackingField: 0
 --- !u!114 &2272841647799060922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,7 +131,7 @@ MonoBehaviour:
     height: 0.5
   <LayerMask>k__BackingField:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 64
   timmerToExplord: 1
 --- !u!114 &2272841647799060921
 MonoBehaviour:
@@ -252,6 +236,9 @@ SpriteRenderer:
   m_RayTraceProcedural: 0
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -273,6 +260,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 64856673
   m_SortingLayer: 4
   m_SortingOrder: 25
@@ -358,3 +346,19 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.041722644, y: -0.027951073}
   m_Radius: 0.24299817
+--- !u!114 &-8266873663311284424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2272841647799060912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b535246cbcb4ee5b216453f6bf8cf5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tero.ProjectileSystem.Components.Movement
+  <ApplyContinuously>k__BackingField: 0
+  <IsbulletExtracter>k__BackingField: 0
+  <Speed>k__BackingField: 6
+  <ExtracterKnockback>k__BackingField: 0

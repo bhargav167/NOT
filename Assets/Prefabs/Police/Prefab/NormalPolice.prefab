@@ -179,7 +179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523499171569123146}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.34396344, w: 0.9389831}
+  m_LocalRotation: {x: -0, y: -0, z: 0.3439633, w: 0.9389831}
   m_LocalPosition: {x: 1.127, y: -0.001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -457,7 +457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4487064487859894541}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.041489795, w: 0.999139}
+  m_LocalRotation: {x: -0, y: -0, z: -0.041490108, w: 0.999139}
   m_LocalPosition: {x: 0.872, y: -0.003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1388,12 +1388,12 @@ PrefabInstance:
     - target: {fileID: -7552582706839291426, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.18
+      value: 69.32
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.48
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
@@ -1738,7 +1738,7 @@ PrefabInstance:
     - target: {fileID: -1659644568853039254, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99278647
+      value: 0.9927864
       objectReference: {fileID: 0}
     - target: {fileID: -1659644568853039254, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
@@ -1753,7 +1753,7 @@ PrefabInstance:
     - target: {fileID: -1659644568853039254, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.11989602
+      value: 0.11989632
       objectReference: {fileID: 0}
     - target: {fileID: -1659644568853039254, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
@@ -1873,7 +1873,7 @@ PrefabInstance:
     - target: {fileID: 889464623534725347, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.23411226
+      value: 0.2341121
       objectReference: {fileID: 0}
     - target: {fileID: 889464623534725347, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
@@ -1888,7 +1888,7 @@ PrefabInstance:
     - target: {fileID: 889464623534725347, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.9722096
+      value: -0.97220963
       objectReference: {fileID: 0}
     - target: {fileID: 889464623534725347, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
@@ -2068,12 +2068,12 @@ PrefabInstance:
     - target: {fileID: 4671282259727749954, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.86901796
+      value: 0.86901814
       objectReference: {fileID: 0}
     - target: {fileID: 4671282259727749954, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.4947806
+      value: -0.4947803
       objectReference: {fileID: 0}
     - target: {fileID: 4779669783611599423, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
@@ -2529,7 +2529,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &2686719510593634098
 MonoBehaviour:
@@ -2610,7 +2610,6 @@ MonoBehaviour:
   wallCheck: {fileID: 8461311677624284156}
   leadgerCheck: {fileID: 7371230815028901753}
   playerCheck: {fileID: 4521738336172169105}
-  GroundCheck: {fileID: 6122478620890793017}
   wallLayer:
     serializedVersion: 2
     m_Bits: 512
@@ -2618,9 +2617,12 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   policeTransform: {fileID: 644475989899518769}
+  _player: {fileID: 0}
   originalPosition: {x: 0, y: 0}
   currentHideStatus: 0
   currentHittingDirection: 0
+  _IsMovedtoOrignalPos: 0
+  isfacingPlayer: 0
   idleStateData: {fileID: 11400000, guid: 2e47e473bff00b448a4d61aeb13d9e0b, type: 2}
   moveStateData: {fileID: 11400000, guid: add01fbee25b147cd96c4671e96b7147, type: 2}
   playerDetectStateData: {fileID: 11400000, guid: ca0c100777cdd5443ab9456a800f60dc,

@@ -360,5 +360,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tero.ProjectileSystem.Components.Movement
   <ApplyContinuously>k__BackingField: 0
   <IsbulletExtracter>k__BackingField: 0
-  <Speed>k__BackingField: 6
+  <Speed>k__BackingField: 12
   <ExtracterKnockback>k__BackingField: 0

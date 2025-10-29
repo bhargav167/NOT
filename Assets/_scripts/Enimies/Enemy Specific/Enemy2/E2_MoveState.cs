@@ -31,7 +31,31 @@ public class E2_MoveState : MoveState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-       
+        if (isPlayerMaxAgroRange)
+        {
+            stateMachine.ChangeState(enemy.playerDetectedState);
+        }
+        if (Combat.isKnockBackActive)
+        {
+            stateMachine.ChangeState(enemy.knockState);
+        }
+        if (Combat.isKnockBackByGranadeActive)
+        {
+            stateMachine.ChangeState(enemy.granadeknockState);
+        }
+        if (Death.IsDead && !Death.IsHeadShot)
+        {
+            stateMachine.ChangeState(enemy.deadState);
+        }
+        if (Death.IsHeadShot)
+        {
+            stateMachine.ChangeState(enemy.headshotState);
+        }
+        else if (isDetectedWall || !isDetectedLedger)
+        {
+            enemy.idleState.SetFlipAfterIdle(true);
+            stateMachine.ChangeState(enemy.idleState);
+        }
     }
 
     public override void PhysicsUpdate()

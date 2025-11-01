@@ -25,7 +25,6 @@ public class IdleState : States {
 
     public override void Enter () {
         base.Enter ();
-        Movement.SetVelocityX (0); 
         isIdleTimeOver = false;
         SetIdleTime ();
     } 

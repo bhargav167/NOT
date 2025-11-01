@@ -4,7 +4,7 @@ using UnityEngine;
 using Tero.CoreSystem;
 public class AttactState : States {
     protected Movement Movement {get=>movement ?? core.getCoreComponents(ref movement);} 
-     private Movement movement;
+    private Movement movement;
     protected Transform attactPosition;
     protected bool isAnimationFinished;
     protected bool isPlayerIsInMinAgroFrontRange;

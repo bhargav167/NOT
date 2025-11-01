@@ -1,5 +1,6 @@
-using UnityEngine;
+using System;
 using Tero.CoreSystem;
+using UnityEngine;
 public class E1_KnockBack :KnockBack
 { 
     private Enemy1 _enemy;
@@ -7,6 +8,8 @@ public class E1_KnockBack :KnockBack
     private KnockBackReceiver combat;
     protected Death Death { get => death ?? core.getCoreComponents(ref death); }
     private Death death;
+
+    private float knockbacktime = 0;
     public E1_KnockBack (Entity entity, FinateStateMachine stateMachine, string animBoolName, D_ChargeState stateData, Enemy1 enemy) : base (entity, stateMachine, animBoolName, null) {
         this._enemy = enemy;
     }
@@ -17,12 +20,15 @@ public class E1_KnockBack :KnockBack
     {
         base.Enter();
         entity.originalPosition = entity.policeTransform.transform.position;
+        knockbacktime = entity.atsm.AnimationRunTime(entity.anim.runtimeAnimatorController, "Knockback");
     }
     public override void Exist (){
         base.Exist ();
     }
     public override void LogicUpdate () {
         base.LogicUpdate ();
+        knockbacktime -= Time.deltaTime;
+        if (knockbacktime > 0) return;
         if (isPlayerIsInCloseRangeAction)
             stateMachine.ChangeState(_enemy.meleeAttactState);
 

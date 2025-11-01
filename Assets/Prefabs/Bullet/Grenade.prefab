@@ -305,8 +305,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c13cf3a29f243f7abb32cbbd7d0965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fieldofImpact: 5.35
-  force: 1.5
+  fieldofImpact: 7.31
+  force: 0.4
   _layerToHit:
     serializedVersion: 2
     m_Bits: 12544
@@ -360,5 +360,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Tero.ProjectileSystem.Components.Movement
   <ApplyContinuously>k__BackingField: 0
   <IsbulletExtracter>k__BackingField: 0
-  <Speed>k__BackingField: 12
+  <Speed>k__BackingField: 20
   <ExtracterKnockback>k__BackingField: 0

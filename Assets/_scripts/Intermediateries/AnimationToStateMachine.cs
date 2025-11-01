@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 public class AnimationToStateMachine : MonoBehaviour {
     public AttactState attackState;
@@ -22,5 +19,16 @@ public class AnimationToStateMachine : MonoBehaviour {
     private void SetParryWindowActive(int value)
     {
        // attackState.SetParryWindowActive(Convert.ToBoolean(value));
+    }
+    public float AnimationRunTime(RuntimeAnimatorController runtimeAnimatorController, string stateName)
+    {
+        AnimationClip[] clips = runtimeAnimatorController.animationClips;
+        if (clips == null) return 0;
+        foreach (AnimationClip clip in clips)
+        {
+            if (clip.name == stateName)
+                return clip.length;
+        }
+        return 0;
     }
 }

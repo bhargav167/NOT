@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using Tero.CoreSystem;
 using UnityEngine;
 
 public class KnockBack : States
 {
+    protected Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
+    private Movement movement;
     protected bool isPlayerIsInMinAgroFrontRange;
     protected bool isPlayerIsInMinAgroBackRange;
     protected bool isPlayerIsInMaxAgroBackRange;
@@ -32,6 +35,7 @@ public class KnockBack : States
     }
     public override void LogicUpdate (){
         base.LogicUpdate ();
+        Movement.SetVelocityX(0f);
     }
 
     public override void PhysicsUpdate()

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class StunState : States
 {
+    private Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
+    private Movement movement;
     protected D_StunState stateData;
     protected bool isStunTimeOver;
     protected bool isGrounded;
@@ -37,9 +39,7 @@ public class StunState : States
     {
         base.Exist();
           if(Time.time >= startTime + stateData.stunTime)
-        {
             isStunTimeOver = true;
-        }
 
         if(isGrounded && Time.time >= startTime + stateData.stunKnockbackTime && !isMovementStopped)
         {
@@ -51,6 +51,7 @@ public class StunState : States
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+        Movement.SetVelocityX(0f);
     }
 
     public override void PhysicsUpdate()

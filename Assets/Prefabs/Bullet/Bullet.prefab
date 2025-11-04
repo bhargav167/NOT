@@ -156,7 +156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <ApplyContinuously>k__BackingField: 1
   <IsbulletExtracter>k__BackingField: 0
-  <Speed>k__BackingField: 120
+  <Speed>k__BackingField: 105
   <ExtracterKnockback>k__BackingField: 0
 --- !u!114 &7802107376349184820
 MonoBehaviour:

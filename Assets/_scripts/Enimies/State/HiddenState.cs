@@ -5,7 +5,6 @@ using static Tero.PolicHidePosition;
 
 public class HiddenState : States
 {
-    private Enemy1 _enemy;
     protected Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
     protected CollisionSences CollisionSences { get => collisionSences ?? core.getCoreComponents(ref collisionSences); }
     private Movement movement;
@@ -14,9 +13,8 @@ public class HiddenState : States
     private Stats stats;
     private float hideTimeout = 4f;
     protected bool isPlayerMaxRayHitting;
-    public HiddenState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_HideStateData stateData, Enemy1 enemy) : base(entity, stateMachine, animBoolName)
+    public HiddenState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_HideStateData stateData) : base(entity, stateMachine, animBoolName)
     {
-        this._enemy = enemy;
     }
     public override void DoCheck()
     {
@@ -40,11 +38,6 @@ public class HiddenState : States
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (!entity._IsMovedtoOrignalPos)
-            HideTimeout();
-        else
-            stateMachine.ChangeState(_enemy.lookingForPlayerState);
-
     }
 
     public override void PhysicsUpdate()

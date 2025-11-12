@@ -31,7 +31,9 @@ public class E2_MoveState : MoveState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (isPlayerMaxAgroRange)
+        if (ishiding && isPlayerMaxAgroRange)
+            stateMachine.ChangeState(enemy.hideState);
+        if (isPlayerMinAgroFrontRange)
         {
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
@@ -51,7 +53,7 @@ public class E2_MoveState : MoveState
         {
             stateMachine.ChangeState(enemy.headshotState);
         }
-        else if (isDetectedWall || !isDetectedLedger)
+        else if (isDetectedWall || isDetectedLedger)
         {
             enemy.idleState.SetFlipAfterIdle(true);
             stateMachine.ChangeState(enemy.idleState);
@@ -61,8 +63,8 @@ public class E2_MoveState : MoveState
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-         if(isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange && !isDetectedLedger){
-            stateMachine.ChangeState(enemy.jumpState);
-        }
+        // if(isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange && !isDetectedLedger){
+        //    stateMachine.ChangeState(enemy.jumpState);
+        //}
     } 
 }

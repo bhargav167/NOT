@@ -24,7 +24,7 @@ public class Entity : MonoBehaviour
     [SerializeField] private LayerMask hideObjectLayer;
     [Header("References")]
     [SerializeField] public Transform policeTransform;
-    public Player _player;
+    private Player _player;
     public Vector2 originalPosition;
     RaycastHit2D closestHit = new RaycastHit2D();
     public HideStatus currentHideStatus = HideStatus.NotHiding;
@@ -55,8 +55,8 @@ public class Entity : MonoBehaviour
         {
             _IsActivatedtoHide = true;
         }
-        // Debug.Log(_player.GetComponentInChildren<Core>().GetComponentInChildren<Stats>().Health.CurrentValue);
-        // Debug.Log(_player.playerCurrentState);
+        //Debug.Log(_player.GetComponentInChildren<Core>().GetComponentInChildren<Stats>().Health.CurrentValue);
+        //Debug.Log(_player.playerCurrentState);
         //Debug.Log(Core.getCoreComponents<KnockBackReceiver>().isKnockBackActive);
         //Debug.Log(Core.getCoreComponents<Stats>().Health.CurrentValue);
 
@@ -184,6 +184,7 @@ public class Entity : MonoBehaviour
         if (currentHideStatus == HideStatus.Returning)
         {
             Flip();
+            anim.SetBool("returning", true);
             policeTransform.transform.position = Vector2.MoveTowards(
                 policeTransform.transform.position,
                 originalPosition,
@@ -196,6 +197,7 @@ public class Entity : MonoBehaviour
                 isfacingPlayer = CastRayForPlayerCheck();
                 _IsMovedtoOrignalPos = true;
                 Flip();
+                anim.SetBool("returning", false);
             }
         }
     }

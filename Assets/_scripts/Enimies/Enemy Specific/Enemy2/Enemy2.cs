@@ -11,6 +11,8 @@ using UnityEngine;
       public E2_DodgeState dodgeState { get; private set; }
       public E2_KnockBack knockState { get; private set; }
       public E2_GranadeKnockBack granadeknockState { get; private set; }
+      public E2_HideState hideState { get; private set; }
+      public E2_HiddenState hiddenState { get; private set; }
       public E2_DeadState deadState { get; private set; }
       public E2_HeadShotState headshotState { get; private set; }
       public E2_RangedAttactState rangedAttactState { get; private set; }
@@ -47,12 +49,13 @@ using UnityEngine;
           knockState = new E2_KnockBack(this, stateMachine, "hurt", null, this);
           granadeknockState = new E2_GranadeKnockBack(this, stateMachine, "knockByGrenade", null, this);
           rangedAttactState = new E2_RangedAttactState (this, stateMachine, "rangedAttack",rangedAttackPosition, rangedAttactStateData, this);
+          hideState = new E2_HideState(this, stateMachine, "moveTohide", hideStateData, this);
+          hiddenState = new E2_HiddenState(this, stateMachine, "hidden", hideStateData, this);
           deadState = new E2_DeadState(this, stateMachine, "dead", null, this);
           headshotState = new E2_HeadShotState(this, stateMachine, "HeadShot", null, this);
 
     }
-      private void Start()
-      {
+      private void Start(){
        stateMachine.Initilize (moveState);   
       }
       public override void OnDrawGizmos () {

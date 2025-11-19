@@ -15,8 +15,7 @@ public class E2_MoveState : MoveState
         this.enemy=enemy;
     }
 
-    public override void DoCheck()
-    {
+    public override void DoCheck(){
         base.DoCheck();
     }
 
@@ -31,7 +30,7 @@ public class E2_MoveState : MoveState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (ishiding && isPlayerMaxAgroRange)
+        if (ishiding)
             stateMachine.ChangeState(enemy.hideState);
         if (isPlayerMinAgroFrontRange)
         {

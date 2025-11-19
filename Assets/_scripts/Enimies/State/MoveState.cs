@@ -33,8 +33,7 @@ public class MoveState : States
     public override void DoCheck()
     {
         base.DoCheck();
-        if (CollisionSences)
-        {
+        if (CollisionSences){
             isDetectedLedger = CollisionSences.LedgeVertical;
             isDetectedWall = CollisionSences.Wall;
         }
@@ -50,7 +49,6 @@ public class MoveState : States
     {
         base.Enter();
         Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection);
-        
     }
     public override void Exist()
     {

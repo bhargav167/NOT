@@ -36,12 +36,12 @@ public class LookForPlayerState : States {
     public override void LogicUpdate () {
         base.LogicUpdate ();
         Movement.SetVelocityX (0f);
-        if (turnImmediatly) {
+        if(turnImmediatly){
             Movement.Flip ();
             lastTurnTime = Time.time;
             amountOfTurnDone++;
             turnImmediatly = false;
-        } else if (Time.time >= lastTurnTime + stateData.timeBetweenTurns && !isAllTurnDone) {
+        } else if(Time.time >= lastTurnTime + stateData.timeBetweenTurns && !isAllTurnDone) {
             Movement.Flip ();
             lastTurnTime = Time.time;
             amountOfTurnDone++;

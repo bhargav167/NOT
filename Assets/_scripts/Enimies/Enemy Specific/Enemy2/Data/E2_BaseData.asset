@@ -18,9 +18,9 @@ MonoBehaviour:
   groundCheckRadius: 0.59
   stunResistance: 2.98
   stunRecoveryTime: 2
-  maxAgroDistance: 6
-  minAgroDistance: 1.36
-  playercheckRayDistance: 10
+  maxAgroDistance: 18.06
+  minAgroDistance: 0.99
+  playercheckRayDistance: 17.57
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1600

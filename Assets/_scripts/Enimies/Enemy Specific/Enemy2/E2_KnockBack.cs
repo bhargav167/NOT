@@ -13,6 +13,7 @@ namespace Tero
         private KnockBackReceiver combat;
         protected Death Death { get => death ?? core.getCoreComponents(ref death); }
         private Death death;
+        private float knockbacktime = 0;
         public E2_KnockBack(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_ChargeState stateData, Enemy2 enemy) : base(entity, stateMachine, animBoolName, null)
         {
             this._enemy = enemy;
@@ -24,6 +25,8 @@ namespace Tero
         public override void Enter()
         {
             base.Enter();
+            entity.originalPosition = entity.policeTransform.transform.position;
+            knockbacktime = entity.atsm.AnimationRunTime(entity.anim.runtimeAnimatorController, "Knockback");
         }
         public override void Exist()
         {

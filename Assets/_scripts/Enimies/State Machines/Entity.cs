@@ -181,8 +181,7 @@ public class Entity : MonoBehaviour
     }
     protected internal void ReturnToOriginalPosition()
     {
-        if (currentHideStatus == HideStatus.Returning)
-        {
+        if (currentHideStatus == HideStatus.Returning){
             Flip();
             anim.SetBool("returning", true);
             policeTransform.transform.position = Vector2.MoveTowards(
@@ -198,6 +197,7 @@ public class Entity : MonoBehaviour
                 _IsMovedtoOrignalPos = true;
                 Flip();
                 anim.SetBool("returning", false);
+                Debug.Log("Returned to original position");
             }
         }
     }

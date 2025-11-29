@@ -20,7 +20,7 @@ public class E1_PlayerDetectedState : PlayerDetectState
     public override void Exist(){
         base.Exist();
     } 
-    public override void LogicUpdate(){
+    public override void LogicUpdate(){ 
         base.LogicUpdate();
         if (Combat.isKnockBackActive)
         {

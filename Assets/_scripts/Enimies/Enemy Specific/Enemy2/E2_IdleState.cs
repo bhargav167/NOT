@@ -28,7 +28,8 @@ public class E2_IdleState : IdleState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if(isPlayerInMinArgoFrontRange || isPlayerInMinArgoBackRange){
+        if (isPlayerInMinArgoFrontRange)
+        {
             stateMachine.ChangeState(enemy.playerDetectedState);
         }
         if (Combat.isKnockBackActive)

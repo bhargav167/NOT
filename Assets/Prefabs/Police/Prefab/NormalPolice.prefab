@@ -1328,7 +1328,7 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
@@ -2647,7 +2647,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   policeTransform: {fileID: 644475989899518769}
-  _player: {fileID: 0}
   originalPosition: {x: 0, y: 0}
   currentHideStatus: 0
   currentHittingDirection: 0

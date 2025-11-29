@@ -34,15 +34,20 @@ public class E1_LookForPlayerState : LookForPlayerState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if (HeadCombat.isKnockBackActive)
-            stateMachine.ChangeState(enemy.headknockState);
-
-       if(isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange)
+        if (isPlayerMinAgroFrontRange || isPlayerMinAgroBackRange)
+        {
             stateMachine.ChangeState(enemy.playerDetectedState);
-         
+        }
+           
+        if (HeadCombat.isKnockBackActive)
+        {
+            stateMachine.ChangeState(enemy.headknockState);
+        }
+            
         if (Death.IsDead)
+        {
             stateMachine.ChangeState(enemy.deadState);
-
+        }
         else if(isAllTurnTimeDone){
             stateMachine.ChangeState(enemy.moveState);
         }

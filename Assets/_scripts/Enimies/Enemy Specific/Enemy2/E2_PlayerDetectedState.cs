@@ -46,6 +46,10 @@ public class E2_PlayerDetectedState : PlayerDetectState {
         {
             stateMachine.ChangeState(enemy.headshotState);
         }
+        if (ishiding)
+        {
+            stateMachine.ChangeState(enemy.hideState);
+        }
     }
 
     public override void PhysicsUpdate () {

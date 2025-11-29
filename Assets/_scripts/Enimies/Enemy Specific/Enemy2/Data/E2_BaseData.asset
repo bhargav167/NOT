@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wallCheckDistance: 0.5
   ledgeCheckDistance: 0.56
-  closeRangeActionDistance: -0.44
+  closeRangeActionDistance: 2.47
   groundCheckRadius: 0.59
   stunResistance: 2.98
   stunRecoveryTime: 2
-  maxAgroDistance: 18.06
-  minAgroDistance: 0.99
-  playercheckRayDistance: 17.57
+  maxAgroDistance: 11.8
+  minAgroDistance: 6.41
+  playercheckRayDistance: 24
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1600

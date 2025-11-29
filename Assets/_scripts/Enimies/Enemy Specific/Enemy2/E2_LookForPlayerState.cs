@@ -23,6 +23,7 @@ public class E2_LookForPlayerState : LookForPlayerState
     public override void Enter()
     {
         base.Enter();
+        Movement.SetVelocityX(0f);
     } 
     public override void Exist()
     {
@@ -38,12 +39,13 @@ public class E2_LookForPlayerState : LookForPlayerState
         {
             stateMachine.ChangeState(enemy.knockState);
         }
-        else if(isAllTurnTimeDone){
-            stateMachine.ChangeState(enemy.moveState);
-        }
         if (Death.IsDead)
         {
             stateMachine.ChangeState(enemy.deadState);
+        }
+        else if (isAllTurnTimeDone)
+        {
+            stateMachine.ChangeState(enemy.moveState);
         }
     }
 

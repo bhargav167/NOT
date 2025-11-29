@@ -30,13 +30,11 @@ public class HiddenState : States
         //Track police facing side and hitting ray at the time of shorted.
         //Based on hidden side need to play animation
     }
-    public override void Exist()
-    {
+    public override void Exist(){
         base.Exist();
         ResetHideTimeout();
     }
-    public override void LogicUpdate()
-    {
+    public override void LogicUpdate(){
         base.LogicUpdate();
     }
 

@@ -36,14 +36,14 @@ namespace Tero
         public override void LogicUpdate()
         {
             base.LogicUpdate();
-            if (isPlayerIsInMinAgroFrontRange || isPlayerIsInMinAgroBackRange || isPlayerIsInMaxAgroBackRange)
-            {
-                stateMachine.ChangeState(_enemy.rangedAttactState);
-            }
+            if (ishiding)
+                stateMachine.ChangeState(_enemy.hideState);
             else
-            {
                 stateMachine.ChangeState(_enemy.lookForPlayerState);
-            }
+
+            //if (isPlayerIsInMinAgroFrontRange || isPlayerIsInMinAgroBackRange || isPlayerIsInMaxAgroBackRange)
+            //    stateMachine.ChangeState(_enemy.rangedAttactState);
+           
         }
 
         public override void PhysicsUpdate()

@@ -20,7 +20,7 @@ MonoBehaviour:
   stunRecoveryTime: 2
   maxAgroDistance: 5.6
   minAgroDistance: 1.64
-  playercheckRayDistance: 20.1
+  playercheckRayDistance: 22.9
   whatIsGround:
     serializedVersion: 2
     m_Bits: 1600

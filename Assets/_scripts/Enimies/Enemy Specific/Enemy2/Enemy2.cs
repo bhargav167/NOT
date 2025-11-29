@@ -37,7 +37,7 @@ using UnityEngine;
       private Transform meeleAttactposition;
       [SerializeField]
       private Transform rangedAttackPosition;
-      public override void Awake () {
+      public override void Awake (){
           base.Awake ();
           moveState = new E2_MoveState (this, stateMachine, "move", moveStateData, this);
           idleState = new E2_IdleState (this, stateMachine, "Idle", idleStateData, this);
@@ -53,8 +53,7 @@ using UnityEngine;
           hiddenState = new E2_HiddenState(this, stateMachine, "hidden", hideStateData, this);
           deadState = new E2_DeadState(this, stateMachine, "dead", null, this);
           headshotState = new E2_HeadShotState(this, stateMachine, "HeadShot", null, this);
-
-    }
+      }
       private void Start(){
        stateMachine.Initilize (moveState);   
       }

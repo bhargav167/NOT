@@ -492,7 +492,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   policeTransform: {fileID: 1333793154253556697}
-  _player: {fileID: 0}
   originalPosition: {x: 0, y: 0}
   currentHideStatus: 0
   currentHittingDirection: 0
@@ -3628,8 +3627,8 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0.031574, w: 0.9995014}
     - {x: 0, y: 0, z: 0, w: 1}
     m_StoredLocalRotations:
-    - {x: -0, y: 0, z: -0.97531927, w: -0.22079946}
-    - {x: 0, y: 0, z: 0.13354507, w: 0.99104273}
+    - {x: 0, y: 0, z: -0.99456924, w: 0.10407721}
+    - {x: 0, y: 0, z: 0.03157646, w: 0.99950135}
     - {x: -0, y: -0, z: -0.028036263, w: 0.9996069}
   m_Flip: 1
 --- !u!1 &5742275728569733907
@@ -4778,14 +4777,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundCheck: {fileID: 4279867952644696013}
   wallCheck: {fileID: 3616776155042663940}
-  ceilingCheck: {fileID: 0}
-  ledgeCheckHorizontal: {fileID: 0}
+  ceilingCheck: {fileID: 4919935220958093926}
+  ledgeCheckHorizontal: {fileID: 4919935220958093926}
   ledgeCheckVertical: {fileID: 4919935220958093926}
   groundCheckRadius: 0.4
   wallCheckDistance: 0.5
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 1536
+    m_Bits: 512
 --- !u!1 &8041123715792643581
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,8 +5055,8 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0.30623955, w: 0.9519545}
     - {x: 0, y: 0, z: 0, w: 1}
     m_StoredLocalRotations:
-    - {x: 0, y: -0, z: 0.99997675, w: -0.006824027}
-    - {x: 0, y: 0, z: 0.22114, w: 0.9752421}
+    - {x: 0, y: 0, z: 0.9762866, w: 0.21648231}
+    - {x: 0, y: 0, z: 0.16762908, w: 0.98585016}
     - {x: -0, y: -0, z: -0.10879846, w: 0.9940639}
   m_Flip: 1
 --- !u!1 &8489367140026321803

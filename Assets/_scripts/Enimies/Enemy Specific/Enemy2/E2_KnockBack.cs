@@ -28,9 +28,7 @@ namespace Tero
             entity.originalPosition = entity.policeTransform.transform.position;
             knockbacktime = entity.atsm.AnimationRunTime(entity.anim.runtimeAnimatorController, "Knockback");
         }
-        public override void Exist()
-        {
-
+        public override void Exist(){
             base.Exist();
         }
         public override void LogicUpdate()

@@ -12,16 +12,22 @@ public class PlayerIdleState : PlayerGroundedState {
     public override void Enter () {
         base.Enter ();
           Movement?.SetVelocityX (0.0f);
+        playerData.movementVelocity=0f;
     }
     public override void Exit () {
         base.Exit ();
     }
-    public override void LogicUpdate () {
+    public override void LogicUpdate (){
         base.LogicUpdate ();
-        if (!IsExistingState) {
-            if (xInput != 0.0f) {
-                stateMachine.ChangeState (Player.MoveState);
-            } else if (yInput == -1) {
+        if (!IsExistingState){
+            if (xInput != 0.0f){
+                playerData.movementVelocity += playerData.acceleration * Time.deltaTime;
+                Movement?.SetVelocityX(playerData.movementVelocity * xInput);
+                stateMachine.ChangeState(Player.MoveState);
+            }
+            if (playerData.movementVelocity<0.1f)
+                Player.animator.SetFloat("velocity", 0f);
+              else if (yInput == -1) {
                 stateMachine.ChangeState (Player.CrouchIdleState);
             }
         }

@@ -11,6 +11,7 @@ public class KnockBack : States
     protected bool isPlayerIsInMinAgroBackRange;
     protected bool isPlayerIsInMaxAgroBackRange;
     protected bool isPlayerIsInCloseRangeAction;
+    protected bool isPlayerRight;
     protected bool ishiding=false;
 
     protected RaycastHit2D closestHit;
@@ -36,6 +37,7 @@ public class KnockBack : States
     public override void LogicUpdate (){
         base.LogicUpdate ();
         Movement.SetVelocityX(0f);
+        isPlayerRight = entity.StaticCastRayForPlayerRight();
     }
 
     public override void PhysicsUpdate()

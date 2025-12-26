@@ -23,6 +23,7 @@ public class MoveState : States
     protected bool isPlayerMinAgroBackRange;
     protected bool isPlayerMinAgroUpRange;
     protected bool isPlayerMaxRayHitting;
+    protected bool isPlayerRight;
     protected bool ishiding; 
     protected RaycastHit2D closestHit;
     public MoveState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_MoveState stateData) : base(entity, stateMachine, animBoolName)
@@ -42,7 +43,8 @@ public class MoveState : States
         isPlayerMinAgroUpRange = entity.CheckPlayerInUpMinAgroRange();
         isPlayerMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
         isPlayerMaxRayHitting = entity.CastRayForPlayerCheck();
-        closestHit = entity.GetClosestHitFromPlayerCheck(); 
+        closestHit = entity.GetClosestHitFromPlayerCheck();
+        isPlayerRight = entity.StaticCastRayForPlayerRight(); // this will cast only right side (IMP)
     }
 
     public override void Enter()
@@ -50,13 +52,11 @@ public class MoveState : States
         base.Enter();
         Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection);
     }
-    public override void Exist()
-    {
+    public override void Exist(){
         base.Exist();
     }
-    public override void LogicUpdate()
-    {
-        base.LogicUpdate(); 
+    public override void LogicUpdate(){
+        base.LogicUpdate();
         Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection);
         if (closestHit.collider != null)
             ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");

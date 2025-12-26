@@ -1,0 +1,9 @@
+{
+    "asset": "d520e6813d9528248a08fb1f3d48459c",
+    "fileName": "019b4786-00ba-73e1-80d9-29ce8028a904.pose.json",
+    "prompt": "create slow walk animation character holding ak-47 gun\n",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "customSeed": 1286267564,
+    "w3CTraceId": "e41ca9dfbc1efe9cbc4586eb8f9e8930"
+}

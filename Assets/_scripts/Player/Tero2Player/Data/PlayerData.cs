@@ -5,7 +5,10 @@ using UnityEngine;
 public class PlayerData : ScriptableObject
 {
   [Header("Move State")]
-  public float movementVelocity = 4.4f;
+  public float movementVelocity = 5f;
+  public float acceleration = 0.2f;
+  public float deacceleration = 0.5f; 
+  
   [Header("Jump State")]
   public float jumpVelocity = 8f;
 

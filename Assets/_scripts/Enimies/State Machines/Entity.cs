@@ -51,22 +51,18 @@ public class Entity : MonoBehaviour
     public virtual void FixedUpdate()
     {
         stateMachine.currentState.PhysicsUpdate();
-        if (Core.getCoreComponents<KnockBackReceiver>().isKnockBackActive)
-        {
-            _IsActivatedtoHide = true;
-        }
+        if (Core.getCoreComponents<KnockBackReceiver>().isKnockBackActive) _IsActivatedtoHide = true;
+
         //Debug.Log(_player.GetComponentInChildren<Core>().GetComponentInChildren<Stats>().Health.CurrentValue);
         //Debug.Log(_player.playerCurrentState);
         //Debug.Log(Core.getCoreComponents<KnockBackReceiver>().isKnockBackActive);
         //Debug.Log(Core.getCoreComponents<Stats>().Health.CurrentValue);
-
     }
     public virtual void OnDrawGizmos()
     {
-        if (Core != null)
-        {
+        if (Core != null){
             Gizmos.color = Color.red;
-           // Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.down * entityData.minAgroDistance));
+            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.down * entityData.minAgroDistance));
             Gizmos.DrawLine(leadgerCheck.position, leadgerCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));
             Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.closeRangeActionDistance), 0.2f);
             Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.minAgroDistance), 0.2f);
@@ -78,36 +74,30 @@ public class Entity : MonoBehaviour
             Gizmos.color = Color.indianRed;
             Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * entityData.playercheckRayDistance));
             Gizmos.color = Color.greenYellow;
-            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * Movement.FacingDirection * entityData.playercheckRayDistance));
+            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * entityData.playercheckRayDistance));
         }
     }
     #region castingRays
-    public virtual bool CastRayForPlayerCheck()
-    {
+    public virtual bool CastRayForPlayerCheck(){
         return Physics2D.Raycast(playerCheck.position, Vector2.right * Movement.FacingDirection, entityData.minAgroDistance, entityData.whatIsPlayer);
     }
-    public virtual bool StaticCastRayForPlayerRight()
-    {
-        return Physics2D.Raycast(playerCheck.position, Vector2.right, entityData.minAgroDistance, entityData.whatIsPlayer);
+    public virtual bool StaticCastRayForPlayerRight(){
+        return Physics2D.Raycast(playerCheck.position, Vector2.right, entityData.playercheckRayDistance, entityData.whatIsPlayer);
     }
-    public virtual bool CheckPlayerInFrontMinAgroRange()
-    {
+    public virtual bool CheckPlayerInFrontMinAgroRange(){
         return Physics2D.Raycast(playerCheck.position, Vector2.right * Movement.FacingDirection, entityData.minAgroDistance, entityData.whatIsPlayer);
     }
-    public virtual bool CheckPlayerInBackMinAgroRange()
-    {
+    public virtual bool CheckPlayerInBackMinAgroRange(){
         return Physics2D.Raycast(playerCheck.position, -Vector2.right * Movement.FacingDirection, 1.7f, entityData.whatIsPlayer);
     }
-    public virtual bool CheckPlayerInUpMinAgroRange()
-    {
+    public virtual bool CheckPlayerInUpMinAgroRange(){
         return Physics2D.Raycast(playerCheck.position, Vector2.up, 1.3f, entityData.whatIsPlayer);
     }
     public virtual bool CheckPlayerInMaxAgroRange()
     {
         return Physics2D.Raycast(playerCheck.position, Vector2.right * Movement.FacingDirection, entityData.maxAgroDistance, entityData.whatIsPlayer);
     }
-    public virtual bool CheckPlayerInCloseRangeAction()
-    {
+    public virtual bool CheckPlayerInCloseRangeAction(){
         return Physics2D.Raycast(playerCheck.position, Vector2.right * Movement.FacingDirection, entityData.closeRangeActionDistance, entityData.whatIsPlayer);
     }
     #endregion

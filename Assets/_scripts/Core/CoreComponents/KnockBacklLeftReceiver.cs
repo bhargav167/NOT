@@ -4,7 +4,8 @@ using Tero.ModifierSystem;
 using UnityEngine;
 namespace Tero.CoreSystem
 {
-    public class HeadKnockbackReciver : BaseKnockback
+
+    public class KnockBackLeftReceiver : BaseKnockback
     {
     }
 }

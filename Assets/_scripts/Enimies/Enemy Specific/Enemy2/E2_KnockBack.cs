@@ -31,8 +31,7 @@ namespace Tero
         public override void Exist(){
             base.Exist();
         }
-        public override void LogicUpdate()
-        {
+        public override void LogicUpdate(){
             base.LogicUpdate();
             if (ishiding)
                 stateMachine.ChangeState(_enemy.hideState);

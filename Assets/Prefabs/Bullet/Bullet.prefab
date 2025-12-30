@@ -194,7 +194,7 @@ MonoBehaviour:
     height: 0.03
   <LayerMask>k__BackingField:
     serializedVersion: 2
-    m_Bits: 8960
+    m_Bits: 8704
   timmerToExplord: 0
 --- !u!114 &3525218611083707282
 MonoBehaviour:

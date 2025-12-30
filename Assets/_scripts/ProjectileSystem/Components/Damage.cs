@@ -57,7 +57,7 @@ namespace Tero.ProjectileSystem.Components
                 
                 OnDamage?.Invoke(damageable);
                 OnRaycastHit?.Invoke(hit);
-
+               
                 lastDamageTime = Time.time;
 
                 if (SetInactiveAfterDamage)

@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using Tero.CoreSystem;
-using System.Runtime.Serialization.Formatters;
+using UnityEngine;
 public class MoveState : States
 {
     private Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
@@ -13,6 +10,8 @@ public class MoveState : States
     private Stats stats;
     protected KnockBackReceiver Combat { get => combat ?? core.getCoreComponents(ref combat); }
     private KnockBackReceiver combat;
+    protected KnockBackLeftReceiver Combat1 { get => combat1 ?? core.getCoreComponents(ref combat1); }
+    private KnockBackLeftReceiver combat1;
     protected D_MoveState stateData;
     protected bool isDetectedWall;
     protected bool isDetectedHideObjectFront; 

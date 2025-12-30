@@ -38,4 +38,4 @@ public class E1_HideState : HideState
     {
         base.PhysicsUpdate();
     } 
-} 
+}

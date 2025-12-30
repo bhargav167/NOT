@@ -1,24 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using Tero.CoreSystem;
-using UnityEngine;
 
 public class E2_MoveState : MoveState
 {
     private Enemy2 enemy;
-    protected KnockBackReceiver Combat { get => combat ?? core.getCoreComponents(ref combat); }
-    private KnockBackReceiver combat;
     protected Death Death { get => death ?? core.getCoreComponents(ref death); }
     private Death death;
     public E2_MoveState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_MoveState stateData,Enemy2 enemy) : base(entity, stateMachine, animBoolName, stateData)
     {
         this.enemy=enemy;
     }
-
     public override void DoCheck(){
         base.DoCheck();
     }
-
     public override void Enter()
     {
         base.Enter();
@@ -34,25 +27,26 @@ public class E2_MoveState : MoveState
             stateMachine.ChangeState(enemy.hideState);
 
         if (isPlayerMinAgroFrontRange)
-        {
             stateMachine.ChangeState(enemy.playerDetectedState);
-        }
         if (Combat.isKnockBackActive)
         {
+            enemy.anim.SetFloat("hurtType", 0);
+            stateMachine.ChangeState(enemy.knockState);
+        }
+        if (Combat1.isKnockBackActive)
+        {
+            enemy.anim.SetFloat("hurtType", 1);
             stateMachine.ChangeState(enemy.knockState);
         }
         if (Combat.isKnockBackByGranadeActive)
-        {
             stateMachine.ChangeState(enemy.granadeknockState);
-        }
+      
         if (Death.IsDead && !Death.IsHeadShot)
-        {
             stateMachine.ChangeState(enemy.deadState);
-        }
+     
         if (Death.IsHeadShot)
-        {
             stateMachine.ChangeState(enemy.headshotState);
-        }
+        
         else if (isDetectedWall || isDetectedLedger)
         {
             enemy.idleState.SetFlipAfterIdle(true);

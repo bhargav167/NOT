@@ -263,7 +263,7 @@ MonoBehaviour:
       m_Calls: []
   <LayerMask>k__BackingField:
     serializedVersion: 2
-    m_Bits: 8448
+    m_Bits: 24832
   <SetInactiveAfterDamage>k__BackingField: 0
   <Cooldown>k__BackingField: 3
 --- !u!114 &5132558370905696451

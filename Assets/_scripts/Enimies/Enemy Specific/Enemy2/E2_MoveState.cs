@@ -30,12 +30,12 @@ public class E2_MoveState : MoveState
             stateMachine.ChangeState(enemy.playerDetectedState);
         if (Combat.isKnockBackActive)
         {
-            enemy.anim.SetFloat("hurtType", 0);
+            enemy.anim.SetInteger("hurtType", 1);
             stateMachine.ChangeState(enemy.knockState);
         }
         if (Combat1.isKnockBackActive)
         {
-            enemy.anim.SetFloat("hurtType", 1);
+            enemy.anim.SetInteger("hurtType", 2);
             stateMachine.ChangeState(enemy.knockState);
         }
         if (Combat.isKnockBackByGranadeActive)

@@ -814,6 +814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxKnockBackTime: 0.2
   isKnockBackActive: 0
+  isKnockBackByGranadeActive: 0
 --- !u!114 &1781051962199320910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1196,6 +1197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxKnockBackTime: 0.2
   isKnockBackActive: 0
+  isKnockBackByGranadeActive: 0
 --- !u!114 &807345898019683714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1436,7 +1438,7 @@ PrefabInstance:
     - target: {fileID: -8653719598885068355, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8653719598885068355, guid: 467d4c4d9c4d1476099bf4aac1a25238,
         type: 3}

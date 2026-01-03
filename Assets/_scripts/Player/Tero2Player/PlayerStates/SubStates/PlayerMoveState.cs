@@ -20,7 +20,7 @@ public class PlayerMoveState : PlayerGroundedState {
             if(xInput != 0.0f && playerData.movementVelocity<1.0f){
                 playerData.movementVelocity += playerData.acceleration * Time.deltaTime;
                 Player.animator.SetFloat("velocity", playerData.movementVelocity);
-                Movement?.SetVelocityX(playerData.movementVelocity*2f * xInput);
+                Movement?.SetVelocityX(playerData.movementVelocity*1.4f * xInput);
             }if (xInput == 0){
                 stateMachine.ChangeState (Player.IdleState);
             }else if (yInput == -1) {

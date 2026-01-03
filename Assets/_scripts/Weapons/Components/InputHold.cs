@@ -76,7 +76,7 @@ namespace Tero.Weapons.Components
             float tilt = CalculateTilt(gunAngle);
             // Apply the rotation to the spine
             weapon.playerHeadtransform.localRotation = Quaternion.Euler(0, 0, tilt);
-            // To set and adjust direction of projectile bullet --need to adjust hand and wrapper gameobject in editor (Unity)
+            // To set and adjust direction of projectile bullet --you need to visit ProjectileSpawnerStrategy script to adjust z- direction of bullet in GetProjectileAndSetPositionAndRotation method
             currentAttackData.SpawnInfos[0].Direction = val;
         }
 

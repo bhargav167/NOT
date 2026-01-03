@@ -48,7 +48,7 @@ namespace Tero.Weapons
             // Set position, rotation, and other related info
             currentProjectile.transform.position = spawnPos;
             //Bullet z-azix rotation adjusted
-            dir.z -= 0.02f;
+            dir.z -= 0.09f;
             //END
             currentProjectile.transform.rotation = dir;
         }

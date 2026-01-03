@@ -43,8 +43,7 @@ namespace Tero.ProjectileSystem
         private void OnCollisionEnter2D(Collision2D collision)
         {
            
-            if (this.gameObject.tag == "Extracter")
-            {
+            if (this.gameObject.tag == "Extracter"){
                 IsBulletGrounded = true;
                 Destroy(this.gameObject, 2f);
             }

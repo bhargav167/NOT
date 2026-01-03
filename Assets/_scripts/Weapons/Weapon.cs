@@ -119,7 +119,6 @@ namespace Tero.Weapons
             anim.SetBool("secondryattack", false);
             CurrentAttackCounter++;
             attackCounterResetTimeNotifier.Init(attackCounterResetCooldown);
-
             OnExit?.Invoke();
         }
 

@@ -19,7 +19,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: -6.811}
+        value: {x: 0, y: 0, z: -1.154}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -99,7 +99,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0, y: 0, z: -28.358}
+        value: {x: 0, y: 0, z: -24.343}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -639,7 +639,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -6.811
+        value: -1.154
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1227,7 +1227,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -28.358
+        value: -24.343
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1251,7 +1251,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_18
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_15/bone_16/bone_17
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1263,7 +1263,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_18
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_15/bone_16/bone_17
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1275,7 +1275,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_18
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_15/bone_16/bone_17
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1323,6 +1323,42 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone
+    classID: 4
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
     path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bag_bone
     classID: 4
     script: {fileID: 0}
@@ -1359,7 +1395,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_15/bone_16/bone_17
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_18
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1371,7 +1407,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_15/bone_16/bone_17
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_18
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1383,7 +1419,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_15/bone_16/bone_17
+    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone/bone_18
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1420,42 +1456,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: Spine Bone/Spine Bone/RLeg_bone_1/RLeg_bone_2/bone_8/bone_9
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.x
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.y
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone
-    classID: 4
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalEulerAngles.z
-    path: Spine Bone/Spine Bone/Chest_wrapper/Chest Bone
     classID: 4
     script: {fileID: 0}
     flags: 0

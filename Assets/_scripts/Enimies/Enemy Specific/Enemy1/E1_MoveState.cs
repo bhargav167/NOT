@@ -5,19 +5,6 @@ using Tero.CoreSystem;
 public class E1_MoveState : MoveState
 {
     private Enemy1 enemy;
-    private Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
-    private Movement movement;
-    private Stats Stats { get => stats ?? core.getCoreComponents(ref stats); }
-    private Stats stats;
-    protected Death Death { get => death ?? core.getCoreComponents(ref death); }
-    private Death death;
-    protected KnockBackReceiver Combat {get=>combat ?? core.getCoreComponents(ref combat);} 
-    private KnockBackReceiver combat;
-    protected HeadKnockbackReciver HeadCombat {get=>headcombat ?? core.getCoreComponents(ref headcombat);} 
-    private HeadKnockbackReciver headcombat;
-    protected LegsKnockbackReciver LegCombat { get => legcombat ?? core.getCoreComponents(ref legcombat); }
-    private LegsKnockbackReciver legcombat;
-
     public E1_MoveState(Entity entity, FinateStateMachine stateMachine, string animBoolName, D_MoveState stateData,Enemy1 enemy) 
     : base(entity, stateMachine, animBoolName, stateData)
     {
@@ -52,7 +39,15 @@ public class E1_MoveState : MoveState
             stateMachine.ChangeState(enemy.legknockState);
 
         if (Combat.isKnockBackActive)
+        {
+            enemy.anim.SetInteger("hurtType", 1);
             stateMachine.ChangeState(enemy.knockState);
+        }
+        if (Combat1.isKnockBackActive)
+        {
+            enemy.anim.SetInteger("hurtType", 2);
+            stateMachine.ChangeState(enemy.knockState);
+        }
 
         if (Combat.isKnockBackByGranadeActive)
             stateMachine.ChangeState(enemy.granadeknockState);

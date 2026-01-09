@@ -10,6 +10,13 @@ public class MoveState : States
     private Stats stats;
     protected KnockBackReceiver Combat { get => combat ?? core.getCoreComponents(ref combat); }
     private KnockBackReceiver combat;
+    
+    protected Death Death { get => death ?? core.getCoreComponents(ref death); }
+    private Death death;
+    protected HeadKnockbackReciver HeadCombat { get => headcombat ?? core.getCoreComponents(ref headcombat); }
+    private HeadKnockbackReciver headcombat;
+    protected LegsKnockbackReciver LegCombat { get => legcombat ?? core.getCoreComponents(ref legcombat); }
+    private LegsKnockbackReciver legcombat;
     protected KnockBackLeftReceiver Combat1 { get => combat1 ?? core.getCoreComponents(ref combat1); }
     private KnockBackLeftReceiver combat1;
     protected D_MoveState stateData;

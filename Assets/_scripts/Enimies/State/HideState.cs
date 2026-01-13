@@ -41,6 +41,7 @@ public class HideState : States
     public override void LogicUpdate()
     {
         base.LogicUpdate();
+       // if (!entity._IsActivatedtoHide) return;
         entity.MoveToHidePosition(isPlayerRight);
         if (entity.currentHideStatus == HideStatus.Returning)
             entity.ReturnToOriginalPosition();

@@ -16,6 +16,7 @@ public class E2_PlayerDetectedState : PlayerDetectState {
 
     public override void Enter () {
         base.Enter ();
+        Debug.Log("Player Detected State Entered");
     }
     public override void Exist () {
         base.Exist ();

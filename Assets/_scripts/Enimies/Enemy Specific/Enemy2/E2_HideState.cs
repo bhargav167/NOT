@@ -28,8 +28,7 @@ using UnityEngine;
         public override void LogicUpdate()
         {
             base.LogicUpdate();
-            if (isHidden)
-            {
+            if (isHidden){
                 stateMachine.ChangeState(enemy.hiddenState);
                 isHidden = false;
             }

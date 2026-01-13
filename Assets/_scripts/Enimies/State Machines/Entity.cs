@@ -13,10 +13,10 @@ public class Entity : MonoBehaviour
     public D_HideStateData hideStateData;
     public Animator anim { get; set; }
     public AnimationToStateMachine atsm { get; private set; }
-    [SerializeField]
-    private Transform wallCheck;
-    [SerializeField]
-    private Transform leadgerCheck;
+    //[SerializeField]
+    //private Transform wallCheck;
+    //[SerializeField]
+    //private Transform leadgerCheck;
     [SerializeField]
     private Transform playerCheck;
     [Header("Settings")]
@@ -31,7 +31,7 @@ public class Entity : MonoBehaviour
     public HideStatus CurrentHideStatus => currentHideStatus;
     public HittingDirection currentHittingDirection = HittingDirection.Front;
     public HittingDirection CurrentHittingDirection => currentHittingDirection;
-    private bool _IsActivatedtoHide = false;
+    public bool _IsActivatedtoHide = false;
     public bool _IsMovedtoOrignalPos = false;
     public bool isfacingPlayer = false;
     public virtual void Awake()
@@ -61,20 +61,20 @@ public class Entity : MonoBehaviour
     public virtual void OnDrawGizmos()
     {
         if (Core != null){
-            Gizmos.color = Color.red;
-            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.down * entityData.minAgroDistance));
-            Gizmos.DrawLine(leadgerCheck.position, leadgerCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));
-            Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.closeRangeActionDistance), 0.2f);
-            Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.minAgroDistance), 0.2f);
-            Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.maxAgroDistance), 0.2f);
-            Gizmos.color = Color.blue;
-            Gizmos.DrawLine(transform.position, transform.position + Vector3.right * Movement.FacingDirection * hideStateData.hideDistanceFront);
-            Gizmos.color = Color.darkBlue;
-            Gizmos.DrawLine(transform.position, transform.position + Vector3.left * Movement.FacingDirection * hideStateData.hideDistanceBack);
-            Gizmos.color = Color.indianRed;
-            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * entityData.playercheckRayDistance));
-            Gizmos.color = Color.greenYellow;
-            Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * entityData.playercheckRayDistance));
+            //Gizmos.color = Color.red;
+            //Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.down * entityData.minAgroDistance));
+            //Gizmos.DrawLine(leadgerCheck.position, leadgerCheck.position + (Vector3)(Vector2.down * entityData.ledgeCheckDistance));
+            //Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.closeRangeActionDistance), 0.2f);
+            //Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.minAgroDistance), 0.2f);
+            //Gizmos.DrawWireSphere(playerCheck.position + (Vector3)(Vector2.right * entityData.maxAgroDistance), 0.2f);
+            //Gizmos.color = Color.blue;
+            //Gizmos.DrawLine(transform.position, transform.position + Vector3.right * Movement.FacingDirection * hideStateData.hideDistanceFront);
+            //Gizmos.color = Color.darkBlue;
+            //Gizmos.DrawLine(transform.position, transform.position + Vector3.left * Movement.FacingDirection * hideStateData.hideDistanceBack);
+            //Gizmos.color = Color.indianRed;
+            //Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * entityData.playercheckRayDistance));
+            //Gizmos.color = Color.greenYellow;
+            //Gizmos.DrawLine(playerCheck.position, playerCheck.position + (Vector3)(Vector2.right * entityData.playercheckRayDistance));
         }
     }
     #region castingRays
@@ -181,13 +181,13 @@ public class Entity : MonoBehaviour
             );
             if (Vector2.Distance(policeTransform.transform.position, originalPosition) < 0.1f)
             {
+                _IsActivatedtoHide = false;
                 hideStateData.flippedToHide = false;
                 currentHideStatus = HideStatus.NotHiding;
                 isfacingPlayer = CastRayForPlayerCheck();
                 _IsMovedtoOrignalPos = true;
                 Flip();
                 anim.SetBool("returning", false);
-                Debug.Log("Returned to original position");
             }
         }
     }

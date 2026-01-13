@@ -1,3 +1,5 @@
+using Tero;
+using Tero.Assets._scripts.Core.CoreComponents;
 using Tero.CoreSystem;
 using UnityEngine;
 public class MoveState : States
@@ -10,7 +12,9 @@ public class MoveState : States
     private Stats stats;
     protected KnockBackReceiver Combat { get => combat ?? core.getCoreComponents(ref combat); }
     private KnockBackReceiver combat;
-    
+
+    protected BaseKnockback _BaseCombat { get => _baseCombat ?? core.getCoreComponents(ref _baseCombat); }
+    private BaseKnockback _baseCombat;
     protected Death Death { get => death ?? core.getCoreComponents(ref death); }
     private Death death;
     protected HeadKnockbackReciver HeadCombat { get => headcombat ?? core.getCoreComponents(ref headcombat); }
@@ -64,8 +68,8 @@ public class MoveState : States
     public override void LogicUpdate(){
         base.LogicUpdate();
         Movement.SetVelocityX(stateData.moveSpeed * Movement.FacingDirection);
-        if (closestHit.collider != null)
-            ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
+        if (closestHit.collider != null && _BaseCombat.isKnockBackActive)
+            ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer(ObjectName.HideObject.ToString());
         else
             ishiding = false;
     }

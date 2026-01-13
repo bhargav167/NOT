@@ -1,5 +1,8 @@
+using System.Diagnostics;
+using Tero;
 using Tero.CoreSystem;
-
+using UnityEngine;
+using Debug = UnityEngine.Debug;
 public class E2_MoveState : MoveState
 {
     private Enemy2 enemy;
@@ -24,18 +27,22 @@ public class E2_MoveState : MoveState
     {
         base.LogicUpdate();
         if (ishiding && isPlayerMaxAgroRange)
+        {
+            Debug.Log("Enemy is hiding");
             stateMachine.ChangeState(enemy.hideState);
+        }
+            
 
         if (isPlayerMinAgroFrontRange)
             stateMachine.ChangeState(enemy.playerDetectedState);
         if (Combat.isKnockBackActive)
         {
-            enemy.anim.SetInteger("hurtType", 1);
+            enemy.anim.SetInteger(PoliceAnimatinName.hurtType.ToString(), 1);
             stateMachine.ChangeState(enemy.knockState);
         }
         if (Combat1.isKnockBackActive)
         {
-            enemy.anim.SetInteger("hurtType", 2);
+            enemy.anim.SetInteger(PoliceAnimatinName.hurtType.ToString(), 2);
             stateMachine.ChangeState(enemy.knockState);
         }
         if (Combat.isKnockBackByGranadeActive)

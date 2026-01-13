@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using Tero;
 using Tero.CoreSystem;
+using UnityEngine;
 public class E1_MoveState : MoveState
 {
     private Enemy1 enemy;
@@ -40,12 +41,12 @@ public class E1_MoveState : MoveState
 
         if (Combat.isKnockBackActive)
         {
-            enemy.anim.SetInteger("hurtType", 1);
+            enemy.anim.SetInteger(PoliceAnimatinName.hurtType.ToString(), 1);
             stateMachine.ChangeState(enemy.knockState);
         }
         if (Combat1.isKnockBackActive)
         {
-            enemy.anim.SetInteger("hurtType", 2);
+            enemy.anim.SetInteger(PoliceAnimatinName.hurtType.ToString(), 2);
             stateMachine.ChangeState(enemy.knockState);
         }
 

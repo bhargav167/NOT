@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
+using Tero;
+using Tero.Assets._scripts.Core.CoreComponents;
 using Tero.CoreSystem;
+using UnityEngine;
 public class PlayerDetectState : States {
     protected Movement Movement { get => movement ?? core.getCoreComponents(ref movement); }
     protected CollisionSences CollisionSences { get => collisionSences ?? core.getCoreComponents(ref collisionSences); }
     private Movement movement;
+    protected BaseKnockback _BaseCombat { get => _baseCombat ?? core.getCoreComponents(ref _baseCombat); }
+    private BaseKnockback _baseCombat;
     private CollisionSences collisionSences;
     protected Stats Stats { get => stats ?? core.getCoreComponents(ref stats); }
     private Stats stats;
@@ -53,9 +57,9 @@ public class PlayerDetectState : States {
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        if (closestHit.collider != null)
-        {
-            ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer("HideObject");
-        }
+        if (closestHit.collider != null && _BaseCombat.isKnockBackActive)
+            ishiding = closestHit.collider.gameObject.layer == LayerMask.NameToLayer(ObjectName.HideObject.ToString());
+        else
+            ishiding = false;
     }
 }

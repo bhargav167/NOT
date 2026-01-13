@@ -55,5 +55,6 @@ public class HiddenState : States
         startTime = Time.time;
         entity.currentHideStatus = HideStatus.NotHiding;
         entity._IsMovedtoOrignalPos=false;
+        entity._IsActivatedtoHide = false;
     }
 } 

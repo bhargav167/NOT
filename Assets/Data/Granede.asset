@@ -16,7 +16,7 @@ MonoBehaviour:
     type: 3}
   <Name>k__BackingField: Granede
   <Description>k__BackingField: bomb
-  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 22155b0e197c145c58718fcc4b0a8918,
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 558740419f91119438a4edd1d1085f70,
     type: 2}
   <NumberOfAttacks>k__BackingField: 1
   <ComponentData>k__BackingField:

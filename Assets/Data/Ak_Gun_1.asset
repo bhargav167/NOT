@@ -16,7 +16,7 @@ MonoBehaviour:
     type: 3}
   <Name>k__BackingField: AK_Gun
   <Description>k__BackingField: tergrtg
-  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 22155b0e197c145c58718fcc4b0a8918,
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 558740419f91119438a4edd1d1085f70,
     type: 2}
   <NumberOfAttacks>k__BackingField: 1
   <ComponentData>k__BackingField:
@@ -40,8 +40,7 @@ MonoBehaviour:
         - name: 
           <SpawnInfos>k__BackingField:
           - <SpawnerName>k__BackingField: BulletFire
-            <Direction>k__BackingField: {x: -0.028627101, y: -0.014923587, z: 0.13588688,
-              w: -0.99019825}
+            <Direction>k__BackingField: {x: 0, y: 0, z: 0.21502319, w: 0.976609}
             <ProjectilePrefab>k__BackingField: {fileID: 9101266492236017911, guid: 1df4550ca64604143b38d70b3d3be6f5,
               type: 3}
             <DamageData>k__BackingField:

@@ -133,7 +133,7 @@ namespace Tero.Weapons
             if (initDone)
                 return;
 
-            BaseGameObject = GameObject.Find("Player").gameObject;
+            BaseGameObject = GameObject.Find(ObjectName.Player.ToString()).gameObject;
             anim = BaseGameObject.GetComponent<Animator>();
             EventHandler = BaseGameObject.GetComponent<AnimationEventHandler>();
            

@@ -41,7 +41,7 @@ namespace Tero.Weapons.Components
                          0)) as ParticleSystem;
                         particleSystem.Play();
 
-                        projectileSpawnerStrategy.ExecuteSpawnStrategy(projectileSpawnInfo, weapon.shootPoint.position, projectileSpawnInfo.Direction,
+                        projectileSpawnerStrategy.ExecuteSpawnStrategy(projectileSpawnInfo, weapon.shootPoint.transform.position, projectileSpawnInfo.Direction,
                                      -CoreMovement.FacingDirection, objectPools, OnSpawnProjectile);
                     } 
                     if (player.InputHandeler.IsreadyToThrow){
@@ -103,9 +103,7 @@ namespace Tero.Weapons.Components
                     var pos = (Vector3)weapon.shootPoint.position;
 
                     Gizmos.DrawWireSphere(pos, 0.2f);
-                    Gizmos.color = Color.red;
-                  //  Gizmos.DrawLine(pos, pos + (Quaternion)point.Direction.normalized);
-                    Gizmos.color = Color.white;
+                    Gizmos.color = Color.red; 
                 }
             }
         }
